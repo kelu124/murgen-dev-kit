@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VDD_3V3B Pin=C48-2
+Removed Pin From Net: NetName=VDD_3V3B Pin=IC8-28
+Added Component: Designator=L8(INDC2012X105N)
+Added Pin To Net: NetName=VDD_3V3B Pin=L8-2
+Added Pin To Net: NetName=NetC48_2 Pin=C48-2
+Added Pin To Net: NetName=NetC48_2 Pin=IC8-28
+Added Pin To Net: NetName=NetC48_2 Pin=L8-1
+Added Net: Name=NetC48_2
+Added Member To Class: ClassName=2 Member=Component L8 75R@100MHz
+Added Member To Class: ClassName=BBB_Connection Member=Component TP9 Test Point

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [echOpen_HV+Pulser_Board.PrjPcb]
+   Generated File[Bill of Materials-echOpen_HV+Pulser_Board.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:42:33 PM On 1/25/2016

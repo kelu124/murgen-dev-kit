@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC28_2 Pin=TP7-1
+Removed Pin From Net: NetName=NetC28_2 Pin=TP7-1
+Removed Member From Class: ClassName=2 Member=TP4
+Removed Member From Class: ClassName=BBB_Connection Member=TP6
+Added Pin To Net: NetName=NetC28_1 Pin=TP7-1
+Added Pin To Net: NetName=NetC28_1 Pin=TP7-1
+Added Member To Class: ClassName=2 Member=Component TP5 Test Point
+Added Member To Class: ClassName=BBB_Connection Member=Component TP9 Test Point

@@ -1,0 +1,265 @@
+*************************************************************
+FileName = echOpen_HV+Pulser_Board.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top
+      File : echOpen_HV+Pulser_Board.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Plane 1
+      File : echOpen_HV+Pulser_Board.GP1
+
+    Adding Layer      : Plane 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Plane 2
+      File : echOpen_HV+Pulser_Board.GP2
+
+    Adding Layer      : Plane 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D44
+    D45
+    D46
+    D47
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : echOpen_HV+Pulser_Board.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D30
+    D33
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : echOpen_HV+Pulser_Board.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D30
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : echOpen_HV+Pulser_Board.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : echOpen_HV+Pulser_Board.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : echOpen_HV+Pulser_Board.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D68
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : echOpen_HV+Pulser_Board.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : echOpen_HV+Pulser_Board.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Assembly Top
+      File : echOpen_HV+Pulser_Board.GM8
+
+    Adding Layer      : Assembly Top
+
+
+Used DCodes :
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Courtyard Top
+      File : echOpen_HV+Pulser_Board.GM15
+
+    Adding Layer      : Courtyard Top
+
+
+Used DCodes :
+    D57
+    D84
+*************************************************************
+

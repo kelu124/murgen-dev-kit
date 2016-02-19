@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=HVOUT Pin=TP10-1
+Removed Pin From Net: NetName=HVOUT Pin=TP10-1
+Removed Member From Class: ClassName=1 Member=TP9
+Removed Member From Class: ClassName=1 Member=TP10
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP1
+Added Component: Designator=J2(AMPHENOL_132357-11)
+Added Component: Designator=J3(AMPHENOL_132357-11)
+Added Component: Designator=J4(AMPHENOL_132357-11)
+Added Component: Designator=TP3(NICOMATIC_C12000B)
+Added Pin To Net: NetName=NetIC1_A8 Pin=J2-1
+Added Pin To Net: NetName=AGND Pin=J2-2
+Added Pin To Net: NetName=AGND Pin=J2-2
+Added Pin To Net: NetName=AGND Pin=J2-2
+Added Pin To Net: NetName=AGND Pin=J2-2
+Added Pin To Net: NetName=NetIC1_A7 Pin=J3-1
+Added Pin To Net: NetName=AGND Pin=J3-2
+Added Pin To Net: NetName=AGND Pin=J3-2
+Added Pin To Net: NetName=AGND Pin=J3-2
+Added Pin To Net: NetName=AGND Pin=J3-2
+Added Pin To Net: NetName=AGND Pin=J4-2
+Added Pin To Net: NetName=AGND Pin=J4-2
+Added Pin To Net: NetName=AGND Pin=J4-2
+Added Pin To Net: NetName=AGND Pin=J4-2
+Added Pin To Net: NetName=HVOUT Pin=TP3-1
+Added Pin To Net: NetName=HVOUT Pin=TP3-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=J4-1
+Added Net: Name=NetC7_2
+Added Member To Class: ClassName=1 Member=Component J2 SMA
+Added Member To Class: ClassName=1 Member=Component J3 SMA
+Added Member To Class: ClassName=1 Member=Component J4 SMA
+Added Member To Class: ClassName=1 Member=Component TP2 Test Point
+Added Member To Class: ClassName=1 Member=Component TP3 Test Point
