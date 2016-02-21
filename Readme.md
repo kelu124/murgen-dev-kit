@@ -86,7 +86,7 @@ At first, a couple, to prototype it. Once prototyped, this board could be in the
 BBB investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again.
 **The objective is to get a first functional prototype by February 2015.**
 ### What are the Goblin and Tobo stuff ?
-Those are two alternatives to murgen, in the sense that components may not be the same for goblin, and that tobo is a mini-murgen, limited to the pulser.
+Those are two alternatives to murgen, in the sense that components may not be the same for goblin, and that tobo is a mini-murgen, limited to the pulser. Goblin is a simpler version, a two-layer one, but we'll need funds to test this one out =)
 
 
 ## Requirements to build the board
@@ -162,6 +162,12 @@ Since we're using a single sensor (not an array of sensor, as those are used in 
 
 ### Discussion of Essential Features/Trade-offs
 
+#### HV Supply
+HV-supply is going to introduce noise in the circuit.. therefore, a home-made booster was not selected, especially when going at 100V+. We had to options to consider:
+- Using a **MAX1711** in [Jatin Sharma thesis](https://www.duo.uio.no/handle/10852/47813), he goes from 12V to 180V. Gerbers and schematics are included in his master).  The board was separated from the rest of the design, to avoid any pickup/noise.
+- We have tried the **R05-100B** - a tad more simple, and based on 5V, so easier for us (5V -> 120V).  Schematics are simple, introducing only a couple of capacities.
+
+#### Electronics
 So far, the key issue is a compromise in terms of data output. It's interesting to see how to interface such data rates to a processing and display unit.
  
 ## Parts, ICs selection (and critical specs)
@@ -258,16 +264,17 @@ TBD // This part is to be update in a future update, as soon as we get the physi
 TBD.
 ## User’s Quick-Start Guide
 TBD // This part is to be update in a future update, as soon as we get the physical board.
- 
-# Discussions 
+
+# Others
+## Discussions 
 * Pending work - or refer to the [Discussions.md](Discussions.md) file.
 * Check out [the wiki notes](http://echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
 
-# Goodies 
+## Goodies 
 Check out [Tobo](tobo/) -- an stand-alone pulser/receiver board and [Goblin](goblin/) for an alternative version.
 
-# People ! 
-## Acknowledgement
+## People ! 
+### Acknowledgement
 * Thanks to echOpen =)
 * Thanks to Jerome, Farad, Vincent obviously
 * Murgen, Sofian, Amit, Emmanuel, Florent, Bertrand & PHH, Mike in a way, list goes on !

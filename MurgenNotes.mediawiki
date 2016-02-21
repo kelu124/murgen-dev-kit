@@ -446,9 +446,12 @@ Some others
 ** BBB: https://www.thingiverse.com/thing:920804
 ** RPi: http://www.thingiverse.com/thing:278113
 
-== Feb 18th ===
+=== Feb 18th ===
 * Interesting read at http://wp.josh.com/2014/03/03/the-mystery-of-the-zombie-ram/ !!
 * Discussions on mechanics =)
+
+=== Feb 19th ===
+* 128² OLED screen: https://www.adafruit.com/products/1431
 
 == Raspi Oscilloscope ==
 ===Source===

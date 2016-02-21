@@ -7,7 +7,7 @@ Some ideas from other projects
 ### Article information
 * **Keywords:** learning, fpga, raspberry
 * **Uses:** Automatic kidney detection
-* **Who:** raji@iith.ac.in
+* **Who:** raji@iith.ac.in (x)
 * **Date:** 04/12/2015
 * **DOI:** : doi:10.3390/jimaging1010193
 
@@ -34,7 +34,7 @@ Some ideas from other projects
 ### Article information
 * **Keywords:**  FPGA, AFE,
 * **Uses:**  Prototype
-* **Who:**  ee12m1014, raji, sureshpulig@iith.ac.in
+* **Who:**  ee12m1014, raji, sureshpulig@iith.ac.in (x)
 * **Date:**  2014
 * **DOI:** :  978-1-4799-6644-8/14/$31.00 ©2014 IEEE
 
@@ -60,8 +60,8 @@ Some ideas from other projects
 
 ### Article information
 * **Keywords:** microcontroller, matlab
-* **Uses:** academics, research
-* **Who:** Jean Rossario Raj - bmz108120@cbme.iitd.ac.in
+* **Uses:** academics, research 
+* **Who:** Jean Rossario Raj - bmz108120@cbme.iitd.ac.in (x)
 * **Date:** Accepted 12 January 2016
 * **DOI:** : doi:10.1016/j.jestch.2016.01.008
 
@@ -82,6 +82,33 @@ Some ideas from other projects
 * **Processing**:  Xilinx FPGAs
 * **Transfer**:  C8051F340
 * **Image processing**:  
+
+## Smartphone-based Portable Ultrasound Imaging System : A Primary Result 
+
+### Article information
+* **Keywords:**   
+* **Uses:**  
+* **Who:**    Kyu Cheol Kim
+* **Date:**  2013
+* **DOI:**   10.1109/ULTSYM.2013.0526
+
+### Overall information
+*  **Notes:** Nothing was electronics, all smartphone.  The ultrasound B-mode image reconstructed from the Android smartphone where an 850×800 image is reconstructed and displayed. The total execution time to perform core functional blocks for 128-scanline, 512-sample data is about 520 milliseconds. 
+*  **Image data**:   128x512
+
+### Electronics
+* **HV**:  
+* **Pulser**:  
+* **Beamformer**:  
+* **Transducer**:   V10, Samsung Medison, Seoul, Korea
+* **Protection**:  
+* **TGC**:  
+* **ADC**:  
+* **DAC**:  
+* **Processing**:  
+* **Transfer**:   
+* **Image processing**:  GPU in Samsung’s Galaxy Note II smartphone
+
 
 ##  Smartphone-based  Portable  Ultrasound  Imaging    System: Prototype Implementation and Evaluation 
 
@@ -137,37 +164,7 @@ Some ideas from other projects
 * **Transfer**:   8-lane PCIe interface	
 * **Image processing**:  Pentium 3.0 GHz Core 2 Quad PC with 8 GB memory
 
-##  SeaSonar - Sharma 2015
-
-
-### Article information
-* **Keywords:** maritime, sonar
-* **Uses:** Sonar pulser
-* **Who:** JK Sharma
-* **Date:** 
-* **DOI:**  
-
-### Overall information
-*  **Notes:**
-*  **Image data**:
-
-### Electronics
-* **HV**:  MAX1771
-* **Pulser**:  MD1213
-* **Beamformer**: 
-* **Transducer**: FURUNO 520-5PSD  (200kHz) 
-* **Protection**:  MD0100
-* **TGC**:  AD605
-* **ADC**:  LTC2245
-* **DAC**:  AD5641
-* **Processing**:  
-* **Transfer**:  
-* **Image processing**:  
-
-
-
 ## Development of a wide band front end echo sounder receiver circuit
-
 
 ### Article information
 * **Keywords:**   
@@ -184,7 +181,7 @@ Some ideas from other projects
 * **HV**:  MAX1771 
 * **Pulser**:  MD1213 mosfet driver (The other similar options were MD1210 and MD1211. But MD1213 was the preferred choice because Bipolar output voltage of 5V can also be achieved with this chip if desired.) + TC6320 mosfet pair
 * **Beamformer**:  
-* **Transducer**:  
+* **Transducer**:  FURUNO 520-5PSD  (200kHz) 
 * **Protection**:  MD0100. Switch MD0101 is also a good option as it has integrated clamp diodes and therefore no need of external diodes but it is useful when there are more number of channels in the system. Similarly, if voltages greater than §100V are used for transmission, then the switchMD0105 can be used. This switch can be used for protection against voltages up to §130V .
 * **TGC**:  Amplifier AD605 is used in this project. AD605 is a low noise, differential-input, dual-channel, linear-in-dB Variable Gain Amplifier. It fulfills the desired characteristics of gain, noise, supply voltage etc. It comprises of two variable gain amplifiers which can be connected in series to get higher gain ranges, up to 96dB and it uses a common gain voltage(VGN) for both the amplifiers to control the variable gain.
 * **ADC**:  LTC2245 is a 14-bit, 10Msps ADC. It needs a single 3V Supply making it compatible with the rest of the components.
