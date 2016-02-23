@@ -25,6 +25,9 @@ That’s cool, and if you want to learn more (apart from this Readme), you can s
 	 |-- Altium						the altium files for Murgen
 	 |-- BOM						that's ... well.. for the BOM
      |-- Gerbers					to build the cape
+	 |-- BBB					 	for the BBB software
+	 |-- tobo					 	simplified pulser
+	 |-- goblin						an alternative, in Eagle
      `-- Images						for documentation
 
 You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
@@ -82,6 +85,9 @@ At first, a couple, to prototype it. Once prototyped, this board could be in the
 ### What is the timeline?
 BBB investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again.
 **The objective is to get a first functional prototype by February 2015.**
+### What are the Goblin and Tobo stuff ?
+Those are two alternatives to murgen, in the sense that components may not be the same for goblin, and that tobo is a mini-murgen, limited to the pulser. Goblin is a simpler version, a two-layer one, but we'll need funds to test this one out =)
+
 
 ## Requirements to build the board
 
@@ -156,6 +162,12 @@ Since we're using a single sensor (not an array of sensor, as those are used in 
 
 ### Discussion of Essential Features/Trade-offs
 
+#### HV Supply
+HV-supply is going to introduce noise in the circuit.. therefore, a home-made booster was not selected, especially when going at 100V+. We had to options to consider:
+- Using a **MAX1711** in [Jatin Sharma thesis](https://www.duo.uio.no/handle/10852/47813), he goes from 12V to 180V. Gerbers and schematics are included in his master).  The board was separated from the rest of the design, to avoid any pickup/noise.
+- We have tried the **R05-100B** - a tad more simple, and based on 5V, so easier for us (5V -> 120V).  Schematics are simple, introducing only a couple of capacities.
+
+#### Electronics
 So far, the key issue is a compromise in terms of data output. It's interesting to see how to interface such data rates to a processing and display unit.
  
 ## Parts, ICs selection (and critical specs)
@@ -252,25 +264,25 @@ TBD // This part is to be update in a future update, as soon as we get the physi
 TBD.
 ## User’s Quick-Start Guide
 TBD // This part is to be update in a future update, as soon as we get the physical board.
-## Errata
- 
- 
-# Discussions 
-> Pending work - or refer to the [Discussions.md](Discussions.md) file.
 
-# Goodies 
+# Others
+## Discussions 
+* Pending work - or refer to the [Discussions.md](Discussions.md) file.
+* Check out [the wiki notes](http://echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
 
-Check out [Tobo](https://github.com/echopen/hardware/tree/master/electronics/tobo) -- an stand-alone pulser/receiver board.
+## Goodies 
+Check out [Tobo](tobo/) -- an stand-alone pulser/receiver board and [Goblin](goblin/) for an alternative version.
 
-# People ! 
-## Acknowledgement
-
-Murgen, Sofian, Amit, Emmanuel, Florent, Bertrand & PHH, Mike in a way, list goes on !
+## People ! 
+### Acknowledgement
+* Thanks to echOpen =)
+* Thanks to Jerome, Farad, Vincent obviously
+* Murgen, Sofian, Amit, Emmanuel, Florent, Bertrand & PHH, Mike in a way, list goes on !
 
 # License
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org) 2015-2016
+Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2016
 
 
