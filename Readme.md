@@ -12,7 +12,7 @@ That’s cool, and if you want to learn more (apart from this Readme), you can s
 - Read the the [Blog](http://murgen.echopen.org) of the fork !
 - Explore [echOpen’s general wiki](http://www.echopen.org)
 - Suscribe to the mailing list at all@murgen.echopen.org
-- Or wander around the rest of our [GitHub repo](github.com/echopen)
+- Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
 
 ### Disclaimers
 **Disclaimer**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
@@ -21,19 +21,24 @@ That’s cool, and if you want to learn more (apart from this Readme), you can s
 
 # Folders
 
-     murgen/						main repo
-	 |-- Altium						the altium files for Murgen
+     murgen-dev-kit/				main repo
+	 |-- Altium						the altium files for Murgen -- source files, opening with Altium Designer
 	 |-- BOM						that's ... well.. for the BOM
      |-- Gerbers					to build the cape
 	 |-- BBB					 	for the BBB software
+	 |-- 3D							for the 3D files of the board	
 	 |-- tobo					 	simplified pulser
 	 |-- goblin						an alternative, in Eagle
      `-- Images						for documentation
 
 You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
 	 
+Schematics are in the ***Altium\Schematics\PDF*** folder
+	 
 # Project introduction
 ## Brief
+**Disclaimer**: this brief ***does not*** rock. It is crappy, but, well, we live to learn.
+
 In October 2015, we were working on a open-source ultrasound imaging device, and had started to get some result. However, we were facing a bottleneck that is data acquisition and transfer.
 
 Roughly, the aim of the device is to excite a 3.5MHz piezo through a 100V or more, 0.2µs, signal to acquire a signal coming from the echoes.
