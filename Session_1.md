@@ -28,13 +28,25 @@ HV7360 is fed by HVOUT
 ** US_Pulse_N on InB
 Discussing with Sofian, I had connected USPN on GND, USPP on a 3.1V, 250ns pulse, at 300us macroperiod. That should take care of the pulse for the transducer.
 
+### Discussion and issues
+* Observations
+** Connecting USP-N on GND does not control the pulse width.
+** Connecting USP-N and USP-P on a 2V-pulse seems to control (at least make thinner) the pulse.
+** With the transducer on / off, it seems there is still a voltage baseline (500mV)
+
+* It seems that pulsing on USP-N shuts the pulser off.
+* We need to control the pulser to send a clean pulse. We already have some echoes, but their birth is dirty.
+
 ### In practice
 
 ### USPN on ground. Blue is the trigger, Yellow is the pulse. 3.1V. 50/60V easily, but does not decrease with time.
-
+#### Without piezo
 ![TEK_00](/Images/Session_1/TEK0000.JPG)
 
 ![TEK_01](/Images/Session_1/TEK0001.JPG)
+
+#### With a piezo
+![TEK_11](/Images/Session_1/TEK0011.JPG)
 
 #### Some echoes
 ![TEK_06](/Images/Session_1/TEK0006.JPG)
