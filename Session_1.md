@@ -32,24 +32,24 @@ Discussing with Sofian, I had connected USPN on GND, USPP on a 3.1V, 250ns pulse
 
 ### USPN on ground. Blue is the trigger, Yellow is the pulse. 3.1V. 50/60V easily, but does not decrease with time.
 
-![TEK_00](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0000.jpg)
+![TEK_00](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0000.JPG)
 
-![TEK_01](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0001.jpg)
+![TEK_01](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0001.JPG)
 
 #### Some echoes
-![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0006.jpg)
+![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0006.JPG)
 #### Averaged
-![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0006.jpg)
+![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0006.JPG)
 #### Detailed
-![TEK_04](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0004.jpg)
+![TEK_04](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0004.JPG)
 ### Decreasing pulse to 2V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_02](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0002.jpg)
+![TEK_02](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0002.JPG)
 #### With the piezo
-![TEK_03](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0003.jpg)
+![TEK_03](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0003.JPG)
 
 ### Pulse to 3.1V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_10](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0010.jpg)
+![TEK_10](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0010.JPG)
 #### With the piezo
-![TEK_09](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0009.jpg)
+![TEK_09](https://github.com/kelu124/murgen-dev-kit/tree/master/Images/Session_1/TEK0009.JPG)
