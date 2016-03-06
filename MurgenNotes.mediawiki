@@ -5,26 +5,26 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 
 === TODO ===
 * Validate board
-* Print board
 * Do PRU code
 * Do "datadump" code
 * Do Node.js
 ** Explore WebRTC
-* BOM
-** Add to the list ADS803E or LTC2315-12
+* USB connection
 
 === Pending ===
-* A PCB feasibility (Manu, S, A)
-* A PCB pre-design
-* [https://www.coursera.org/learn/design-thinking-innovation/home/welcome Design thinking classes]
+* Transducer sourcing 
+
 === Done ===
 * Assembling a small team (24/11/15 -> onwoards)
 * Pre BOM (30/11/15)
 * Prefeasibility study (4/12/15)
 * Finding PCB/PCBA suppliers (7/12/15)
-
-
-
+* BOM
+* Add to the list ADS803E or LTC2315-12
+* A PCB feasibility (Manu, S, A)
+* A PCB pre-design
+=== Cancelled === 
+* [https://www.coursera.org/learn/design-thinking-innovation/home/welcome Design thinking classes]
 === Thoughts ===
 * See below ^^
 
@@ -65,7 +65,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * TLDR
 ** CapTech Workshop. Was great!
 ** Acted upon a split between a FPGA long-term approach, and a non-FPGA one. I remembered those good old times when this was a possibility.
-** Damn it. What if I could dig into this? Not µC, rather an extension for an existing computer.. or mini computer.
+** Damn it. What if I could dig into this? Not ÂµC, rather an extension for an existing computer.. or mini computer.
 ** Saw some ideas on the Arduino's side. Separate ADC.
 * Resources
 ** [http://raspberrypi.stackexchange.com/questions/4129/is-pi-powerful-enough-for-an-oscilloscope-project Is Pi powerful enough for an oscilloscope project?]
@@ -186,7 +186,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 8th ===
 * http://www.theopensourceway.org/book/The_Open_Source_Way-How_to_tell_if_a_FLOSS_project_is_doomed_to_FAIL.html : nice doc to failproof a FLOSS project.
 * FPGA team
-**FPGA vs µC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
+**FPGA vs ÂµC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
 **Simulations to come from MIC
 * Another supplier 
 ** seeedstudio.com(reco by F&V)
@@ -207,7 +207,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * Update the ''Culture'' repertory in our drive :p
 * [[:Category:Transducer#Transducer_suppliers | Piezo suppliers]] on their way
 * Mapping the DITSO resources - update
-* Apéro !
+* ApÃ©ro !
 
 === Dec 12th ===
 * GP1A57HRJ00F // photo interrupter
@@ -243,7 +243,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 
 === Dec 22nd ===
 * Progress A / S
-* Caractérisation du piezo : 
+* CaractÃ©risation du piezo : 
 ** http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc 
 ** http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF ou en local sur : [[:File:APPENDIX C.PDF]]
 ** http://www.vtvt.ece.vt.edu/research/papers/08sas.pdf ou en local sur : [[:File:08sas.pdf]]
@@ -262,7 +262,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 ** Cacophony everywhere
 * https://www.youtube.com/watch?v=aPVLyB0Yc6I Eating bears
 * LCD at http://www.espruino.com/PCD8544
-* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intégrée =)
+* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intÃ©grÃ©e =)
 * BBB headers : https://www.adafruit.com/products/706  (Stacking Header Set for Beagle Bone Capes (2x23) @5$)
 
 === Dec 29th ===
@@ -281,8 +281,8 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 30th ===
 * Did automatic backup for the wiki, for the migration - yeahhh
 *Smartassthoughts
-** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You don’t need anything special to succeed. You just need to do the essentials properly.
-** Power is like being a lady… if you have to tell people you are, you aren’t. -- MT
+** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You donâ€™t need anything special to succeed. You just need to do the essentials properly.
+** Power is like being a ladyâ€¦ if you have to tell people you are, you arenâ€™t. -- MT
 * FTS
 * Don't forget spider jerusalem's example - bards, journalists, and a merry cacophonic 2016
 
@@ -344,11 +344,11 @@ Let's cut it to 500kHz ?
 [[File:dt160120.gif|center]]
 
 === Jan 20th ===
-* What about having a µC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
+* What about having a ÂµC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
 ** it would stream data like a wifi camera 
 ** receives the ping from the motor controleur
-* should we be ordering SMD stuff (flux, fer à souder, soufflerie?) - seems an idea
-* Création des modules !
+* should we be ordering SMD stuff (flux, fer Ã  souder, soufflerie?) - seems an idea
+* CrÃ©ation des modules !
 
 === Jan 21st ===
 * Changed WP template to something more readable
@@ -422,6 +422,7 @@ Let's cut it to 500kHz ?
 ** However, needs to be tested !
 
 * '''Required''': we need to sit with electronics experts to check how Murgen, Tobo, Goblin, and Mira can merge - for a modular board - ideally as easy as possible to use!
+* IDEA: capelec!
 * Need also to push Goblin's files on the repo. Those are made with Eagle, not Altium, so a bit less options, but still interesting to see how to work with those files =)
 
 === Feb 15th ===
@@ -430,7 +431,7 @@ Was about time I got some serious litterature review :)
 * [http://www.sciencedirect.com/science/article/pii/S2215098615303220 Microcontroller USB interfacing with MATLAB GUI for low cost medical ultrasound scanners]
 Some others
 * Integrating hardware and software for the development of microcontroller-based systems
-* Design of a USB based multichannel, low cost data acquisition system using PIC microcontroller
+* IDEA: Design of a USB based multichannel, low cost data acquisition system using PIC microcontroller
 
 
 === Feb 16th ===
@@ -439,7 +440,8 @@ Some others
 
 === Feb 17th ===
 * Fun hardware:
-** Good stepper: 99$ / https://www.pololu.com/product/2294
+** IDEA : Good stepper: 99$ / https://www.pololu.com/product/2294
+** There are cheaper steppers on Lextronics (+driver)
 ** Pololu - LP 6V Motor with 48 CPR Encoder for 25D mm Metal Gearmotors (No Gearbox) (https://www.pololu.com/product/2280 )
 ** https://www.pololu.com/product/2213 for a small motor
 * 3D models of RPi, BBB:
@@ -451,7 +453,61 @@ Some others
 * Discussions on mechanics =)
 
 === Feb 19th ===
-* 128² OLED screen: https://www.adafruit.com/products/1431
+* IDEA : display : 128Â² OLED screen: https://www.adafruit.com/products/1431
+
+=== Feb 21st ===
+* Asking feedback from M. Cooke
+* http://sci-hub.io/10.1109/ULTSYM.2013.0526 for ''Smartphone-based Portable Ultrasound Imaging System : A Primary Result'' .. can't manage to reach them.
+* ebay :
+** Aloka ASU-66 -- http://www.ebay.fr/itm/Aloka-ASU-66-Ultrasound-Probe-/221690345989?hash=item339dc63a05:g:l~gAAOSwBLlU3n1H
+** Aloka ASU-32H-3.5 Mechanical Probe -- http://www.ebay.com/itm/Aloka-ASU-32H-3-5-Mechanical-Probe-/190660257677
+** ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081
+** ATL Access 10PV is a sector array ultrasound transducer probe. The ATL Access 10PV is a mult-frequency probe with a range of 5.0, 7.5 and 10.0 Mhz. -- http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XATL+Access+10PV.TRS0&_nkw=ATL+Access+10PV&_sacat=0 **AWESOME**
+** IDEA : mechanics design idea !
+** Same for ATL Access B10
+** All **ATL Access** aaahhhh
+*** ATL-Access-C-3-0-MHZ-12-7mm-dia-Ultrasound-Transducer-P-N-101-25909-72-3862
+** GE Kertz Technik S-VNA5-8 Transducer
+
+=== Feb 22nd ===
+* IDEA : interfacing murgen with a FPGA ? Solution here : store.hackaday.com/products/xula2-lx9
+* IDEA: doing a probe emulator?  Signal generation upon a pulse transmitted : a physical emulator for the probe head =)
+
+=== Feb 23rd ===
+* Passphrase.io seems interesting =)
+
+=== Feb 24th ===
+* What can we do with wifi / ESP8266 // http://makezine.com/2015/04/01/esp8266-5-microcontroller-wi-fi-now-arduino-compatible/ ?
+* http://darksearch.io/ is fun ?
+* No stuff - https://sivers.org/gifts in favor of it =)
+* Some news from Amit
+
+=== Feb 25th ===
+* Boards reached: issue with the 5V and GND - shortage
+
+=== Feb 26th ===
+* Further tests. Shortage still exists. 
+** Short is not on the PCB. Appears after solder.
+* Found that the RECOM component was designed to be upside down -- need to resolder it. Luckily it was a via component. 
+** This would not be the source of the short anyhow. 
+** EF recommends that we burn 10A on the 5V plane to see which component would burn.. hmm i'm quite shy to do this :p
+* Documenting the issue on github.
+* Sending back boards to EF.
+
+=== Feb 29th ===
+* Found the source of the short, ADL5511, 5V and GND inverted...
+** TODO : amend the altium files to correct the ADL5511 and the RECOM tracks
+* TODO : sampling freq to be documented
+
+=== Mar 1st ===
+* Sending back the boards
+
+=== Mar 3rd ===
+* Receiving new, corrected boards
+* SO qusetions to be tapped into?
+** http://stackoverflow.com/questions/35681099/beaglebone-black-control-gpio-with-pru
+** http://stackoverflow.com/questions/35747954/beaglebone-move-data-from-pru-to-ddr-ram
+* Newscastle published something new on their mechanical probe, awesome!! http://www.ncl.ac.uk/eee/research/groups/coms2ip/ultrasound-imaging.htm
 
 == Raspi Oscilloscope ==
 ===Source===
@@ -472,12 +528,12 @@ File:p626.png
 
 
 === BOM ===
-*  I’m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
+*  Iâ€™m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
 * Buffer : 74HC4050 
 * RPi 1
 * 2 SD Cards
 * Nappe + TBone ?
-* Repo mis à jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
+* Repo mis Ã  jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
 
 == Resources ==
 
