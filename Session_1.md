@@ -50,7 +50,7 @@ Observations
 #### Some echoes
 ![TEK_06](/Images/Session_1/TEK0006.JPG)
 #### Averaged
-![TEK_06](/Images/Session_1/TEK0006.JPG)
+![TEK_05](/Images/Session_1/TEK0005.JPG)
 #### Detailed
 ![TEK_04](/Images/Session_1/TEK0004.JPG)
 ### Decreasing pulse to 2V, and connecting USPP and USPN to the pulse.
