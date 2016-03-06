@@ -9,7 +9,7 @@ Today, **we have achieved the electronic design of the kit and are having it mad
 
 That’s cool, and if you want to learn more (apart from this Readme), you can surf the internet and  :
 
-- Read the the [Blog](http://murgen.echopen.org) of the fork !
+- Read the the [Hackday Blog](https://hackaday.io/project/9281-murgen) of the fork !
 - Explore [echOpen’s general wiki](http://www.echopen.org)
 - Suscribe to the mailing list at all@murgen.echopen.org
 - Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)

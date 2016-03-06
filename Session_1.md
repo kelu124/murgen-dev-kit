@@ -32,24 +32,24 @@ Discussing with Sofian, I had connected USPN on GND, USPP on a 3.1V, 250ns pulse
 
 ### USPN on ground. Blue is the trigger, Yellow is the pulse. 3.1V. 50/60V easily, but does not decrease with time.
 
-![TEK_00](Images/Session_1/TEK0000.jpg)
+![TEK_00](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0000.jpg)
 
-![TEK_01](Images/Session_1/TEK0001.jpg)
+![TEK_01](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0001.jpg)
 
 #### Some echoes
-![TEK_06](Images/Session_1/TEK0006.jpg)
+![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0006.jpg)
 #### Averaged
-![TEK_06](Images/Session_1/TEK0006.jpg)
+![TEK_06](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0006.jpg)
 #### Detailed
-![TEK_04](Images/Session_1/TEK0004.jpg)
+![TEK_04](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0004.jpg)
 ### Decreasing pulse to 2V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_02](Images/Session_1/TEK0002.jpg)
+![TEK_02](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0002.jpg)
 #### With the piezo
-![TEK_03](Images/Session_1/TEK0003.jpg)
+![TEK_03](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0003.jpg)
 
 ### Pulse to 3.1V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_10](Images/Session_1/TEK0010.jpg)
+![TEK_10](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0010.jpg)
 #### With the piezo
-![TEK_09](Images/Session_1/TEK0009.jpg)
+![TEK_09](https://github.com/kelu124/murgen-dev-kit/tree/master/ImagesSession_1/TEK0009.jpg)
