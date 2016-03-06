@@ -9,7 +9,7 @@ Today, **we have achieved the electronic design of the kit and are having it mad
 
 That’s cool, and if you want to learn more (apart from this Readme), you can surf the internet and  :
 
-- Read the the [Blog](http://murgen.echopen.org) of the fork !
+- Read the the [Hackday Blog](https://hackaday.io/project/9281-murgen) of the fork !
 - Explore [echOpen’s general wiki](http://www.echopen.org)
 - Suscribe to the mailing list at all@murgen.echopen.org
 - Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
@@ -68,7 +68,18 @@ Having a single element allows for more space, less density, and to go straight 
 None of us had already done an electronic product, so the process in not that of an experienced team, and we're learning on all the fields: writing down an idea, analysing it, structuring it, develop the plans, build it, test it, build the software.. Rince and repeat.
 
 The most challenging part, and somewhere the easiest, will be to allow anyone with little or no experience to replicate our efforts, and to build another copy of the board. Why is that so? With fresh eyes, that's easier to understand what the blocking points could be, what needs to be detailed, and how.
- 
+
+### Debug Sessions
+
+#### Finding the short
+The [notes are here](murgen-1.0-short-issue.md) (the murgen-1.0-short-issue.md file). We found the bug, two main issues are to be corrected on board v1.1:
+* A short on the ADL5511
+* The RECOM has to be mounted upside down, as the pin layout were inverted during the design stage
+
+#### Playing with the board
+
+The [notes are here](Session_1.md) (the Session_1.md file). 	
+
 ## Preliminary questions
 ### Why are we making this?
 Because it’s fun, it the first step towards medical open hardware based on ultrasounds, so it’s an element for echOpen !
