@@ -22,20 +22,19 @@ Once the 5V on a stabilized source, we read that it consumes ~135mA without a pu
 
 ## Pulser: the HV7360
 ### Setup
-HV7360 is fed by HVOUT 
-* HV7360 is controled by 
-** US_Pulse_P on InA
-** US_Pulse_N on InB
+HV7360 is fed by HVOUT - and HV7360 is controled by 
+- US_Pulse_P on InA
+- US_Pulse_N on InB
 Discussing with Sofian, I had connected USPN on GND, USPP on a 3.1V, 250ns pulse, at 300us macroperiod. That should take care of the pulse for the transducer.
 
 ### Discussion and issues
-* Observations
-** Connecting USP-N on GND does not control the pulse width.
-** Connecting USP-N and USP-P on a 2V-pulse seems to control (at least make thinner) the pulse.
-** With the transducer on / off, it seems there is still a voltage baseline (500mV)
+Observations
+- Connecting USP-N on GND does not control the pulse width. 
+- Connecting USP-N and USP-P on a 2V-pulse seems to control (at least make thinner) the pulse. 
+- With the transducer on / off, it seems there is still a voltage baseline (500mV)
 
-* It seems that pulsing on USP-N shuts the pulser off.
-* We need to control the pulser to send a clean pulse. We already have some echoes, but their birth is dirty.
+- It seems that pulsing on USP-N shuts the pulser off.
+- We need to control the pulser to send a clean pulse. We already have some echoes, but their birth is dirty.
 
 ### In practice
 
@@ -51,7 +50,7 @@ Discussing with Sofian, I had connected USPN on GND, USPP on a 3.1V, 250ns pulse
 #### Some echoes
 ![TEK_06](/Images/Session_1/TEK0006.JPG)
 #### Averaged
-![TEK_06](/Images/Session_1/TEK0006.JPG)
+![TEK_05](/Images/Session_1/TEK0005.JPG)
 #### Detailed
 ![TEK_04](/Images/Session_1/TEK0004.JPG)
 ### Decreasing pulse to 2V, and connecting USPP and USPN to the pulse.
