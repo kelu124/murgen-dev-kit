@@ -185,7 +185,37 @@ HV-supply is going to introduce noise in the circuit.. therefore, a home-made bo
 
 #### Electronics
 So far, the key issue is a compromise in terms of data output. It's interesting to see how to interface such data rates to a processing and display unit.
- 
+
+### Setup
+
+#### Jumper 1
+todo
+#### Jumper 2
+todo
+#### ADC Clock:
+
+The 4 options switch allows for a sampling frequency range of choices:
+
+|  R1 |  R2 |  R3 |  R4 | Rset Value | Clock Frequency |
+|:---:|:---:|:---:|:---:|:----------:|:---------------:|
+|  1  |  2  |  3  |  4  |     Ohm    |      [MHz]      |
+| OFF | OFF | OFF | OFF |   Invalid  |     Invalid     |
+| OFF | OFF | OFF |  ON |  100000,0  |       1,0       |
+| OFF | OFF |  ON | OFF |   40200,0  |       2,5       |
+| OFF | OFF |  ON |  ON |   28673,3  |       3,5       |
+| OFF |  ON | OFF | OFF |   27400,0  |       3,6       |
+| OFF |  ON | OFF |  ON |   21507,1  |       4,6       |
+| OFF |  ON |  ON | OFF |   16294,1  |       6,1       |
+| OFF |  ON |  ON |  ON |   14011,1  |       7,1       |
+|  ON | OFF | OFF | OFF |   20000,0  |       5,0       |
+|  ON | OFF | OFF |  ON |   16666,7  |       6,0       |
+|  ON | OFF |  ON | OFF |   13355,5  |       7,5       |
+|  ON | OFF |  ON |  ON |   11781,9  |       8,5       |
+|  ON |  ON | OFF | OFF |   11561,2  |       8,6       |
+|  ON |  ON | OFF |  ON |   10363,1  |       9,6       |
+|  ON |  ON |  ON | OFF |   8978,9   |       11,1      |
+|  ON |  ON |  ON |  ON |   8239,1   |       12,1      |
+
 ## Parts, ICs selection (and critical specs)
  
 ### HV7360:  High Speed, ±100V 2.5A, Two or Three Level Ultrasound Pulser
