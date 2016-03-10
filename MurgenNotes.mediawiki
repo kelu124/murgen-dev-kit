@@ -1,3 +1,4 @@
+
 [[Category:WorkLog]]
 Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D0E friend ;)
 
@@ -65,7 +66,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * TLDR
 ** CapTech Workshop. Was great!
 ** Acted upon a split between a FPGA long-term approach, and a non-FPGA one. I remembered those good old times when this was a possibility.
-** Damn it. What if I could dig into this? Not ÂµC, rather an extension for an existing computer.. or mini computer.
+** Damn it. What if I could dig into this? Not µC, rather an extension for an existing computer.. or mini computer.
 ** Saw some ideas on the Arduino's side. Separate ADC.
 * Resources
 ** [http://raspberrypi.stackexchange.com/questions/4129/is-pi-powerful-enough-for-an-oscilloscope-project Is Pi powerful enough for an oscilloscope project?]
@@ -186,7 +187,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 8th ===
 * http://www.theopensourceway.org/book/The_Open_Source_Way-How_to_tell_if_a_FLOSS_project_is_doomed_to_FAIL.html : nice doc to failproof a FLOSS project.
 * FPGA team
-**FPGA vs ÂµC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
+**FPGA vs µC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
 **Simulations to come from MIC
 * Another supplier 
 ** seeedstudio.com(reco by F&V)
@@ -207,7 +208,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * Update the ''Culture'' repertory in our drive :p
 * [[:Category:Transducer#Transducer_suppliers | Piezo suppliers]] on their way
 * Mapping the DITSO resources - update
-* ApÃ©ro !
+* Apéro !
 
 === Dec 12th ===
 * GP1A57HRJ00F // photo interrupter
@@ -243,7 +244,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 
 === Dec 22nd ===
 * Progress A / S
-* CaractÃ©risation du piezo : 
+* Caractérisation du piezo : 
 ** http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc 
 ** http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF ou en local sur : [[:File:APPENDIX C.PDF]]
 ** http://www.vtvt.ece.vt.edu/research/papers/08sas.pdf ou en local sur : [[:File:08sas.pdf]]
@@ -262,7 +263,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 ** Cacophony everywhere
 * https://www.youtube.com/watch?v=aPVLyB0Yc6I Eating bears
 * LCD at http://www.espruino.com/PCD8544
-* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intÃ©grÃ©e =)
+* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intégrée =)
 * BBB headers : https://www.adafruit.com/products/706  (Stacking Header Set for Beagle Bone Capes (2x23) @5$)
 
 === Dec 29th ===
@@ -281,8 +282,8 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 30th ===
 * Did automatic backup for the wiki, for the migration - yeahhh
 *Smartassthoughts
-** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You donâ€™t need anything special to succeed. You just need to do the essentials properly.
-** Power is like being a ladyâ€¦ if you have to tell people you are, you arenâ€™t. -- MT
+** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You don’t need anything special to succeed. You just need to do the essentials properly.
+** Power is like being a lady… if you have to tell people you are, you aren’t. -- MT
 * FTS
 * Don't forget spider jerusalem's example - bards, journalists, and a merry cacophonic 2016
 
@@ -344,11 +345,11 @@ Let's cut it to 500kHz ?
 [[File:dt160120.gif|center]]
 
 === Jan 20th ===
-* What about having a ÂµC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
+* What about having a µC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
 ** it would stream data like a wifi camera 
 ** receives the ping from the motor controleur
-* should we be ordering SMD stuff (flux, fer Ã  souder, soufflerie?) - seems an idea
-* CrÃ©ation des modules !
+* should we be ordering SMD stuff (flux, fer à souder, soufflerie?) - seems an idea
+* Création des modules !
 
 === Jan 21st ===
 * Changed WP template to something more readable
@@ -453,7 +454,7 @@ Some others
 * Discussions on mechanics =)
 
 === Feb 19th ===
-* IDEA : display : 128Â² OLED screen: https://www.adafruit.com/products/1431
+* IDEA : display : 128² OLED screen: https://www.adafruit.com/products/1431
 
 === Feb 21st ===
 * Asking feedback from M. Cooke
@@ -462,7 +463,7 @@ Some others
 ** Aloka ASU-66 -- http://www.ebay.fr/itm/Aloka-ASU-66-Ultrasound-Probe-/221690345989?hash=item339dc63a05:g:l~gAAOSwBLlU3n1H
 ** Aloka ASU-32H-3.5 Mechanical Probe -- http://www.ebay.com/itm/Aloka-ASU-32H-3-5-Mechanical-Probe-/190660257677
 ** ATL-ADR-5-5-MHz-7-mm-Ultrasound-Transducer-Probe-for-UM-4-7081
-** ATL Access 10PV is a sector array ultrasound transducer probe. The ATL Access 10PV is a mult-frequency probe with a range of 5.0, 7.5 and 10.0 Mhz. -- http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XATL+Access+10PV.TRS0&_nkw=ATL+Access+10PV&_sacat=0 **AWESOME**
+** [[ATL Access 10PV]] is a sector array ultrasound transducer probe. The ATL Access 10PV is a mult-frequency probe with a range of 5.0, 7.5 and 10.0 Mhz. -- http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313.TR0.TRC0.H0.XATL+Access+10PV.TRS0&_nkw=ATL+Access+10PV&_sacat=0 **AWESOME**
 ** IDEA : mechanics design idea !
 ** Same for ATL Access B10
 ** All **ATL Access** aaahhhh
@@ -509,6 +510,34 @@ Some others
 ** http://stackoverflow.com/questions/35747954/beaglebone-move-data-from-pru-to-ddr-ram
 * Newscastle published something new on their mechanical probe, awesome!! http://www.ncl.ac.uk/eee/research/groups/coms2ip/ultrasound-imaging.htm
 
+=== March 4th ===
+* Testing the board on the morning
+
+=== Sunday, Mar 6th ===
+* Posts about the day hacking at 
+** https://hackaday.io/project/9281-murgen/log/33275-getting-the-first-echoes
+** https://github.com/kelu124/murgen-dev-kit/blob/master/Session_1.md
+
+=== Mar 7th ===
+*HackerNews : https://news.ycombinator.com/item?id=11232144
+** https://github.com/abhishek-kakkar/BeagleLogic/wiki
+** http://theembeddedkitchen.net/beaglelogic-building-a-logic-analyzer-with-the-prus-part-1/449
+** http://dangerousprototypes.com/docs/Logic_Pirate
+** http://dangerousprototypes.com/docs/Logic_Shrimp_logic_analyzer
+*Matos
+**Inverseur : CD74HC4049E 
+**Caps 1.27mm
+***M50-1900005 
+***M50-2020005
+
+=== Mar 8th ===
+* GSCholar pour HV7360 (to solve the issues) : 10.1109/ULTSYM.2015.0140
+* HV7361 : Sharma
+* TODO 
+** Pulser: intégrer un schéma sur le readme de murgen
+** VPE est a 5V sur notre board - 3.3 en typical. Logique à remonter?
+** Add a resistance in parallel of the transducer?
+
 == Raspi Oscilloscope ==
 ===Source===
 * [https://digibird1.wordpress.com/raspberry-pi-as-an-oscilloscope-10-msps/ Source]
@@ -528,12 +557,12 @@ File:p626.png
 
 
 === BOM ===
-*  Iâ€™m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
+*  I’m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
 * Buffer : 74HC4050 
 * RPi 1
 * 2 SD Cards
 * Nappe + TBone ?
-* Repo mis Ã  jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
+* Repo mis à jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
 
 == Resources ==
 
