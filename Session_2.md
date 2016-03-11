@@ -38,7 +38,7 @@ With the jumper on on J1 (TGC), on the high amplification, we do see the signals
 ## Images
 
 #### Echoes after MD0100 vs the pulse
-![TEK_04](/Images/Session_2/TEK0003.JPG)
+![TEK_04](/Images/Session_2/TEK0004.JPG)
 
 #### Comparison of echoes before and after the MD0100
 ![TEK_05](/Images/Session_2/TEK0005.JPG)
