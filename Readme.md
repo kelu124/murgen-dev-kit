@@ -7,7 +7,7 @@ This project is born from a fork from the [echOpen](http://www.echopen.org) proj
 
 Today, **we have achieved the electronic design of the kit and are having it made by a PCB Assembly** – someone to actually assemble the probe, and we're waiting for a first prod so that **we can physically test it with our in house transducer**.
 
-That’s cool, and if you want to learn more (apart from this Readme), you can surf the internet and  :
+That’s cool! And if you want to learn more (apart from this Readme), you can surf the internet and  :
 
 - Read the the [Hackday Blog](https://hackaday.io/project/9281-murgen) of the fork !
 - Explore [echOpen’s general wiki](http://www.echopen.org)
