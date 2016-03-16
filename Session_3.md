@@ -32,7 +32,7 @@ _ Getting nicer pulses._
 ## Images
 ### Moving along the chain of capture
 #### Before the MD0100
-![TEK_06](/Images/Session_3/TEK0001.JPG)
+![TEK_06](/Images/Session_3/TEK0006.JPG)
 #### After the MD0100
 ![TEK_05](/Images/Session_3/TEK0005.JPG)
 #### After the LC after the MD0100
