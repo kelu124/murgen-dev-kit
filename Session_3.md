@@ -8,6 +8,11 @@ _ Getting nicer pulses._
 - With a 7.5us wide pulse, we see two echoes separated by 7.5us, hence the double echoes for switching on and off the transducer.
 
 ## Technical points
+### Setup
+#### Overall setup
+![DSC_0215](/Images/Session_3/DSC_0215.JPG)
+#### Transducer for a reflection
+![DSC_0214](/Images/Session_3/DSC_0214.JPG)
 
 ### Pulser: the HV7360
 

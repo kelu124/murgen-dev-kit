@@ -1,0 +1,23 @@
+/*
+  SimplePulse
+  Using the Hackaday Trinket Pro.
+  Creates two contiguous pulses one after the other, then sleeps till the next time.
+  This example code is in the public domain. Inspired from Blink.
+ */
+ 
+
+// the setup routine runs once when you press reset:
+void setup() {                
+  DDRB = B11111111; // set PORTB (digital 13~8) to outputs  
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+   PORTB = B00010000;         // Switches one pin and closes the others
+   __asm__("nop\n\t""nop\n\t");
+   PORTB = B00100000;         // Switches the two pin
+   __asm__("nop\n\t""nop\n\t");
+   PORTB = B00000000;		// off-es the two pints
+      
+  delayMicroseconds(300); // microsecondes
+}

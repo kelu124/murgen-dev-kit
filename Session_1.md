@@ -5,6 +5,13 @@ _ Happy to get the board and play with it._
 * Setup of if 5V on stabilized. Power use within the 2.5W so far.
 * Pulser behavior to dig
 * Some echoes appear 
+# Some pics with thge BeagleBone black
+
+![DSC_0152](/Images/Session_1/DSC_0152.JPG)
+
+![DSC_0153](/Images/Session_1/DSC_0153.JPG)
+
+![DSC_0154](/Images/Session_1/DSC_0154.JPG)
 
 # Technical points
 ## Power uses

@@ -18,6 +18,8 @@ That’s cool! And if you want to learn more (apart from this Readme), you can s
 **Disclaimer**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
 
 **Disclaimer #2**: ultrasound raises questions. In case you build a scanner, use caution and good sense!
+### Teaser
+![DSC_0154](/Images/Session_1/DSC_0154.JPG)
 
 # Folders
 
