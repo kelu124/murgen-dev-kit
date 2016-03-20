@@ -1,5 +1,16 @@
 # Session 5 - 20 March 2016 - Getting images, BitScope version
 
+## Previous sessions
+
+- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+
+## Today
+
 ### Goal
 _ Getting an actual image through the BitScope tool. _
 
@@ -57,8 +68,8 @@ _ Getting an actual image through the BitScope tool. _
 - Getting the first logs using BitScope Python API
 - Getting the first raw image
 - Getting the first SC:
--- length of each image is custom, as the header containing the position changes
--- ScanConversion is heavy, so we are proposing a decimation
+--length of each image is custom, as the header containing the position changes
+--ScanConversion is heavy, so we are proposing a decimation
 #### Issues
 - BitScope only trigs on "wide" pulses, so we had to add a 10us pulse from the Arduino so to trig on this signal, not on errors from the Arduino pulser. We got Pin11 do this, still playing with PORTB.
 - Python is slow... so if we look at the full image logs, we see that the image takes 2.5s roughly to get 60 lines. Thanks to Python. We are missing a couple of the lines. Thanksfully, we know were each line was shot!
@@ -66,6 +77,7 @@ _ Getting an actual image through the BitScope tool. _
 #### Next steps
 - Using the SPI on the TGC, controlled via the Trinket
 - How to work only on 1 channel, so that we can get 20Msps with the BitScope instead of the 5Msps ?
+- Use a better ScanConversion
 - Having TP5/6 work =)
 
 ## Images

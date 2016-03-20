@@ -1,4 +1,13 @@
 # Session 4 - 19 March 2016
+## Other sessions
+
+- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+
+## Today
 
 ### Goal
 _ Pulsing shorter with an arduino and getting nicer pulses. _
@@ -37,13 +46,13 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 
 - Need to have a 3.3V trinket to manage the pulser control without having to buffer the controls.
 
--- Indeed, controls were ouput at 5V. I had only an inverter under my hands, so I fed it 3.3V from the regulator, and doubly inverted the signals.
+--Indeed, controls were ouput at 5V. I had only an inverter under my hands, so I fed it 3.3V from the regulator, and doubly inverted the signals.
 
--- Before:
+--Before:
 
 ![TEK_00](/Images/Session_4/TEK0000.JPG)
 
--- After:
+--After:
 
 ![TEK_01](/Images/Session_4/TEK0001.JPG)
 

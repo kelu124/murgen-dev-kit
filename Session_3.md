@@ -1,4 +1,13 @@
 # Session 3 - 15 March 2016
+## Other sessions
+
+- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+
+## Today
 
 ### ^^
 _ Getting nicer pulses._
@@ -29,8 +38,8 @@ _ Getting nicer pulses._
 - Tests were done without having put the DAC inputs to GND. That may lead to some issues in reproductibility.
 - Need to document the role of Jumper 1 more precisely.
 - Let's try to get images from only 2/3, trigging from an external source?
--- Without SPI control of the DAC
--- With SPI
+--Without SPI control of the DAC
+--With SPI
 - We can't get anything at the TP 5/6 signal..
 ![TEK_13](/Images/Session_3/TEK0013.JPG)
 

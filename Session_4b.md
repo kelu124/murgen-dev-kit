@@ -1,5 +1,15 @@
 # Session 4b - 19 March 2016 - BitScope version
 
+## Other sessions
+
+- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+
+## Today
+
 ### Goal
 _ Getting images through the BitScope tool. _
 
@@ -41,10 +51,10 @@ _ Getting images through the BitScope tool. _
 #### Next steps
 - Trigging from Ch A to get Ch B.
 - Getting more info in the files:
--- Time of pulse
--- Sampling frequency
--- Number of pulse
--- ...
+--Time of pulse
+--Sampling frequency
+--Number of pulse
+--...
 
 ## Images
 #### Getting a pulse

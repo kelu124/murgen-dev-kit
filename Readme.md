@@ -1,7 +1,7 @@
 # The Murgen Project
 _The hardware design process is fraught with pitfalls, from library component sketchiness, parts availability, erroneous data sheets, underestimates of complexity and long lead times. Designing good hardware on time, on budget and to specifications is like being in a knife fight. Hardware will cut you._
 
-### What is this project?
+## What is this project?
 
 This project is born from a fork from the [echOpen](http://www.echopen.org) project (which aims at providing a low cost, open source ultrasound tool for doctors), with a specific target of **providing a technological kit to allow scientists, academics, hackers, makers or OSH fans to hack their way to ultrasound imaging**.
 
@@ -14,11 +14,18 @@ That’s cool! And if you want to learn more (apart from this Readme), you can s
 - Suscribe to the mailing list at all@murgen.echopen.org
 - Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
 
-#### Results ?
+### Results ?
+#### Setup 
+
+The working place
+
+![The assembled dev kit](/Images/Session_5/DSC_0226.JPG)
+
+#### Images
 
 A first picture of our baby !
 
-![BitScopeFullImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.log-SC.png)
+![An ultrasound image](/Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
 
 ### Disclaimers
 **Disclaimer**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
@@ -181,15 +188,15 @@ Since we're using a single sensor (not an array of sensor, as those are used in 
 
 - We're aiming at **128 lines/image** - that may be enough at first 
 - at **16 imgs/s**, that's 2048 lines/s
--- That's 488us per line (for everything: 
+--That's 488us per line (for everything: 
 - Let's image no further than 15.77cm deep.. Why? Because :
--- (15.77 cm x 2) / (154000 cm/s) = 204.805 us 
--- that's 1024 pts at 5MHz
--- That's **204.805 us** per line
--- That's **283.5 us** of idle time - kept for processing, and whatnots
+--(15.77 cm x 2) / (154000 cm/s) = 204.805 us 
+--that's 1024 pts at 5MHz
+--That's **204.805 us** per line
+--That's **283.5 us** of idle time - kept for processing, and whatnots
 - Final image is therefore **128*1024 px**
--- 1024 pts for 15.77cm is 6.49px / mm
--- That's also 2.1Msps on average or 24Mbit/s.. borderline for data transfer on certain systems.
+--1024 pts for 15.77cm is 6.49px / mm
+--That's also 2.1Msps on average or 24Mbit/s.. borderline for data transfer on certain systems.
 
 ### Discussion of Essential Features/Trade-offs
 
@@ -333,9 +340,9 @@ Playing with a broken transducer in a haribo sweet box to see if you can hack ul
 
 ## User’s Quick-Start Guide
 - Install 
--- BitScope BitLib
--- python math tools
--- something to code arduino
+--BitScope BitLib
+--python math tools
+--something to code arduino
 - Clone this repo
 
 You're good to go !
@@ -359,5 +366,6 @@ Check out [Tobo](tobo/) -- an stand-alone pulser/receiver board and [Goblin](gob
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
 Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2016
+
 
 
