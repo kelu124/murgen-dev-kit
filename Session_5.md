@@ -9,7 +9,22 @@ _ Getting an actual image through the BitScope tool. _
 ![BitScopeFullImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.log-SC.png)
 
 ### Setup
-### Hardware
+#### Organization
+
+- Overall lab place
+
+![DSC_0226.JPG](/Images/Session_5/DSC_0226.JPG)
+
+- Detail of the transducer pool, along with the servo, and the servo/transducer cables
+
+![DSC_0227.JPG](/Images/Session_5/DSC_0227.JPG)
+
+- Detail of the transducer head and the rotating device. Yes, it's cracked, but it works!
+
+![DSC_0228.JPG](/Images/Session_5/DSC_0228.JPG)
+
+
+#### Hardware
 - Murgen 1.0
 - Hackaday Trinket Pro
 - 5/3.3V alim
