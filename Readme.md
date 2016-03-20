@@ -14,6 +14,12 @@ That’s cool! And if you want to learn more (apart from this Readme), you can s
 - Suscribe to the mailing list at all@murgen.echopen.org
 - Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
 
+#### Results ?
+
+A first picture of our baby !
+
+![BitScopeFullImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.log-SC.png)
+
 ### Disclaimers
 **Disclaimer**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
 
@@ -23,15 +29,15 @@ That’s cool! And if you want to learn more (apart from this Readme), you can s
 
 # Folders
 
-     murgen-dev-kit/				main repo
+     murgen-dev-kit/			         		main repo
 	 |-- Altium						the altium files for Murgen -- source files, opening with Altium Designer
 	 |-- BOM						that's ... well.. for the BOM
-     |-- Gerbers					to build the cape
-	 |-- BBB					 	for the BBB software
+	 |-- Gerbers						to build the cape
+	 |-- bitscope						to play with bitscope acquisition
 	 |-- 3D							for the 3D files of the board	
 	 |-- tobo					 	simplified pulser
 	 |-- goblin						an alternative, in Eagle
-     `-- Images						for documentation
+         `-- Images						for documentation
 
 You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
 	 
@@ -80,7 +86,14 @@ The [notes are here](murgen-1.0-short-issue.md) (the murgen-1.0-short-issue.md f
 
 #### Playing with the board
 
-The [notes are here](Session_1.md) (the Session_1.md file). 	
+The notes are here, stemming from the work sessions with the board:
+
+- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
 
 ## Preliminary questions
 ### Why are we making this?
@@ -191,7 +204,9 @@ So far, the key issue is a compromise in terms of data output. It's interesting 
 ### Setup
 
 #### Jumper 1
-todo
+
+This one represents the fixed Gain for the TGC. An extra 18 dB is always handy!
+
 #### Jumper 2
 todo
 #### ADC Clock:
@@ -265,7 +280,7 @@ The 48 dB gain range of the VGA makes these devices suitable for a variety of ap
 ### TGC  Control : SPI DAC : MAX5383
 Controls the TGC
 * 8-Bit Resolution in a Miniature 6-Pin SOT23 Package
-* < 1µA Shutdown Mode
+* Less than 1µA Shutdown Mode
 * Low-Glitch Power-On Reset to Zero DAC Output
 * 3-Wire SPI/QSPI/MICROWIRE-Compatible Interface : perfect for a SPI interface
 * Low 230µA (max) Supply Current
@@ -305,13 +320,25 @@ A single clock input is used to control all internal conversion The digital outp
 
 The 74AC541 and 74ACT541 are octal buffer/line drivers designed to be employed as memory and address drivers, clock drivers and bus oriented transmitter/ receivers.
  
-# Using the Murgen cape
+# Using the Murgen board
 ## Software / Firmware Summary
-TBD // This part is to be update in a future update, as soon as we get the physical board.
+
+Up to v1.0, we're still playing with the board, so there's not interface with the BBB.
+
+However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya that the main echopen  project uses, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
+
 ## Typical Application
-TBD.
+
+Playing with a broken transducer in a haribo sweet box to see if you can hack ultrasounds.
+
 ## User’s Quick-Start Guide
-TBD // This part is to be update in a future update, as soon as we get the physical board.
+- Install 
+-- BitScope BitLib
+-- python math tools
+-- something to code arduino
+- Clone this repo
+
+You're good to go !
 
 # Others
 ## Discussions 

@@ -1,0 +1,6 @@
+#!/bin/bash
+FILES=./*
+for f in *Signal-bitscope-DATA.log
+do
+	python CreateImage.py $f
+done

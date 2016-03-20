@@ -13,11 +13,13 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-   PORTB = B00010000;         // Switches one pin and closes the others
+   PORTB = B00001000;         // Pin 11
+   delayMicroseconds(10); 
+   PORTB = B00010000;         // Pin 12 = pulse positif: trigging USPP
+   __asm__("nop\n\t");
+   PORTB = B00100000;         // Pin 13  = pulse negatif: trigging USPN
    __asm__("nop\n\t""nop\n\t");
-   PORTB = B00100000;         // Switches the two pin
-   __asm__("nop\n\t""nop\n\t");
-   PORTB = B00000000;		// off-es the two pints
-      
-  delayMicroseconds(300); // microsecondes
+   PORTB = B00000000;
+
+  delayMicroseconds(300); // wait for a full depth-image
 }
