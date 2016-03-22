@@ -7,7 +7,10 @@ Getting a home-made open-source ultrasound machine (dev-kit) up and running in y
 For a full overview of the adventure, visit our [Hackaday page](https://hackaday.io/project/9281-murgen) =)
 
 ## Getting the rough rough first image
+
 We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a solid flat board immersed in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be greatly improved.
+
+
 ![A nice image](Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
 
 ## Setting up a prototype
