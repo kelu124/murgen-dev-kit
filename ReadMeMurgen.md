@@ -14,8 +14,9 @@ We've got **our first ultrasound image with the murgen board** =) Not a baby, mi
 
 ### Disclaimers
 
-** Disclaimer #1**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
-** Disclaimer #2**: ultrasound raises questions. In case you build a scanner, use caution and good sense!
+**Disclaimer #1**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
+
+**Disclaimer #2**: ultrasound raises questions. In case you build a scanner, use caution and good sense!
 
 ### How-to start
 
@@ -26,6 +27,7 @@ Time to get some shopping done !
 * Get a Trinket Pro / Arduino : 10€
 * Get some small electronics (breadboard, cables et al) : 20€
 * Misc (Pizza, Beer, and a donation to Murgen): 15€
+
 **_Total spent_: 400€ to 450€**
 
 
