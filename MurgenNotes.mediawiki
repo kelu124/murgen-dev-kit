@@ -1,4 +1,3 @@
-
 [[Category:WorkLog]]
 Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D0E friend ;)
 
@@ -66,7 +65,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * TLDR
 ** CapTech Workshop. Was great!
 ** Acted upon a split between a FPGA long-term approach, and a non-FPGA one. I remembered those good old times when this was a possibility.
-** Damn it. What if I could dig into this? Not µC, rather an extension for an existing computer.. or mini computer.
+** Damn it. What if I could dig into this? Not ÂµC, rather an extension for an existing computer.. or mini computer.
 ** Saw some ideas on the Arduino's side. Separate ADC.
 * Resources
 ** [http://raspberrypi.stackexchange.com/questions/4129/is-pi-powerful-enough-for-an-oscilloscope-project Is Pi powerful enough for an oscilloscope project?]
@@ -187,7 +186,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 8th ===
 * http://www.theopensourceway.org/book/The_Open_Source_Way-How_to_tell_if_a_FLOSS_project_is_doomed_to_FAIL.html : nice doc to failproof a FLOSS project.
 * FPGA team
-**FPGA vs µC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
+**FPGA vs ÂµC : discussion ongoing with F&V - seems going towards RP. Sane, pragmatic approach. If the RP is cracked, that could unlock many things.
 **Simulations to come from MIC
 * Another supplier 
 ** seeedstudio.com(reco by F&V)
@@ -208,7 +207,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 * Update the ''Culture'' repertory in our drive :p
 * [[:Category:Transducer#Transducer_suppliers | Piezo suppliers]] on their way
 * Mapping the DITSO resources - update
-* Apéro !
+* ApÃ©ro !
 
 === Dec 12th ===
 * GP1A57HRJ00F // photo interrupter
@@ -244,7 +243,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 
 === Dec 22nd ===
 * Progress A / S
-* Caractérisation du piezo : 
+* CaractÃ©risation du piezo : 
 ** http://www.biosono.com/PrmtLgd/PrmtLgd.php?id=TrnsRlc 
 ** http://www.brl.uiuc.edu/Downloads/bigelow/APPENDIX%20C.PDF ou en local sur : [[:File:APPENDIX C.PDF]]
 ** http://www.vtvt.ece.vt.edu/research/papers/08sas.pdf ou en local sur : [[:File:08sas.pdf]]
@@ -263,7 +262,7 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 ** Cacophony everywhere
 * https://www.youtube.com/watch?v=aPVLyB0Yc6I Eating bears
 * LCD at http://www.espruino.com/PCD8544
-* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intégrée =)
+* Autre display / TFT : https://learn.adafruit.com/1-8-tft-display .. et une micro SD intÃ©grÃ©e =)
 * BBB headers : https://www.adafruit.com/products/706  (Stacking Header Set for Beagle Bone Capes (2x23) @5$)
 
 === Dec 29th ===
@@ -282,8 +281,8 @@ Some work with my AA813B03480B306D773BFD007800AA5F3D83C176E822C5096CA57632284D8D
 === Dec 30th ===
 * Did automatic backup for the wiki, for the migration - yeahhh
 *Smartassthoughts
-** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You don’t need anything special to succeed. You just need to do the essentials properly.
-** Power is like being a lady… if you have to tell people you are, you aren’t. -- MT
+** ''The absence of deal-breaking flaws is more important than the presence of any extras.'' You donâ€™t need anything special to succeed. You just need to do the essentials properly.
+** Power is like being a ladyâ€¦ if you have to tell people you are, you arenâ€™t. -- MT
 * FTS
 * Don't forget spider jerusalem's example - bards, journalists, and a merry cacophonic 2016
 
@@ -345,11 +344,11 @@ Let's cut it to 500kHz ?
 [[File:dt160120.gif|center]]
 
 === Jan 20th ===
-* What about having a µC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
+* What about having a ÂµC ( PIC24FJ128GC010 ?) right after the analog part - could be an additional board/cape stacked below (so with microcontrolleur and alimentation) 
 ** it would stream data like a wifi camera 
 ** receives the ping from the motor controleur
-* should we be ordering SMD stuff (flux, fer à souder, soufflerie?) - seems an idea
-* Création des modules !
+* should we be ordering SMD stuff (flux, fer Ã  souder, soufflerie?) - seems an idea
+* CrÃ©ation des modules !
 
 === Jan 21st ===
 * Changed WP template to something more readable
@@ -454,7 +453,7 @@ Some others
 * Discussions on mechanics =)
 
 === Feb 19th ===
-* IDEA : display : 128² OLED screen: https://www.adafruit.com/products/1431
+* IDEA : display : 128Â² OLED screen: https://www.adafruit.com/products/1431
 
 === Feb 21st ===
 * Asking feedback from M. Cooke
@@ -495,6 +494,9 @@ Some others
 * Documenting the issue on github.
 * Sending back boards to EF.
 
+=== Feb 28th ===
+* Starting the interim report.
+
 === Feb 29th ===
 * Found the source of the short, ADL5511, 5V and GND inverted...
 ** TODO : amend the altium files to correct the ADL5511 and the RECOM tracks
@@ -534,9 +536,82 @@ Some others
 * GSCholar pour HV7360 (to solve the issues) : 10.1109/ULTSYM.2015.0140
 * HV7361 : Sharma
 * TODO 
-** Pulser: intégrer un schéma sur le readme de murgen
-** VPE est a 5V sur notre board - 3.3 en typical. Logique à remonter?
+** Pulser: intÃ©grer un schÃ©ma sur le readme de murgen
+** VPE est a 5V sur notre board - 3.3 en typical. Logique Ã  remonter?
 ** Add a resistance in parallel of the transducer?
+* Damn!! The alimentation voltage was low... because it takes 6.5V to 12V! Will need to put 9V in through the thermal printer alimentation
+
+=== Mar 11th ===
+*Session 2 : Non-controlled pulsing, inverters, better echoes 
+
+=== Marc 14th ===
+* Starting to get echoes
+
+=== Mar 15th ===
+*Session 3 : Getting controlled pulsing, but width not controlled
+
+=== March 18th ===
+*Sending his board to prof Charles 
+
+===  19 March 2016 ===
+* Session 4 & 4b
+** Testing the board with the transducer
+** Testing with the BitScope
+
+=== March 20th ===
+* Getting the image!
+
+[[File:image_grey_proto.png]]
+
+** Assembling everything
+** Coding in python
+** Thanks bitscope
+
+* Gallery:
+
+<gallery>
+File:SC_0226.JPG
+File:SC_0227.JPG
+File:image_grey_proto.png
+File:SC_0154.JPG
+</gallery>
+
+=== March 21st ===
+*Doc
+**Documenting on https://hackaday.io/project/9281-murgen  -- visit, by all means, that's cute and nice!
+**Same documentation on the github repo
+*Modular design in on with Benoit ! Let's check with Sofian
+*TODO:using SPI on the board
+**plugging a SPI
+**pluging the pulseroff in the buffer part?
+*TODO:logo of murgen in vector
+
+=== March 22st ===
+*Pending
+**print and distribute the interim report
+**Organizing elections for the association
+***Define responsibilities of all
+***Review of the status 
+***Review of the reglement intÃ©rieur
+**Definir who has access to the twitter account
+**TODO:review
+**Wiki delivery
+**Documentation
+**BM's gerbers, altiums et al
+**Costing of mira
+**License issue on the wiki
+**Budget update - what do we have?
+**Project forecast - where do we go?
+**Restructuration du wiki
+**Page de veille a mettre sur le wiki
+**Creer une page competition
+**Traiter les points "objectifs" de la fondation fabre
+**GÃ©rer les cotisations, faire un appel Ã  cotisation
+
+*Some SO questions:
+**http://stackoverflow.com/questions/35939058/beaglebone-without-dac-from-digital-to-analog-converter
+**http://stackoverflow.com/questions/35910431/getting-beaglebone-prus-to-work-using-pasm
+**http://electronics.stackexchange.com/questions/222661/connecting-large-number-of-i2c-slaves-using-i2c-multiplexers-and-buffers
 
 == Raspi Oscilloscope ==
 ===Source===
@@ -557,12 +632,12 @@ File:p626.png
 
 
 === BOM ===
-*  I’m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
+*  Iâ€™m using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out.
 * Buffer : 74HC4050 
 * RPi 1
 * 2 SD Cards
 * Nappe + TBone ?
-* Repo mis à jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
+* Repo mis Ã  jour : https://github.com/echopen/hardware/tree/master/electronics/murgen
 
 == Resources ==
 
