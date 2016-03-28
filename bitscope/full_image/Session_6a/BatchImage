@@ -1,0 +1,8 @@
+#!/bin/bash
+FILES=./*
+
+for f in *.data
+do
+	python CreateSC.py $f
+done
+
