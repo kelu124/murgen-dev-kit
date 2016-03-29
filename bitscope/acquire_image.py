@@ -95,7 +95,7 @@ def main(argv=None):
 	Signal = []
 	TimeStamp = []
 
-	for i in range(59):
+	for i in range(2*60):
  
 		BL_Trace(BL_TRACE_FOREVER)
 		BL_Select(BL_SELECT_CHANNEL, 0)
@@ -103,6 +103,7 @@ def main(argv=None):
 		BL_Select(BL_SELECT_CHANNEL, 1)
 		Signal.append(BL_Acquire())
 	
+	print "Saving file"
 	st = "/home/luc/"+stt +"-Signal-bitscope-DATA.log"
 	targetFile = open(st, 'w')
 	

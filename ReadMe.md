@@ -8,10 +8,9 @@ For a full overview of the adventure, visit our [Hackaday page](https://hackaday
 
 ## Getting the rough rough first image
 
-We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a solid flat board immersed in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be greatly improved.
+We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.
 
-
-![A nice image](Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
+![A nice image](Images/Session_6/Fantom1+Scan.png)
 
 ## Setting up a prototype
 
@@ -67,7 +66,8 @@ You're good to go !
 - [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
 - [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
 - [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 
 ## FAQ
 
