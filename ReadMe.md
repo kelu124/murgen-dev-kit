@@ -8,10 +8,9 @@ For a full overview of the adventure, visit our [Hackaday page](https://hackaday
 
 ## Getting the rough rough first image
 
-We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a solid flat board immersed in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be greatly improved.
+We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.
 
-
-![A nice image](Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
+![A nice image](Images/Session_6/Fantom1+Scan.png)
 
 ## Setting up a prototype
 
