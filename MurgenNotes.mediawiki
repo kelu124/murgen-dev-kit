@@ -587,14 +587,13 @@ File:SC_0154.JPG
 *TODO:logo of murgen in vector
 
 === March 22st ===
-*Pending
+*PENDINGTODO
 **print and distribute the interim report
 **Organizing elections for the association
 ***Define responsibilities of all
-***Review of the status 
+***Review of les status de l'association
 ***Review of the reglement intérieur
 **Definir who has access to the twitter account
-**TODO:review
 **Wiki delivery
 **Documentation
 **BM's gerbers, altiums et al
@@ -605,13 +604,38 @@ File:SC_0154.JPG
 **Restructuration du wiki
 **Page de veille a mettre sur le wiki
 **Creer une page competition
-**Traiter les points "objectifs" de la fondation fabre
+**Traiter les "objectifs" de la fondation fabre et les finir
 **Gérer les cotisations, faire un appel à cotisation
+** publier les soutenances de F&V? 
 
 *Some SO questions:
 **http://stackoverflow.com/questions/35939058/beaglebone-without-dac-from-digital-to-analog-converter
 **http://stackoverflow.com/questions/35910431/getting-beaglebone-prus-to-work-using-pasm
 **http://electronics.stackexchange.com/questions/222661/connecting-large-number-of-i2c-slaves-using-i2c-multiplexers-and-buffers
+
+=== March 23rd ===
+* A challenge page was created: [[Challenge: the module approach‎]]
+** working on modules =)
+***[[:File:listofmodules.png]]
+** thinking of the motherboard (contribution of benoit)
+***[[:File:motherboard.png]]
+** Enveloppe detection : http://echopen.org/index.php?title=Analog_Parts_%28Farad%29#Envelope_detector
+
+=== March 24th ===
+* AOP (high speed 420MHz) THS3001  (Amit)
+* TODO: 
+** MFab - plan
+*Presentations tonight!
+
+=== March 27th ===
+* Getting good echoes with the TGC maxed!
+
+=== March 28th ===
+* Playing with bitscope -> issue from the noise -> usb plugin got !
+
+=== March 29th ===
+* order for the usb denoiser
+* http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1576?sc=stm32f3 : Getting 5Msps =)
 
 == Raspi Oscilloscope ==
 ===Source===
