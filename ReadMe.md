@@ -33,6 +33,24 @@ Time to get some shopping done !
 
 **_Total spent_: 400€ to 450€**
 
+### Find your way in the folders
+
+     murgen-dev-kit/			         		main repo
+	 |-- Altium						the altium files for Murgen -- source files, opening with Altium Designer
+	 |-- BOM						that's ... well.. for the BOM
+	 |-- Gerbers						to build the cape
+	 |-- bitscope						to play with bitscope acquisition
+	 |-- 3D							for the 3D files of the board	
+	 |-- tobo					 	simplified pulser
+	 |-- goblin						an alternative, in Eagle
+         `-- Images						for documentation
+
+
+* You will find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
+* Schematics are in the ***Altium\Schematics\PDF*** folder
+* Gerbers in Gerbers of course
+* Code for the acquisition using bitscope (at first ;) ) is in ***bitscope/***.
+
 
 ### Setup
 #### Connections
@@ -98,9 +116,7 @@ The murgen investigation had started in September 2015, but following a meetup a
 * Explore [echOpen’s general wiki](http://echopen.org)
 * Suscribe to the mailing list at all@murgen.echopen.org
 * Or wander around the rest of echOpen's [GitHub repos](https://github.com/echopen/)
-* Meet us on the social networks ?
-** Join our [Facebook group](https://www.facebook.com/groups/echopen/).
-** Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
+* Meet us on the social networks ? Join our [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
 * Meet us physically on friday at our apéros =)
 
 
