@@ -20,28 +20,20 @@
 ## TL;DR: Comparing Images
 ### Not too bad =)
 
-#### Fantom A
+#### Fantom 1
 
-![FullImage](/Images/Session_6/ExpA.data-DEC4-SC.png)
+![Fantom1+Scan](/Images/Session_6/Fantom1+Scan.png)
 
-#### Fantom B
+#### Fantom 2
 
-![FullImage](/Images/Session_6/ExpE.data-DEC4-SC.png)
-
-### Same images from a "classical" ultrasound machine
-
-#### Fantom A
-
-![FullImage](/Images/Session_6/IMG_2427.JPG)
-
-#### Fantom B
-
-![FullImage](/Images/Session_6/IMG_2428.JPG)
+![Fantom2+Scan](/Images/Session_6/Fantom2+Scan.png)
 
 
 #### Bitscope signal
 
-![BitScopeFullImage](/Images/Session_6/BitScopeSignal.png)
+In red is the noise that the BitScope "randomly" adds to the signal (the same as the noise pattern seen in the comparison above) 
+
+![BitScopeFullImage](/Images/Session_6/BitScopeSignalNoise.png)
 
 ### Setup
 #### Organization
@@ -68,15 +60,14 @@
 
 #### Give me an image
 
-![Full Image ExpA](/Images/Session_6/ExpA.data-DEC4-SC.png)
-
-![Full Image ExpE](/Images/Session_6/ExpE.data-DEC4-SC.png)
+![Full Image ExpA](/Images/Session_6/ExpE.data-DEC1-SC-curves.png)
 
 ### Discussion and issues
 
 #### Discussion
 - Had to unplung TP4/5 and plug it into the transfo
 - Had to feed in max V to the TP4 (Analog gain of the TGC) -> around to 900mV and 40mA)
+- Gain formula: Gain(depth)= (1.9*(depth)**(0.6)/(Depth**(0.6))) -> it quite lowers the signal close to the transducer, and raises the end of the signal.
 
 #### Issues
 - Had to change the back and forth sweeping of the servo.. else the two sets of lines are intertwinned as you'll see with Session-6 data instead of Session-6a(```bitscope/full_image/Session_6/BatchImage```)
