@@ -32,11 +32,11 @@
 
 #### Fantom A
 
-![FullImage](/Images/Session_6/IMG_2427.jpg)
+![FullImage](/Images/Session_6/IMG_2427.JPG)
 
 #### Fantom B
 
-![FullImage](/Images/Session_6/IMG_2428.jpg)
+![FullImage](/Images/Session_6/IMG_2428.JPG)
 
 
 #### Bitscope signal
@@ -49,7 +49,8 @@
 - Same as previously... [Session 5](Session_5.md)
 - Just adding the alim to feed TP4 (Analog gain of the TGC)
 - Layout out the fantoms:
-![BitScopeFullImage](/Images/Session_6/IMG_2416.jpg)
+
+![BitScopeFullImage](/Images/Session_6/IMG_2416.JPG)
 
 
 #### Remarks 
