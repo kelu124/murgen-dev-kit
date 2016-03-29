@@ -8,7 +8,7 @@
 - [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
 - [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
 - [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
-- [Session 6](Session_6.md) (this one) : getting images from the fantoms ! (28 March 2016)
+- [Session 6](Session_6.md) (this one) : getting images from the fantoms (as it's a win, it's been published on [Hackaday too](https://hackaday.io/project/9281-murgen/log/34784-getting-usable-images-with-a-500-diy-ultrasound-machine))! (28 March 2016)
 
 ## Today
 
