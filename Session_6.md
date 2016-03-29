@@ -39,7 +39,8 @@ In red is the noise that the BitScope "randomly" adds to the signal (the same as
 #### Organization
 
 - Same as previously... [Session 5](Session_5.md)
-- Just adding the alim to feed TP4 (Analog gain of the TGC)
+- Just adding the alim to feed TP4 (Analog gain of the TGC)  -> around to 900mV and 40mA)
+- Had to unplug TP4/5 and plug it into the transfo
 - Layout out the fantoms:
 
 ![BitScopeFullImage](/Images/Session_6/IMG_2416.JPG)
@@ -65,16 +66,16 @@ In red is the noise that the BitScope "randomly" adds to the signal (the same as
 ### Discussion and issues
 
 #### Discussion
-- Had to unplung TP4/5 and plug it into the transfo
+- Had to unplug TP4/5 and plug it into the transfo
 - Had to feed in max V to the TP4 (Analog gain of the TGC) -> around to 900mV and 40mA)
-- Gain formula: Gain(depth)= (1.9*(depth)**(0.6)/(Depth**(0.6))) -> it quite lowers the signal close to the transducer, and raises the end of the signal.
+- Gain formula: Gain(depth)= (1.9*(depth)^(0.6)/(Depth^(0.6))) -> it quite lowers the signal close to the transducer, and raises the end of the signal.
 
 #### Issues
 - Had to change the back and forth sweeping of the servo.. else the two sets of lines are intertwinned as you'll see with Session-6 data instead of Session-6a(```bitscope/full_image/Session_6/BatchImage```)
 - Bad noise was coming from the computer 
 - Some residual noise coming from the bitscope (the small signal between 100us and 250us):
 
-![Bitscope noise](/Images/Session_6/BitScopeSignal.png)
+![Bitscope noise](/Images/Session_6/BitScopeSignalNoise.png)
 
 #### Next steps
 - Plugging into the BBB
