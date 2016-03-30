@@ -1,4 +1,4 @@
-# Session 5 - 20 March 2016 - Getting images, BitScope version
+# Session 6 - 28 March 2016 - Imaging the fantoms, BitScope version
 
 ## Previous sessions
 
