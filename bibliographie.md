@@ -1,6 +1,21 @@
-# Inspiration from other articles
+# Our setup
 
-Some ideas from other projects
+| Solutions consid√©r√©es |                                                                                                                             Solutions Choisies                                                                                                                            |                 Evolutions consid√©r√©es?                |                                |
+|:---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|:------------------------------:|
+|       Transducer      | FURUNO 520-5PSD (Shatin Sharma Thesis) GP2000 (Philippe Levesque) DGH6000 (iPhone Thesis)                                                                                                                                                                                    |                        Recycled                        |             100‚Ç¨ SM            |
+|           HV          | HV2901  (10.1109/ULTSYM.2015.0517) MAX1771 (Shatin Sharma Thesis)                                                                                                                                                                                                           |                        R05-100B                        |            R05-100B            |
+|       Beamformer      | LM96570  (doi:10.3390/jimaging1010193)                                                                                                                                                                                                                                     |                       Pas besoin                       |           Pas besoin           |
+|         Pulser        | MAX14808  (10.1109/ULTSYM.2015.0517) MD1213 mosfet driver + TC6320  (Shatin Sharma Thesis) MD1210 + TC2320 (Philippe Levesque - he doesn't recommend) MAX14808  (10.1109/ULTSYM.2014.0399)  MAX4940 over LM96550 (iPhone Thesis) HV7360 (Recommended)                           |                         HV7360                         |               ???              |
+|       Protection      | MD0100 (Shatin Sharma Thesis) TX810 (iPhone Thesis)                                                                                                                                                                                                                         |                         MD0100                         |            MD0105 ?            |
+|          TGC          | AFE 5808 IC  (doi:10.3390/jimaging1010193) AD9272 (doi:10.1016/j.jestch.2016.01.008) AFE5S0S (10.1109/ULTSYM.2015.0517) LM96511 (iPhone Thesis) AFE5801 (iPhone Thesis) AD605 (Shatin Sharma Thesis) AD8332 (Philippe Levesque)                                                  | AD8331  controlled over Analog Gain or SPI DAC MAX5383 |             AD8331             |
+|  Enveloppe detection  | RC (echOpen)                                                                                                                                                                                                                                                               |                         ADL5511                        |       A tester en modules      |
+|          ADC          | LTC2245  (Shatin Sharma Thesis) AFE5808 (10.1109/ULTSYM.2014.0399) ADC10040 (Philippe Levesque) AD9236  (Recommended) STM32F334R8 (Recommended, 12bits, 5Msps)                                                                                                                 |              AD9220 + Buffer (74AC541MTC)               | LTC2314-14 pour son aspect SPI |
+|   Signal Processing   | Xilinx Kintex-7 FPGA (doi:10.3390/jimaging1010193) Xilinx FPGAs (doi:10.1016/j.jestch.2016.01.008) Spartan6, Xilinx (10.1109/ULTSYM.2015.0517) Spartan 6 LX150 (10.1109/ULTSYM.2014.0399) XC3S1500L-FG320, FPGA Xilinx  (Philippe Levesque) Altera Cyclone III (iPhone Thesis)  |                        BitScope                        |                                |
+|        Display        | Raspberry Pi 2 (doi:10.3390/jimaging1010193)                                                                                                                                                                                                                               |                     Linux Computer                     |                                |
+|          Cout         | NA                                                                                                                                                                                                                                                                        |                          470 ‚Ç¨                         |              150 ‚Ç¨             |
+
+
+# Inspiration from other articles
 
 ##  FPGA-Based Portable Ultrasound Scanning System with Automatic Kidney Detection
 
@@ -36,7 +51,7 @@ Some ideas from other projects
 * **Uses:**  Prototype
 * **Who:**  ee12m1014, raji, sureshpulig@iith.ac.in (x)
 * **Date:**  2014
-* **DOI:** :  978-1-4799-6644-8/14/$31.00 ©2014 IEEE
+* **DOI:** :  978-1-4799-6644-8/14/$31.00 ¬©2014 IEEE
 
 ### Overall information
 *  **Notes:**
@@ -93,7 +108,7 @@ Some ideas from other projects
 * **DOI:**   10.1109/ULTSYM.2013.0526
 
 ### Overall information
-*  **Notes:** Nothing was electronics, all smartphone.  The ultrasound B-mode image reconstructed from the Android smartphone where an 850◊800 image is reconstructed and displayed. The total execution time to perform core functional blocks for 128-scanline, 512-sample data is about 520 milliseconds. 
+*  **Notes:** Nothing was electronics, all smartphone.  The ultrasound B-mode image reconstructed from the Android smartphone where an 850√ó800 image is reconstructed and displayed. The total execution time to perform core functional blocks for 128-scanline, 512-sample data is about 520 milliseconds. 
 *  **Image data**:   128x512
 
 ### Electronics
@@ -107,7 +122,7 @@ Some ideas from other projects
 * **DAC**:  
 * **Processing**:  
 * **Transfer**:   
-* **Image processing**:  GPU in Samsungís Galaxy Note II smartphone
+* **Image processing**:  GPU in Samsung‚Äôs Galaxy Note II smartphone
 
 
 ##  Smartphone-based  Portable  Ultrasound  Imaging    System: Prototype Implementation and Evaluation 
@@ -182,7 +197,7 @@ Some ideas from other projects
 * **Pulser**:  MD1213 mosfet driver (The other similar options were MD1210 and MD1211. But MD1213 was the preferred choice because Bipolar output voltage of 5V can also be achieved with this chip if desired.) + TC6320 mosfet pair
 * **Beamformer**:  
 * **Transducer**:  FURUNO 520-5PSD  (200kHz) 
-* **Protection**:  MD0100. Switch MD0101 is also a good option as it has integrated clamp diodes and therefore no need of external diodes but it is useful when there are more number of channels in the system. Similarly, if voltages greater than ß100V are used for transmission, then the switchMD0105 can be used. This switch can be used for protection against voltages up to ß130V .
+* **Protection**:  MD0100. Switch MD0101 is also a good option as it has integrated clamp diodes and therefore no need of external diodes but it is useful when there are more number of channels in the system. Similarly, if voltages greater than ¬ß100V are used for transmission, then the switchMD0105 can be used. This switch can be used for protection against voltages up to ¬ß130V .
 * **TGC**:  Amplifier AD605 is used in this project. AD605 is a low noise, differential-input, dual-channel, linear-in-dB Variable Gain Amplifier. It fulfills the desired characteristics of gain, noise, supply voltage etc. It comprises of two variable gain amplifiers which can be connected in series to get higher gain ranges, up to 96dB and it uses a common gain voltage(VGN) for both the amplifiers to control the variable gain.
 * **ADC**:  LTC2245 is a 14-bit, 10Msps ADC. It needs a single 3V Supply making it compatible with the rest of the components.
 * **DAC**:  
@@ -237,7 +252,7 @@ Some ideas from other projects
 ### Electronics
 * **HV**:  
 * **Pulser**:  
-* **Beamformer**: by µC : Scenix SX by Parallax,
+* **Beamformer**: by ¬µC : Scenix SX by Parallax,
 * **Transducer**:  PVDF, single, 35MHz
 * **Protection**:  
 * **TGC**:  
@@ -249,7 +264,7 @@ Some ideas from other projects
 
 
 
-##  ARCHITECTURE DíUN PROCESSEUR D…DI… AUX TRAITEMENTS DE SIGNAUX ULTRASONIQUES EN TEMPS R…EL 
+##  ARCHITECTURE D‚ÄôUN PROCESSEUR D√âDI√â AUX TRAITEMENTS DE SIGNAUX ULTRASONIQUES EN TEMPS R√âEL 
 
 
 
@@ -320,9 +335,9 @@ Some ideas from other projects
 
 ### Electronics
 * **HV**:  
-* **Pulser**:  MAX4940 over LM96550. Our original design employed Texas Instrumentís LM96550 ultrasound transmit pulser. After several failed attempts to achieve correct operation, however, we used Maxim ICís MAX4940 high-voltage digital pulser instead. The MAX4940ís design includes four channels, as well as positive and negative high-voltage supplies up to +220V and -220V, respectively. Since our application is a one-dimensional scan, only one channel was utilized.
+* **Pulser**:  MAX4940 over LM96550. Our original design employed Texas Instrument‚Äôs LM96550 ultrasound transmit pulser. After several failed attempts to achieve correct operation, however, we used Maxim IC‚Äôs MAX4940 high-voltage digital pulser instead. The MAX4940‚Äôs design includes four channels, as well as positive and negative high-voltage supplies up to +220V and -220V, respectively. Since our application is a one-dimensional scan, only one channel was utilized.
 * **Beamformer**:  
-* **Transducer**:  DGH 6000 Scanmate A transducer (10.0 MHz). It focuses an acoustic beam at 23.0 mm nominal and has a circular patient contact area 0.275î in diameter.
+* **Transducer**:  DGH 6000 Scanmate A transducer (10.0 MHz). It focuses an acoustic beam at 23.0 mm nominal and has a circular patient contact area 0.275‚Äù in diameter.
 * **Protection**:  TX810 or LM96530
 * **TGC**:  AFE5801, LM96511 more complicated. The AFE5801 includes an 8-channel variable-gain amplifier (VGA) and an 8-channel, 12bit, high-speed analog-to-digital converter (ADC) based on a switched capacitor design.
 * **ADC**:  
@@ -356,7 +371,7 @@ Some ideas from other projects
 * **ADC**:  
 * **DAC**:  
 * **Processing**:  Complex Programmable Logic Device (CPLD)
-* **Transfer**:  CY7C68014A - a com plete USB 2.0 in ter face, 4 KB of Static RAM (SRAM) for buffering high-speed USB data and an 8051 microprocessor with 16 KB of code/data SRAM all integrated into a single chip. This IC runs embedded 8051 code stored in the I2C Bus Serial PROM (SPROM) or that has been down loaded from the host via a process called ëReNumeration.í
+* **Transfer**:  CY7C68014A - a com plete USB 2.0 in ter face, 4 KB of Static RAM (SRAM) for buffering high-speed USB data and an 8051 microprocessor with 16 KB of code/data SRAM all integrated into a single chip. This IC runs embedded 8051 code stored in the I2C Bus Serial PROM (SPROM) or that has been down loaded from the host via a process called ‚ÄòReNumeration.‚Äô
 * **Image processing**:  
 
 
