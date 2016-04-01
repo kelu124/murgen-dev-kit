@@ -16,7 +16,7 @@ else:
 
 Tableau = []
 BaseData = []
-DECIMATION = 4 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
+DECIMATION = 1 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
 
 Tableau = []
 k=0
@@ -67,7 +67,7 @@ im.save(outfile)
 
 
 # Doing a basic ScanConversion, on 120 lines images
-if True: #comment
+if False: #comment
 	X=np.zeros(shape=(size[0],size[1]))
 	Y=np.zeros(shape=(size[0],size[1]))
 	for i in range(size[0]):
