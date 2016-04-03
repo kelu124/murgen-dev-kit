@@ -1,6 +1,0 @@
-Added Component: Designator=C56(CAPC1608X87N)
-Added Pin To Net: NetName=VDD_5V Pin=C56-1
-Added Pin To Net: NetName=GND Pin=C56-2
-Added Pin To Net: NetName=GND Pin=IC11-3
-Added Pin To Net: NetName=VDD_5V Pin=IC11-5
-Added Member To Class: ClassName=2 Member=Component C56 100nF
