@@ -16,7 +16,7 @@ else:
 
 Tableau = []
 BaseData = []
-DECIMATION = 4 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
+DECIMATION = 1 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
 
 Tableau = []
 k=0
