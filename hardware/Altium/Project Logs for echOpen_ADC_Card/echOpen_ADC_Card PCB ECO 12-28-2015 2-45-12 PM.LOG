@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetC7_2 Pin=TP2-1
+Removed Pin From Net: NetName=NetC7_2 Pin=TP2-1
+Removed Member From Class: ClassName=2 Member=TP4
+Removed Member From Class: ClassName=1 Member=TP5
+Removed Member From Class: ClassName=1 Member=TP6
+Removed Member From Class: ClassName=1 Member=TP7
+Removed Member From Class: ClassName=1 Member=TP9
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP4
+Change Component Designator: OldDesignator=TP6 NewDesignator=TP5
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP6
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP8
+Added Component: Designator=TP9(NICOMATIC_C12000B)
+Added Pin To Net: NetName=NetC21_2 Pin=TP4-1
+Added Pin To Net: NetName=NetC21_2 Pin=TP4-1
+Added Pin To Net: NetName=HVOUT Pin=TP9-1
+Added Pin To Net: NetName=HVOUT Pin=TP9-1
+Added Member To Class: ClassName=BBB_Connection Member=Component TP9 Test Point

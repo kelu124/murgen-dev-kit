@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=AGND Pin=TP9-1
+Removed Pin From Net: NetName=AGND Pin=TP9-1
+Added Component: Designator=TP10(NICOMATIC_C12000B)
+Added Pin To Net: NetName=HVOUT Pin=TP9-1
+Added Pin To Net: NetName=HVOUT Pin=TP9-1
+Added Pin To Net: NetName=AGND Pin=TP9-1
+Added Pin To Net: NetName=AGND Pin=TP9-1
+Added Member To Class: ClassName=BBB_Connection Member=Component TP10 Test Point

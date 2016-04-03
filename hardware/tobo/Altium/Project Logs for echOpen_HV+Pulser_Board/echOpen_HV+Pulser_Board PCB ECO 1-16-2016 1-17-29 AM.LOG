@@ -1,0 +1,5 @@
+Added Component: Designator=TP9(NICOMATIC_C12000B)
+Added Pin To Net: NetName=AGND Pin=TP9-1
+Added Pin To Net: NetName=AGND Pin=TP9-1
+Added Member To Class: ClassName=1 Member=Component C7 100nF
+Added Member To Class: ClassName=1 Member=Component TP9 Test Point

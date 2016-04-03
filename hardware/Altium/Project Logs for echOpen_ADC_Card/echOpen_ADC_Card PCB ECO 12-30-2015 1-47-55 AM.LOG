@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetIC1_A8 Pin=P9-41
+Removed Pin From Net: NetName=NetIC1_A7 Pin=P9-42
+Added Pin To Net: NetName=NetIC1_A7 Pin=P9-41
+Added Pin To Net: NetName=NetIC1_A8 Pin=P9-42
+Added Member To Class: ClassName=BBB_Connection Member=Component TP9 Test Point
