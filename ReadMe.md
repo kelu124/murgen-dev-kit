@@ -10,7 +10,7 @@ For a full overview of the adventure, visit our [Hackaday page](https://hackaday
 
 We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.
 
-![A nice image](Images/Session_6/Fantom1+Scan.png)
+![A nice image](worklog/Images/Session_6/Fantom1+Scan.png)
 
 ## Setting up a prototype
 
@@ -60,11 +60,11 @@ Time to get some shopping done !
 
 #### Assembling the Trinket and the Murgen boards.
 
-![IMG_2413.JPG](/Images/Session_4/IMG_2413.JPG)
+![IMG_2413.JPG](/worklog/Images/Session_4/IMG_2413.JPG)
 
 #### Mounting the piezo on the servo, controlled by the trinket
 
-![DSC_0228.JPG](/Images/Session_5/DSC_0228.JPG)
+![DSC_0228.JPG](/worklog/Images/Session_5/DSC_0228.JPG)
 
 
 ### User’s Quick-Start Guide
