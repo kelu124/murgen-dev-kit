@@ -1,0 +1,12 @@
+Added Component: Designator=P2(HDR1X2)
+Added Component: Designator=P3(HDR1X2)
+Added Component: Designator=P4(HDR1X2)
+Added Pin To Net: NetName=NetIC1_A8 Pin=P2-1
+Added Pin To Net: NetName=AGND Pin=P2-2
+Added Pin To Net: NetName=NetIC1_A7 Pin=P3-1
+Added Pin To Net: NetName=AGND Pin=P3-2
+Added Pin To Net: NetName=NetC7_2 Pin=P4-1
+Added Pin To Net: NetName=AGND Pin=P4-2
+Added Member To Class: ClassName=1 Member=Component P2 Header 2
+Added Member To Class: ClassName=1 Member=Component P3 Header 2
+Added Member To Class: ClassName=1 Member=Component P4 Header 2

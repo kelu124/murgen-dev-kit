@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VDD_3V3B Pin=C1-2
+Removed Pin From Net: NetName=VDD_3V3B Pin=IC1-A9
+Added Pin To Net: NetName=VDD_5V Pin=C1-2
+Added Pin To Net: NetName=VDD_5V Pin=IC1-A9
+Added Member To Class: ClassName=BBB_Connection Member=Component TP9 Test Point

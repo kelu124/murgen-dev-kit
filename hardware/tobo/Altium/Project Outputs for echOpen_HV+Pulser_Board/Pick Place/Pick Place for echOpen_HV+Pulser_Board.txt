@@ -1,0 +1,34 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+J9         HARWIN_M20-9990246        288mil       2714mil        288mil       2764mil        288mil       2764mil  T        270.00 Header 2       
+J8         HARWIN_M20-9990246    159.629mil   2253.776mil    159.629mil   2303.776mil    159.629mil   2303.776mil  T        270.00 Header 2       
+J7         HARWIN_M20-9990246    159.629mil       1731mil    159.629mil       1781mil    159.629mil       1781mil  T        270.00 Header 2       
+J6         HARWIN_M20-9990246        490mil     73.772mil        440mil     73.772mil        440mil     73.772mil  T        360.00 Header 2       
+TP4        NICOMATIC_C12000B        822mil        203mil        822mil        203mil        822mil     163.63mil  T        270.00 Test Point     
+TP3        NICOMATIC_C12000B        906mil       1480mil        906mil       1480mil     866.63mil       1480mil  T        180.00 Test Point     
+J4         AMPHENOL_132357-11     92.004mil       2768mil         61mil       2768mil         61mil       2768mil  T        360.00 SMA            
+J3         AMPHENOL_132357-11     92.004mil       2254mil         61mil       2254mil         61mil       2254mil  T        360.00 SMA            
+J2         AMPHENOL_132357-11     92.004mil       1731mil         61mil       1731mil         61mil       1731mil  T        360.00 SMA            
+TP1        NICOMATIC_C12000B        991mil        203mil        991mil        203mil        991mil     242.37mil  T         90.00 Test Point     
+C7         CAPC1608X87N           479mil       2768mil        479mil       2768mil    510.496mil       2768mil  T        180.00 100nF          
+C1         CAPC1608X87N           730mil   1814.496mil        730mil   1814.496mil    698.504mil   1814.496mil  T          0.00 100nF          
+C2         CAPC1608X87N          1095mil   1895.291mil       1095mil   1895.291mil       1095mil   1863.795mil  T         90.00 100nF          
+C3         CAPC1608X87N       939.795mil   2155.181mil    939.795mil   2155.181mil    971.291mil   2155.181mil  T        180.00 100nF          
+C4         CAPC5650X165N          651mil   2099.913mil        651mil   2099.913mil    548.638mil   2099.913mil  T        360.00 1uF            
+C5         CAPC1608X87N           952mil       1736mil        952mil       1736mil    983.496mil       1736mil  T        180.00 100nF          
+C53        CAPC2012X110N         1231mil       1482mil       1231mil       1482mil   1266.433mil       1482mil  T        180.00 4.7nF          
+C54        CAPC3216X180N      469.283mil        447mil    469.283mil        447mil    469.283mil    387.945mil  T         90.00 47uF           
+D1         DIOM5027X244N          866mil   2367.496mil        866mil   2367.496mil        866mil   2448.205mil  T        270.00 ES1D           
+D2         DIOM5027X244N          706mil   2367.496mil        706mil   2367.496mil        706mil   2286.787mil  T         90.00 ES1D           
+D3         SOT65P210X100-3N        646mil       2651mil        646mil       2651mil    620.409mil   2609.661mil  T         90.00 BAT64-04W      
+IC1        HV7360                 912mil   1938.496mil        912mil   1938.496mil     990.74mil   1810.543mil  T         90.00 HV7360LA-G     
+IC2        SOT89                  805mil   2717.181mil        805mil       2691mil    864.055mil   2768.362mil  T        270.00 MD0100N8-G     
+IC10       PWS_RECOM_R05-100B    702.472mil       1001mil    702.472mil       1001mil   1202.472mil        701mil  T        360.00 R05-100B       
+J1         AMPHENOL_132357-11   1312.996mil       2762mil       1344mil       2762mil       1344mil       2762mil  T        180.00 Transducer     
+L1         INDC2012X105N          617mil   2768.362mil        617mil   2768.362mil    581.567mil   2768.362mil  T        360.00 75R@100MHz     
+P1         TRIM_BOURNS_3223W        833mil    459.047mil        833mil        462mil    888.118mil    506.882mil  T        180.00 5k             
+R1         RESC3216X65N           694mil   1922.947mil        694mil   1922.947mil    751.087mil   1922.947mil  T        180.00 4k7            
+TP2        NICOMATIC_C12000B        594mil       2409mil        594mil       2409mil        594mil    2369.63mil  T         90.00 Test Point     
+C55        CAPMP3528X210N     312.283mil        453mil    312.283mil        453mil    312.283mil    510.087mil  T        270.00 10uF           
+J5         PHOENIX_1803277    489.379mil        247mil    489.378mil        247mil    414.379mil        247mil  T        360.00 PHOENIX_1803277
+

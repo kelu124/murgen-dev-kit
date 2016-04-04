@@ -1,0 +1,11 @@
+Change Component DesignItemId : Designator=IC3 Old DesignItemId=AD8331 New DesignItemId=AD8331ARQZ
+Change Component DesignItemId : Designator=IC8 Old DesignItemId=AD9220 New DesignItemId=AD9220ARS
+Change Component DesignItemId : Designator=IC1 Old DesignItemId=HV7360 New DesignItemId=HV7360LA-G
+Change Component DesignItemId : Designator=IC4 Old DesignItemId=MAX5383 New DesignItemId=MAX5383EUT+T
+Change Component DesignItemId : Designator=IC2 Old DesignItemId=MD0100 New DesignItemId=MD0100N8-G
+Change Component Footprint: Designator=IC4 Old Footprint=SOT65P210X100-6N New Footprint=SOT95P280X100-6N
+Change Component Comment : Designator=IC3 Old Comment=AD8331 New Comment=AD8331ARQZ
+Change Component Comment : Designator=IC8 Old Comment=AD9220 New Comment=AD9220ARS
+Change Component Comment : Designator=IC1 Old Comment=HV7360 New Comment=HV7360LA-G
+Change Component Comment : Designator=IC4 Old Comment=MAX5383 New Comment=MAX5383EUT+T
+Change Component Comment : Designator=IC2 Old Comment=MD0100 New Comment=MD0100N8-G
