@@ -2,7 +2,7 @@
 
 ## What is this ?
 
-Getting a home-made open-source ultrasound machine (dev-kit) up and running in your garage / hackerspace / fablab for less than 500$ (want the bolts and nuts of the murgen-based prototype ? Read a more complete [ReadMeMore.md](hardware/ReadMeMore.md) and in general the [murgen repo](https://github.com/kelu124/murgen-dev-kit/) ). 
+Getting a home-made open-source ultrasound machine (dev-kit) up and running in your garage / hackerspace / fablab for less than 500$ (want the bolts and nuts of the murgen-based prototype ? Read a more complete [ReadMeMore.md](hardware/ReadMe.md) and in general the [murgen repo](https://github.com/kelu124/murgen-dev-kit/) ). 
 
 For a full overview of the adventure, visit our [Hackaday page](https://hackaday.io/project/9281-murgen) =)
 
@@ -81,9 +81,20 @@ You're good to go !
 
 ## FAQ
 
+### What do I find here?
+
+A full official dev release, including:
+* Terms of reference for the project
+* Bibliography
+* Detailed designed
+* Source file for the electronic board
+* Source for the Arduino controlling the board
+* Source for acquisition, processing and storage of the images
+* A full laboratory log
+
 ### Typical Application
 
-Playing with a broken transducer in a haribo sweet box to see if you can hack ultrasounds.
+Playing with a broken transducer in a haribo sweet box to see if you can hack ultrasound scanners.
 
 ### Software / Firmware Summary
 

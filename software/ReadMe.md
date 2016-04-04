@@ -4,9 +4,10 @@
 
 ### Some software
 
-* CreateImage.py creates the .data file
-* CreateSC.py creates the .png files (Scan Conversion) using a nearest neighbour algorithm
-* CreateSC-4T.py creates the .png files (Scan Conversion) using the 4 nearest neighbours to determine the pixel value
+* AcquireImage.py acquires the images, stores them in pairs of log files
+* CreateImage.py creates the .data file from the log files
+* CreateSC.py creates the .png files (Scan Conversion) using a nearest neighbour algorithm, from the .data files
+* CreateSC-4T.py creates the .png files (Scan Conversion) using the 4 nearest neighbours to determine the pixel value, from the .data files
 * TrinketProCode is the code for the Arduino Trinket Pro.
 * BatchImage is a shell script to automate the creation of images properly
 
