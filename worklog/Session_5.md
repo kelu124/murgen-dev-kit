@@ -7,7 +7,9 @@
 - [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
 - [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
 - [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+- [Session 5](Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 
 ## Today
 
@@ -17,22 +19,20 @@ _ Getting an actual image through the BitScope tool. _
 ### TL;DR
 - Not too bad =)
 
-![BitScopeFullImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.log-SC.png)
-
 ### Setup
 #### Organization
 
 - Overall lab place
 
-![DSC_0226.JPG](/Images/Session_5/DSC_0226.JPG)
+![DSC_0226.JPG](Images/Session_5/DSC_0226.JPG)
 
 - Detail of the transducer pool, along with the servo, and the servo/transducer cables
 
-![DSC_0227.JPG](/Images/Session_5/DSC_0227.JPG)
+![DSC_0227.JPG](Images/Session_5/DSC_0227.JPG)
 
 - Detail of the transducer head and the rotating device. Yes, it's cracked, but it works!
 
-![DSC_0228.JPG](/Images/Session_5/DSC_0228.JPG)
+![DSC_0228.JPG](Images/Session_5/DSC_0228.JPG)
 
 
 #### Hardware
@@ -57,9 +57,6 @@ _ Getting an actual image through the BitScope tool. _
 - Creating images from the logs is at ```bitscope/bitscope_data/full_image/CreateImage.py```
 - Bulking image creations is at ```bitscope/bitscope_data/full_image/BatchImage```
 
-#### Give me an image
-
-![BitScopeFullImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.log-SC.png)
 
 ### Discussion and issues
 
@@ -79,12 +76,6 @@ _ Getting an actual image through the BitScope tool. _
 - How to work only on 1 channel, so that we can get 20Msps with the BitScope instead of the 5Msps ?
 - Use a better ScanConversion
 - Having TP5/6 work =)
-
-## Images
-#### Getting an image (Decimation of 2, cutting the lower half)
-![RawImage](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.med.png)
-#### ScanConverting it
-![ScanConverting](/bitscope/full_image/20160320-020140-Signal-bitscope-DATA.med-SC.png)
 
 
 
