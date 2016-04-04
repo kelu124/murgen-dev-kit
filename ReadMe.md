@@ -81,7 +81,7 @@ You're good to go !
 - [Session 5](worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
 - [Session 6](worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
-- [A more complete hardware ReadMe](harware/Readme.md) : Information, and more, with a focus on the electronic part of the project
+- [A more complete hardware ReadMe](hardware/Readme.md) : Information, and more, with a focus on the electronic part of the project
 - [A more complete software ReadMe](software/Readme.md) : Information, and more, with a focus on the code part of the project (arduino, python, and such)
 
 ## FAQ
