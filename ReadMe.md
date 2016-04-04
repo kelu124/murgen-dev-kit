@@ -53,14 +53,9 @@ Time to get some shopping done !
 * Connect the trinket pins 12 and 13 to a 5-to-3V convertor (or double invertor), then to the board USPP and USPN pins.
 * Bring power to the board (GND, 5V, 3.3V) - the board uses ~150mA at 5V, so you can use a breadboard alim (see IMG_2413 below).
 
-#### Assembling the Trinket and the Murgen boards.
+#### Hardware setup presentation
 
-![IMG_2413.JPG](/worklog/Images/Session_4/IMG_2413.JPG)
-
-#### Mounting the piezo on the servo, controlled by the trinket
-
-![DSC_0228.JPG](/worklog/Images/Session_5/DSC_0228.JPG)
-
+![PhysicalSpace](worklog/Images/Session_7/PhysicalSpace.png)
 
 ### Software User’s Quick-Start Guide
 
