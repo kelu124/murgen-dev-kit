@@ -34,15 +34,15 @@ Time to get some shopping done !
 
 ### Find your way in the folders
 
-     murgen-dev-kit/			        main repo
-	 |-- hardware				hardware information on electronics and mecanics
-	 |-- software				code to acquire, process and store ultrasound data
-         `-- worklogs				logs froms the lab: our path to a working ultrasound device
+ 	murgen-dev-kit/				main repo
+ 	|-- hardware				hardware information on electronics and mecanics
+ 	|-- software				code to acquire, process and store ultrasound data
+ 	`-- worklogs				logs froms the lab: our path to a working ultrasound device
 
 
 * You will find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
-* Schematics are in the ***harware\Altium\Schematics\PDF*** folder
-* Gerbers in in the ***harware\Gerbers*** folder of course
+* Schematics are in the ***hardware\Altium\Schematics\PDF*** folder
+* Gerbers in in the ***hardware\Gerbers*** folder of course
 * Code for the acquisition using bitscope (at first ;) ) is in ***software/***.
 
 
