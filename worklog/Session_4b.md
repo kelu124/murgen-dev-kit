@@ -38,7 +38,7 @@ _ Getting images through the BitScope tool. _
 #### Discussion
 - Getting our first pulses with the BitScope DSO:
 
-![BitScope_15](/Images/Session_4b/BitScope15.png)
+![BitScope_15](Images/Session_4b/BitScope15.png)
 
 - Getting the first logs using BitScope Python API
 
@@ -46,7 +46,7 @@ _ Getting images through the BitScope tool. _
 - BitScope only trigs on "wide" pulses, so we had to add a 10us pulse from the Arduino so to trig on this signal, not on errors from the Arduino pulser. We got Pin11 do this, still playing with PORTB.
 - On the following image, we see on the first line that the first pulse is quite wide because the double echo we see at 60us is characteristic of a wide pulse.
 
-![BitScope_16](/Images/Session_4b/BitScope016.png)
+![BitScope_16](Images/Session_4b/BitScope016.png)
 
 #### Next steps
 - Trigging from Ch A to get Ch B.
@@ -58,11 +58,11 @@ _ Getting images through the BitScope tool. _
 
 ## Images
 #### Getting a pulse
-![BitScope_15](/Images/Session_4b/BitScope015.png)
+![BitScope_15](Images/Session_4b/BitScope015.png)
 #### Issues with trigging from a short pulse: it only triggs on "wide" pulses
-![BitScope_16](/Images/Session_4b/BitScope016.png)
+![BitScope_16](Images/Session_4b/BitScope016.png)
 #### Solving the issue of the trigger
-![BitScope_20](/Images/Session_4b/BitScope20.png)
+![BitScope_20](Images/Session_4b/BitScope20.png)
 
 
 
