@@ -19,32 +19,31 @@ That’s cool! And if you want to learn more (apart from this Readme), you can s
 
 The working place
 
-![The assembled dev kit](/Images/Session_5/DSC_0226.JPG)
+![The assembled dev kit](/worklog/Images/Session_5/DSC_0226.JPG)
 
 #### Images
 
 A first picture of our baby !
 
-![An ultrasound image](/Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
+![An ultrasound image](/worklog/Images/Session_5/20160320-020140-Signal-bitscope-DATA.phat-SC.png)
 
 ### Disclaimers
 **Disclaimer**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
 
 **Disclaimer #2**: ultrasound raises questions. In case you build a scanner, use caution and good sense!
 ### Teaser
-![DSC_0154](/Images/Session_1/DSC_0154.JPG)
+![DSC_0154](/worklog/Images/Session_1/DSC_0154.JPG)
 
 # Folders
 
-     murgen-dev-kit/			         		main repo
-	 |-- Altium						the altium files for Murgen -- source files, opening with Altium Designer
-	 |-- BOM						that's ... well.. for the BOM
-	 |-- Gerbers						to build the cape
-	 |-- bitscope						to play with bitscope acquisition
-	 |-- 3D							for the 3D files of the board	
-	 |-- tobo					 	simplified pulser
-	 |-- goblin						an alternative, in Eagle
-         `-- Images						for documentation
+ hardware/			main repo
+ |-- Altium			the altium files for Murgen -- source files, opening with Altium Designer
+ |-- BOM			that's ... well.. for the BOM
+ |-- Gerbers			to build the cape
+ |-- 3D				for the 3D files of the board	
+ |-- tobo			simplified pulser
+ `-- goblin			an alternative, in Eagle
+
 
 You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
 	 
@@ -95,12 +94,12 @@ The [notes are here](murgen-1.0-short-issue.md) (the murgen-1.0-short-issue.md f
 
 The notes are here, stemming from the work sessions with the board:
 
-- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
-- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
-- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
-- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
-- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+- [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
 
 ## Preliminary questions
 ### Why are we making this?
@@ -435,7 +434,6 @@ You're good to go !
 
 # Others
 ## Discussions 
-* Pending work - or refer to the [Discussions.md](Discussions.md) file.
 * Check out [the wiki notes](http://echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
 
 ## Goodies 
