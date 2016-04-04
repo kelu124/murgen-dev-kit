@@ -73,7 +73,6 @@ Just Install the following:
 You're good to go !
 
 ### Learn more : the lab log
-- [A more complete ReadMe](harware/ReadMe.more) : Information, and more, with a focus on the electronic part of the project
 - [Session 1](worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
 - [Session 2](worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
 - [Session 3](worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
@@ -82,6 +81,8 @@ You're good to go !
 - [Session 5](worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
 - [Session 6](worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [A more complete hardware ReadMe](harware/Readme.md) : Information, and more, with a focus on the electronic part of the project
+- [A more complete software ReadMe](software/Readme.md) : Information, and more, with a focus on the code part of the project (arduino, python, and such)
 
 ## FAQ
 
