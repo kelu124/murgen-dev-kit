@@ -1,8 +1,9 @@
 #!/bin/bash
 FILES=./*
 
-for f in *Signal*log
+for f in *.data
 do
-	python CreateImage.py $f
+	python CreateSC.py $f
+	python CreateSC-4T.py $f
 done
 

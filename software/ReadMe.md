@@ -5,27 +5,33 @@
 ### Some software
 
 * CreateImage.py creates the .data file
-* CreateSC.py creates the .png files (Scan Conversion)
-* TrinketProCode
+* CreateSC.py creates the .png files (Scan Conversion) using a nearest neighbour algorithm
+* CreateSC-4T.py creates the .png files (Scan Conversion) using the 4 nearest neighbours to determine the pixel value
+* TrinketProCode is the code for the Arduino Trinket Pro.
+* BatchImage is a shell script to automate the creation of images properly
+
+### Some files
+* The examples.tar.bz2 contains quite a lot of raw images, to be processed by CreateImage.py . There should be around 200Mo of raw images packed in this 4Mo archive.
 
 # Installing BitScope
 
 ## Setting up bitscope tools for Ubuntu, using BS05 (Bitscope Micro)	
 
-1. Installation : install all deb/*.deb files (dpkg -i install_files/*.deb), starting with bitscope-link.
+1. Installation : install all deb/ .deb files (dpkg -i install_files/*.deb), starting with bitscope-link.
 2. Follow the https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=122636 instructions
 
+```
  $ sudo unzip python-bindings-2.0-DC01L.zip -d /usr/share/doc/bitscope-library/examples/python/
  $ cd /usr/share/doc/bitscope-library/examples/python/
  $ cd /usr/share/doc/bitscope-library/examples/python/python-bindings-2.0-DC01L/
  $ sudo python setup-bitlib.py install
-
+```
 Compilation fails? To do that we discover that we should do this:
-
+```
  $ sudo BASECFLAGS="" OPT="" CFLAGS="-O3" python setup-bitlib.py install
-
+```
 This should work and you should see:
-
+```
  $ python test-bitlib.py 
  Starting: Attempting to open one device...
   Library: 2.0 FE26B (Python DC01L)
@@ -38,5 +44,5 @@ This should work and you should see:
       POD:  9.20V  5.20V  3.50V  1.10V
   Data(5): 1.725000, 1.725000, 1.760937, 1.760937, 1.725000
  Finished: Library closed, resources released.
-
+```
 

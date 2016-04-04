@@ -50,13 +50,13 @@ im = Image.new('RGB',size)
 pix = im.load()
 
 
-	
+ATTENUATION_COEF = 0.6
 # Creation d'une image non scan-converted
 for i in range(size[0]): # les lignes
     for j in range(size[1]):
 	value = 0
 	for k in range(DECIMATION):
-		value = value + SortedTable[i][j*DECIMATION+k]*(1.9*(j*DECIMATION+k)**(0.6)/(Depth**(0.6)))
+		value = value + SortedTable[i][j*DECIMATION+k]*(1.9*(j*DECIMATION+k)**(ATTENUATION_COEF)/(Depth**(ATTENUATION_COEF)))
 	value = int(value/DECIMATION)
 	ImagePoints[i][j] = (int)(value/64)
         pix[i,j] = (ImagePoints[i][j],ImagePoints[i][j],ImagePoints[i][j]) 
@@ -83,20 +83,26 @@ if True: #comment
 	im = Image.new('RGB',(size[1],size[1]))
 	pix = im.load()
 	print sizeSC
-
+	NeighboursNumber = 4
 	for i in range(MaxDepth):
 	    if (i>=0 & i<(size[1])):
 		    for j in range((size[1]/2-i/2),(size[1]/2+i/2)):
 			D = (X-i)**2 + (Y-j)**2
-			resul = np.unravel_index(D.argmin(), D.shape)
-			# here is a basic NN, not even a 2-tap
-			ScanConverted[i][j] = ImagePoints[resul[0]][resul[1]]
+			value = 0
+			TotalWeight = 0.00000000000000001
+			for k in range(NeighboursNumber):
+				resul = np.unravel_index(D.argmin(), D.shape)
+				# here is a basic NN, not even a 2-tap
+				ScanConverted[i][j] = 1.5*ImagePoints[resul[0]][resul[1]]
+				PointWeight = sqrt(D[resul[0]][resul[1]])+0.00000000000000001				
+				value = value+ScanConverted[i][j]*1.0/(PointWeight)
+				TotalWeight=TotalWeight+1.0/(PointWeight)
+				D[resul[0]][resul[1]]=D.max()
 
-			value = int(ScanConverted[i][j])
+			value = (int)(value/TotalWeight)
 			pix[j,i] = (value,value,value)
 	    print i 
-	outfile = startingpoint +"-DEC"+str(DECIMATION)+"-SC.png"
+	outfile = startingpoint +"-DEC"+str(DECIMATION)+"-SC-4T.png"
 	im.save(outfile)
-
 
 

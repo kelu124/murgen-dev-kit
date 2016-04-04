@@ -1,0 +1,8 @@
+#!/bin/bash
+FILES=./*
+
+for f in `find . -name "*.JPG"`
+do
+	convert $f.JPG -size 1024x768 $f.resized.JPG
+done
+
