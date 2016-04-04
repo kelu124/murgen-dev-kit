@@ -25,11 +25,11 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 
 #### Overall setup
 
-![IMG_2411](/Images/Session_4/IMG_2411.JPG)
+![IMG_2411](Images/Session_4/IMG_2411.JPG)
 
 #### Transducer for a reflection
 
-![IMG_2410](/Images/Session_4/IMG_2410.JPG)
+![IMG_2410](Images/Session_4/IMG_2410.JPG)
 
 ### Discussion and issues
 
@@ -42,7 +42,7 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 - Some noise appears with the trinket
 - We still need to clarify what happens at TP5/6 (see below). A signal at 34MHz is going out... but what is it? Should be filtered at 3.5MHz :p Is that an error from the filter RC parameters?
 
-![TEK_12](/Images/Session_4/TEK0012.JPG)
+![TEK_12](Images/Session_4/TEK0012.JPG)
 
 - Need to have a 3.3V trinket to manage the pulser control without having to buffer the controls.
 
@@ -50,11 +50,11 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 
 --Before:
 
-![TEK_00](/Images/Session_4/TEK0000.JPG)
+![TEK_00](Images/Session_4/TEK0000.JPG)
 
 --After:
 
-![TEK_01](/Images/Session_4/TEK0001.JPG)
+![TEK_01](Images/Session_4/TEK0001.JPG)
 
 #### Next steps
 * Using BitScope to get the image
@@ -64,21 +64,21 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 ## Images
 ### Moving along the chain of capture
 #### Outputs of the trinket - 5V
-![TEK_00](/Images/Session_4/TEK0000.JPG)
+![TEK_00](Images/Session_4/TEK0000.JPG)
 #### Pulsing, without transducer
-![TEK_02](/Images/Session_4/TEK0002.JPG)
+![TEK_02](Images/Session_4/TEK0002.JPG)
 #### Pulsing, with transducer
-![TEK_03](/Images/Session_4/TEK0003.JPG)
+![TEK_03](Images/Session_4/TEK0003.JPG)
 #### Echoes, at TP1, with a 30us interval between shooting
-![TEK_04](/Images/Session_4/TEK0004.JPG)
+![TEK_04](Images/Session_4/TEK0004.JPG)
 #### Three reflections of echoes, at TP1, with a 300us interval between shooting
-![TEK_13](/Images/Session_4/TEK0013.JPG)
+![TEK_13](Images/Session_4/TEK0013.JPG)
 #### Echoes, at TP1, with a 300us interval between shooting
-![TEK_09](/Images/Session_4/TEK0009.JPG)
+![TEK_09](Images/Session_4/TEK0009.JPG)
 #### Echoes, at TP2/3, with a 300us interval between shooting
-![TEK_10](/Images/Session_4/TEK0010.JPG)
+![TEK_10](Images/Session_4/TEK0010.JPG)
 #### !Echoes, at TP5/6, with a 300us interval between shooting
-![TEK_12](/Images/Session_4/TEK0012.JPG)
+![TEK_12](Images/Session_4/TEK0012.JPG)
 
 ## TrinketPro code
 
