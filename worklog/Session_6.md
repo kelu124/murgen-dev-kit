@@ -2,14 +2,14 @@
 
 ## Previous sessions
 
-- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
-- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
-- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
-- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
-- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image (20 March 2016)
-- [Session 6](Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
-- [Session 7](Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 
 ## Today
 
@@ -23,18 +23,18 @@
 
 #### Fantom 1
 
-![Fantom1+Scan](Images/Session_6/Fantom1+Scan.png)
+![Fantom1+Scan](/worklog/Images/Session_6/Fantom1+Scan.png)
 
 #### Fantom 2
 
-![Fantom2+Scan](Images/Session_6/Fantom2+Scan.png)
+![Fantom2+Scan](/worklog/Images/Session_6/Fantom2+Scan.png)
 
 
 #### Bitscope signal
 
 In red is the noise that the BitScope "randomly" adds to the signal (the same as the noise pattern seen in the comparison above) 
 
-![BitScopeFullImage](Images/Session_6/BitScopeSignalNoise.png)
+![BitScopeFullImage](/worklog/Images/Session_6/BitScopeSignalNoise.png)
 
 ### Setup
 #### Organization
@@ -44,11 +44,11 @@ In red is the noise that the BitScope "randomly" adds to the signal (the same as
 - Had to unplug TP4/5 and plug it into the transfo
 - Layout out the fantoms:
 
-![BitScopeFullImage](Images/Session_6/IMG_2416.JPG)
+![BitScopeFullImage](/worklog/Images/Session_6/IMG_2416.JPG)
 
 
 #### Remarks 
-- Same setup as [Session 4](Session_4.md), and same remarks apply.
+- Same setup as [Session 4](/worklog/Session_4.md), and same remarks apply.
 - Not using the SPI, only Analog Gain, which we max. We can reduce the gain artificially in the software.
 
 #### Give me files
@@ -62,7 +62,7 @@ In red is the noise that the BitScope "randomly" adds to the signal (the same as
 
 #### Give me an image
 
-![Full Image ExpA](Images/Session_6/ExpE.data-DEC1-SC-curves.png)
+![Full Image ExpA](/worklog/Images/Session_6/ExpE.data-DEC1-SC-curves.png)
 
 ### Discussion and issues
 
@@ -76,32 +76,32 @@ In red is the noise that the BitScope "randomly" adds to the signal (the same as
 - Bad noise was coming from the computer 
 - Some residual noise coming from the bitscope (the small signal between 100us and 250us):
 
-![Bitscope noise](Images/Session_6/BitScopeSignalNoise.png)
+![Bitscope noise](/worklog/Images/Session_6/BitScopeSignalNoise.png)
 
 #### Next steps
 - Plugging into the BBB
 
 ## Images
 #### Getting an image from TP1
-![RawImage](Images/Session_6/TEK0001.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0001.JPG)
 
 #### Getting an image from TP2
-![RawImage](Images/Session_6/TEK0002.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0002.JPG)
 
 #### Getting an image from TP8 - enveloppe (20mV/div). TP4: 80mV / 22mA
-![RawImage](Images/Session_6/TEK0004.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0004.JPG)
 
 #### Getting an image from TP8 - enveloppe (100mV/div). TP4: 480mV / 41mA
-![RawImage](Images/Session_6/TEK0007.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0007.JPG)
 
 #### Getting an image from TP8 - Front and back of the fantom (100mV/div). TP4: Off
-![RawImage](Images/Session_6/TEK0009.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0009.JPG)
 
 #### Getting an image from TP8 - Front and back of the fantom (100mV/div). TP4: 480mV / 41mA
-![RawImage](Images/Session_6/TEK0010.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0010.JPG)
 
 #### Getting an image from TP8 - A-Scan of the fantom, plus wall of the basin (200mV/div). TP4: 480mV / 41mA
-![RawImage](Images/Session_6/TEK0015.JPG)
+![RawImage](/worklog/Images/Session_6/TEK0015.JPG)
 
 ## TrinketPro code
 

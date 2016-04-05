@@ -2,14 +2,14 @@
 
 ## Other sessions
 
-- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
-- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
-- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
-- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
-- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image (20 March 2016)
-- [Session 6](Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
-- [Session 7](Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 
 ## Today 
 
@@ -29,7 +29,7 @@ In the previous Session, we realized that the 5V and 3.3V were lower than expect
 
 ### Pulser: the HV7360
 
-Same setup as [Session 1](Session_1.md).
+Same setup as [Session 1](/worklog/Session_1.md).
 
 Only difference is the introduction of the CD74HC4049E inverter, with a 5V, 6ns delay, to get the pulse. US_P_P is completed with US_P_N which is the inverse of USPP.
 
@@ -51,22 +51,22 @@ With the jumper on on J1 (TGC), on the high amplification, we do see the signals
 ## Images
 
 #### Echoes after MD0100 vs the pulse
-![TEK_04](Images/Session_2/TEK0004.JPG)
+![TEK_04](/worklog/Images/Session_2/TEK0004.JPG)
 
 #### Comparison of echoes before and after the MD0100
-![TEK_05](Images/Session_2/TEK0005.JPG)
+![TEK_05](/worklog/Images/Session_2/TEK0005.JPG)
 
 
 ### Inverter
-![TEK_01](Images/Session_2/TEK0001.JPG)
+![TEK_01](/worklog/Images/Session_2/TEK0001.JPG)
 
 ### Pulse control
 #### Pulse with too thin a command pulse
-![TEK_00](Images/Session_2/TEK0000.JPG)
+![TEK_00](/worklog/Images/Session_2/TEK0000.JPG)
 
 #### Pulse with a good.. but long command pulse
-![TEK_02](Images/Session_2/TEK0002.JPG)
+![TEK_02](/worklog/Images/Session_2/TEK0002.JPG)
 
 #### Pulse with a borderline pulse.. the cap
-![TEK_03](Images/Session_2/TEK0003.JPG)
+![TEK_03](/worklog/Images/Session_2/TEK0003.JPG)
 

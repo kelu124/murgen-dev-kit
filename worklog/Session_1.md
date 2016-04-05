@@ -1,14 +1,14 @@
 # Session 1 - 06 March 2016
 ## Other sessions
 
-- [Session 1](Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
-- [Session 2](Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
-- [Session 3](Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
-- [Session 4](Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
-- [Session 4b](Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](Session_5.md) : moving the transducer to get the first image (20 March 2016)
-- [Session 6](Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
-- [Session 7](Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 
 ## ^^
 _ Happy to get the board and play with it._
@@ -18,11 +18,11 @@ _ Happy to get the board and play with it._
 * Some echoes appear 
 # Some pics with the BeagleBone black
 
-![DSC_0152](Images/Session_1/DSC_0152.JPG)
+![DSC_0152](/Images/Session_1/DSC_0152.JPG)
 
-![DSC_0153](Images/Session_1/DSC_0153.JPG)
+![DSC_0153](/Images/Session_1/DSC_0153.JPG)
 
-![DSC_0154](Images/Session_1/DSC_0154.JPG)
+![DSC_0154](/Images/Session_1/DSC_0154.JPG)
 
 # Technical points
 ## Power uses
@@ -58,27 +58,27 @@ Observations
 
 ### USPN on ground. Blue is the trigger, Yellow is the pulse. 3.1V. 50/60V easily, but does not decrease with time.
 #### Without piezo
-![TEK_00](Images/Session_1/TEK0000.JPG)
+![TEK_00](/worklog/Images/Session_1/TEK0000.JPG)
 
-![TEK_01](Images/Session_1/TEK0001.JPG)
+![TEK_01](/worklog/Images/Session_1/TEK0001.JPG)
 
 #### With a piezo
-![TEK_11](Images/Session_1/TEK0011.JPG)
+![TEK_11](/worklog/Images/Session_1/TEK0011.JPG)
 
 #### Some echoes
-![TEK_06](Images/Session_1/TEK0006.JPG)
+![TEK_06](/worklog/Images/Session_1/TEK0006.JPG)
 #### Averaged
-![TEK_05](Images/Session_1/TEK0005.JPG)
+![TEK_05](/worklog/Images/Session_1/TEK0005.JPG)
 #### Detailed
-![TEK_04](Images/Session_1/TEK0004.JPG)
+![TEK_04](/worklog/Images/Session_1/TEK0004.JPG)
 ### Decreasing pulse to 2V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_02](Images/Session_1/TEK0002.JPG)
+![TEK_02](/worklog/Images/Session_1/TEK0002.JPG)
 #### With the piezo
-![TEK_03](Images/Session_1/TEK0003.JPG)
+![TEK_03](/worklog/Images/Session_1/TEK0003.JPG)
 
 ### Pulse to 3.1V, and connecting USPP and USPN to the pulse.
 #### Without the piezo
-![TEK_10](Images/Session_1/TEK0010.JPG)
+![TEK_10](/worklog/Images/Session_1/TEK0010.JPG)
 #### With the piezo
-![TEK_09](Images/Session_1/TEK0009.JPG)
+![TEK_09](/worklog/Images/Session_1/TEK0009.JPG)
