@@ -52,19 +52,26 @@ _ Getting images through the BitScope tool. _
 ![BitScope_16](/worklog/Images/Session_4b/BitScope016.png)
 
 #### Next steps
-- Trigging from Ch A to get Ch B.
-- Getting more info in the files:
---Time of pulse
---Sampling frequency
---Number of pulse
---...
+
+* Trigging from Ch A to get Ch B.
+* Getting more info in the files:
+** Time of pulse
+** Sampling frequency
+** Number of pulse
+** ...
 
 ## Images
+
 #### Getting a pulse
+
 ![BitScope_15](/worklog/Images/Session_4b/BitScope015.png)
+
 #### Issues with trigging from a short pulse: it only triggs on "wide" pulses
+
 ![BitScope_16](/worklog/Images/Session_4b/BitScope016.png)
+
 #### Solving the issue of the trigger
+
 ![BitScope_20](/worklog/Images/Session_4b/BitScope20.png)
 
 

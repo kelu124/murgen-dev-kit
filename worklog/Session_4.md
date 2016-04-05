@@ -22,7 +22,7 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 ## Technical points
 ### Setup
 #### Remarks 
-- Same setup as [Session 1](/worklog/Session_1.md) and [Session 2](S/worklog/ession_2.md).
+- Same setup as [Session 1](/worklog/Session_1.md) and [Session 2](/worklog/Session_2.md).
 - Added a TrinketPro to manage USPP and USPN, trying to solve [Session 3](/worklog/Session_3.md) issues.
 - We don't need external alim apart from the 5V/3.3V thingie, and no signal generation. We're making progress!
 
@@ -60,28 +60,47 @@ _ Pulsing shorter with an arduino and getting nicer pulses. _
 ![TEK_01](/worklog/Images/Session_4/TEK0001.JPG)
 
 #### Next steps
+
 * Using BitScope to get the image
 * Throwing in some movements
 * Find out the TP5/6 issue
 
 ## Images
+
 ### Moving along the chain of capture
+
 #### Outputs of the trinket - 5V
+
 ![TEK_00](/worklog/Images/Session_4/TEK0000.JPG)
+
 #### Pulsing, without transducer
+
 ![TEK_02](/worklog/Images/Session_4/TEK0002.JPG)
+
 #### Pulsing, with transducer
+
 ![TEK_03](/worklog/Images/Session_4/TEK0003.JPG)
+
 #### Echoes, at TP1, with a 30us interval between shooting
+
 ![TEK_04](/worklog/Images/Session_4/TEK0004.JPG)
+
 #### Three reflections of echoes, at TP1, with a 300us interval between shooting
+
 ![TEK_13](/worklog/Images/Session_4/TEK0013.JPG)
+
 #### Echoes, at TP1, with a 300us interval between shooting
+
 ![TEK_09](/worklog/Images/Session_4/TEK0009.JPG)
+
 #### Echoes, at TP2/3, with a 300us interval between shooting
+
 ![TEK_10](/worklog/Images/Session_4/TEK0010.JPG)
+
 #### !Echoes, at TP5/6, with a 300us interval between shooting
+
 ![TEK_12](/worklog/Images/Session_4/TEK0012.JPG)
+
 
 ## TrinketPro code
 
