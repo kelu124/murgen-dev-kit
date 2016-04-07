@@ -10,7 +10,7 @@ For a full overview of the adventure, visit our [Hackaday page](https://hackaday
 
 We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.
 
-![A nice image](/worklog/Images/Session_7/Fantom1+Scan-Noise.png)
+![A nice image](/worklog/Images/Session_7/MurgenComparative.png)
 
 ## Setting up a prototype
 
