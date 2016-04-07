@@ -109,6 +109,12 @@ However, there's a series of tools to play with the board, one of which being th
 ### What is the timeline?
 The murgen investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again. The objective was to get a first functional prototype by February 2015, but this deadline was then fixed to March 24th, 2016, on which date murgen will be presented.
 
+### Read more about echopen.
+
+Some recent articles :
+* From the Pierre Fabre foundation [press release](https://www.fondationpierrefabre.org/fr/suivre-notre-action/echopen-lancement-du-premier-prototype-dechostethoscope-open-source-low-cost) in (french).
+* From Makery : [Echopen introduces an open source ultrasound probe](http://www.makery.info/en/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/)
+
 # Team
 
 ## Acknowledgement
