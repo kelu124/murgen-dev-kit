@@ -1,0 +1,60 @@
+# Data format 
+
+For ease of reference, we're going to use the following data format.
+
+## Format
+
+### Specs
+
+1. Files shall contain X lines of Y points
+2. All lines starting with a # shall be ignored
+3. The last line would have the 7 following fields
+* timestamp
+* X
+* Y
+* sampling frequency
+* angle
+* commentaire
+
+# Table of data ? 
+|Image|TimeStamp|NbLines|NbPointsPerLine|Sampling Frequency|Angles|Comments|
+|:--:|----|:--:|:--:|:--:|:--:|----| 
+|./b3788a9949e544a53393489de9bfc061.data.png|20160401-202119|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202119|
+|./285f27e15812f64e1d1e02edf6ae5368.data.png|20160328-142043|120|966|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142043|
+|./78e48c0981f1f3eed7619dcb8d0d6955.data.png|20160328-141354|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141354|
+|./4424d81c3a341bcc54538835cddb6353.data.png|20160328-142216|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142216|
+|./0c203b163de6a7037210fe2447a510a6.data.png|20160328-142100|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142100|
+|./a1ec7db13e74c86be668ccb112a4998c.data.png|20160401-202746|120|1008|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202746|
+|./b5e92fb4b1ef2c1cf557ea77172865e8.data.png|20160328-141800|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141800|
+|./2c10128b362d2e1652c1b97111ba0ae2.data.png|20160328-141312|120|998|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141312|
+|./f7f8d6b5f2bf95fbb72482281a5afcc2.data.png|20160401-201835|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-201835|
+|./300521e07bca37ac55690e6f82c60ed1.data.png|20160328-141521|120|998|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141521|
+|./6ae810e4ad8ca8f9849fb4245c097360.data.png|20160401-202233|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202233|
+|./fa16a92d1da9f11599d617090e083595.data.png|20160401-201601|120|987|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-201601|
+|./1b7e79bd326acb6263b2cb00d10a9d45.data.png|20160401-202350|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202350|
+|./55e8006a436c986b1cd520bf325ac9b3.data.png|20160328-141136|120|997|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141136|
+|./f828559c0fc58eecc41f034288809cb5.data.png|20160328-142322|120|998|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142322|
+|./00d3879d8eeb5ce767b74270ab395a1d.data.png|20160401-202638|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202638|
+|./818c8fc3b644d73ebe8cf2d73d9915ad.data.png|20160401-201923|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-201923|
+|./d0ee5feafdcce61aea2eefb5899dc836.data.png|20160328-141815|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141815|
+|./48b01213a2d08a7373ee71e6e346f4bb.data.png|20160401-203237|120|980|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-203237|
+|./97872721b1fbcbee770af40294533b09.data.png|20160328-142200|120|987|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142200|
+|./6bf6a885c780b24e97bc7d503ebed851.data.png|20160401-201655|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-201655|
+|./67d0f78d0f415beb8c30430bf5cdbbb2.data.png|20160328-141152|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141152|
+|./6ac570b654d8c67c74503a07e43dc08c.data.png|20160328-142338|120|976|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142338|
+|./aa026a374589d2c46a0b08cd74ae9346.data.png|20160401-203127|120|990|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-203127|
+|./cffb73dae00f671d8e842b2b7379d9dc.data.png|20160328-142026|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142026|
+|./f33d9f563de046a2cb7deac257c6945b.data.png|20160401-201413|120|1001|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-201413|
+|./21418359c3a9d3c560b510fc85726e2c.data.png|20160401-202033|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202033|
+|./8fc284c0d6589c8586e06d8fb831974f.data.png|20160328-141539|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141539|
+|./68a5d84d13265e082111fc03ae58152d.data.png|20160328-142230|120|990|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142230|
+|./5c4829e938356ad0c3632bc03fbf7ca9.data.png|20160401-202809|120|970|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202809|
+|./525e6b26b8c22aa72bbb0eec941f04c0.data.png|20160328-141840|120|997|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141840|
+|./1b8f006047fb7aa9ed23e81f838019e0.data.png|20160328-141334|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141334|
+|./b7fb5a48dd83a99eb5e3814e3e75d33c.data.png|20160401-202429|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202429|
+|./de322bb465e9bc7f6ef5258637cb59f6.data.png|20160328-141651|120|998|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141651|
+|./82fb1d46413934e8a911a525874b861e.data.png|20160328-141207|120|988|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141207|
+|./f0b38169945569899ca90197dc5a1462.data.png|20160328-141554|120|986|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141554|
+|./f92eae86b7d09adc11bfe375ae9748ff.data.png|20160328-142144|120|998|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142144|
+|./40045ce89c337fc848652eb99264e1d7.data.png|20160328-141223|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141223|
+|./4f1205a442693c6936909e18c75d6936.data.png|20160328-141119|120|994|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-141119|
