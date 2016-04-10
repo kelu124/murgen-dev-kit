@@ -2,6 +2,11 @@
 
 ## Contents of the folder 
 
+### Some files
+
+* All example files are compressed and thumbs created in [the example folder](/software/examples/Readme.md)
+* For the convention in files format, [the data files specs are in](/software/examples/Specs.md)
+
 ### Some software
 
 * AcquireImage.py acquires the images, stores them in pairs of log files

@@ -20,12 +20,14 @@ DECIMATION = 1 	# Should we do a basic summation on the pixels, hence reducing t
 
 Tableau = []
 k=0
+
 with open(startingpoint, 'r') as echOpenLog:
 	for line in echOpenLog:
-	    line = line.split('\t')
-	    del line[-1]		
-	    Tableau.append(line)
-
+	    if(line.startswith("#")):
+		# That's a comment
+	    else:
+		line = line.split(';')	
+		Tableau.append(line)
 
 SortedTable = Tableau
 PointsPerLine = len(SortedTable[0])
@@ -54,6 +56,7 @@ ATTENUATION_COEF = 0.6
 # Creation d'une image non scan-converted
 for i in range(size[0]): # les lignes
     for j in range(size[1]):
+	pix[i,j]=128
 	value = 0
 	for k in range(DECIMATION):
 		value = value + SortedTable[i][j*DECIMATION+k]*(1.9*(j*DECIMATION+k)**(ATTENUATION_COEF)/(Depth**(ATTENUATION_COEF)))

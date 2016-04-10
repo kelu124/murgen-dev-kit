@@ -126,7 +126,7 @@ SortedTable = np.array(SortedTable).astype(float)
 
 # On normalise les donnees
 MaxSignal = MaxSignal/1.56 # To get interesting signals from there
-SortedTable = (SortedTable*16383/MaxSignal)
+SortedTable = (SortedTable*16383.0/MaxSignal)
 SortedTable = np.array(SortedTable).astype(int)
 
 #On trie les donnees 
@@ -153,56 +153,38 @@ for i in range(NbOfLines-2):
 Depth = PointsPerLine-MAAX
 size = (NbOfLines,(int)(Depth/((1.5*DECIMATION)))) # aller jusqu'au bocal
 ImagePoints=np.zeros(shape=(NbOfLines,Depth/DECIMATION))
+
+
 # Creation d'une image non scan-converted
 im = Image.new('RGB',size)
 pix = im.load()
+
 # Creation d'un fichier donnees
 st = BaseTime[0]+"-"+BaseTime[1]+".data"
 targetFile = open(st, 'w')
+
+targetFile.write("# Data file created: from the murgen project \n")
+targetFile.write("# Original log files: "+BaseTime[0]+"-"+BaseTime[1]+"\n")
+targetFile.write("# See the tools at: https://github.com/kelu124/murgen-dev-kit/tree/master/software"+"\n")
+targetFile.write("# \n")
 #Boucles
 for i in range(size[0]): # les lignes
     for j in range(size[1]):
+	pix[i,j] = 128
 	#value = 0
 	for k in range(DECIMATION):
 		value = SortedTable[i][j*DECIMATION+k]
-	value = int(value)
 	tmp = (int)(value/64)
-        pix[i,j] = (tmp,tmp,tmp) 
-	targetFile.write(str(value)+"\t")
+        pix[i,j] = (tmp,tmp,tmp)
+	if(j==(size[1]-1)):
+		targetFile.write(str(value))
+	else:
+		targetFile.write(str(value)+";")
     targetFile.write("\n")
+targetFile.write(str(BaseTime[0])+"-"+str(BaseTime[1])+";"+str(size[0])+";"+str(size[1])+";5000000;60;Rien de special!"+"\n")
+
 # Saving the image
 im.save(outfile)
+# Closing the file
 targetFile.close()
-
-# Doing a basic ScanConversion, on 120 lines images
-if False: #comment
-	X=np.zeros(shape=(size[0],size[1]))
-	Y=np.zeros(shape=(size[0],size[1]))
-	for i in range(size[0]):
-	    for j in range(size[1]):
-		X[i][j] = j*math.cos(math.radians(0.5*i-30)) #0.5 factor because 120*0.5 = 60 max in an out
-		Y[i][j] = (size[1]+1)/2.0+j*math.sin(math.radians(0.5*(i)-30)) # same
-
-	MaxDepth = int(size[1]*math.cos(math.radians(30)))
-
-	sizeSC = (size[1],size[1])
-	ScanConverted=np.zeros(shape=(size[1],size[1]))
-	im = Image.new('RGB',(size[1],size[1]))
-	pix = im.load()
-	print sizeSC
-
-	for i in range(MaxDepth):
-	    if (i>1 & i<(size[1]-1)):
-		    for j in range((size[1]/2-i/2),(size[1]/2+i/2)):
-			D = (X-i)**2 + (Y-j)**2
-			resul = np.unravel_index(D.argmin(), D.shape)
-			# here is a basic NN, not even a 2-tap
-			ScanConverted[i][j] = ImagePoints[resul[0]][resul[1]]
-
-			value = int(ScanConverted[i][j])
-			pix[j,i] = (value,value,value)
-	    print i 
-	outfile = startingpoint +"-SC.png"
-	im.save(outfile)
-
 

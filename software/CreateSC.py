@@ -16,18 +16,22 @@ else:
 
 Tableau = []
 BaseData = []
-DECIMATION = 1 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
+DECIMATION = 5 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
 
 Tableau = []
 k=0
+
 with open(startingpoint, 'r') as echOpenLog:
 	for line in echOpenLog:
-	    line = line.split('\t')
-	    del line[-1]		
-	    Tableau.append(line)
-
+	    if(line.startswith("#")):
+		print "commentaire"		
+		# That's a comment
+	    else:
+		line = line.split(';')	
+		Tableau.append(line)
 
 SortedTable = Tableau
+del SortedTable[-1]
 PointsPerLine = len(SortedTable[0])
 NbOfLines = len(SortedTable)
 
@@ -54,6 +58,7 @@ pix = im.load()
 # Creation d'une image non scan-converted
 for i in range(size[0]): # les lignes
     for j in range(size[1]):
+	pix[i,j]=128
 	value = 0
 	for k in range(DECIMATION):
 		value = value + SortedTable[i][j*DECIMATION+k]*(1.9*(j*DECIMATION+k)**(0.6)/(Depth**(0.6)))
