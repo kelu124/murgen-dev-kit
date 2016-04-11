@@ -1,4 +1,4 @@
-|Image|TimeStamp|NbLines|NbPointsPerLine|Sampling Frequency|Angles|Comments|
+|Image|TimeStamp|NbLines|Nb Of Points Per Line|Sampling Frequency|Angles|Comments|
 |:--:|----|:--:|:--:|:--:|:--:|----| 
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/software/examples/b3788a9949e544a53393489de9bfc061.data.png)|20160401-202119|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202119|
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/software/examples/285f27e15812f64e1d1e02edf6ae5368.data.png)|20160328-142043|120|966|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160328-142043|
