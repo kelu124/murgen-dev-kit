@@ -18,6 +18,7 @@
 
 ### Some files
 * The examples.tar.bz2 contains quite a lot of raw images, to be processed by CreateImage.py . There should be around 200Mo of raw images packed in this 4Mo archive.
+* The [examples](/software/examples/) repository, and its [Readme](/software/examples/Readme.md),  contains some raw images, along with a table, and the [Specs](/software/examples/Specs.md)) for the data format.
 
 # Installing BitScope
 
