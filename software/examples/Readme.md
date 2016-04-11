@@ -1,3 +1,23 @@
+# Data format for sharing raw-data
+
+For ease of reference, we're going to use the following data format.
+
+## Format
+
+### Specs
+
+1. Files shall contain X lines of Y points
+2. All lines starting with a # shall be ignored
+3. The last line would have the 7 following fields
+* timestamp
+* X
+* Y
+* sampling frequency
+* angle
+* commentaire
+
+# Table of data 
+
 |Image|TimeStamp|NbLines|Nb Of Points Per Line|Sampling Frequency|Angles|Comments|
 |:--:|----|:--:|:--:|:--:|:--:|----| 
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/software/examples/b3788a9949e544a53393489de9bfc061.data.png)|20160401-202119|120|991|5000000|60| File coming from the examples.tar.bz2 -- ./old/20160401-202119|
