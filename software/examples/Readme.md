@@ -16,6 +16,12 @@ For ease of reference, we're going to use the following data format.
 * angle
 * commentaire
 
+### Some ballpark figures
+
+* At 5Msps, we have ~67px/cm
+** 1px = 200ns
+** at (1500/2) m/s (back and forth), that's 0.15mm/px
+
 # Table of data 
 
 |Image|TimeStamp|NbLines|Nb Of Points Per Line|Sampling Frequency|Angles|Comments|
