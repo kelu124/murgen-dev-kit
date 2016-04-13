@@ -626,6 +626,9 @@ File:SC_0154.JPG
 * TODO: 
 ** MFab - plan
 *Presentations tonight!
+* OUIDIDIT ! First presentation of echopen's working prototype
+** https://storify.com/ForTheFuture/firstech
+** http://www.makery.info/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/
 
 === March 27th ===
 * Getting good echoes with the TGC maxed!
@@ -636,6 +639,77 @@ File:SC_0154.JPG
 === March 29th ===
 * order for the usb denoiser
 * http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1576?sc=stm32f3 : Getting 5Msps =)
+*Farnel price bitscopes
+** http://uk.farnell.com/bitscope/bs05u/oscilloscope-logic-analyzer-2/dp/2432906: 59£ (73€) (HT?)
+** http://uk.farnell.com/bitscope/bs05p/oscilloscope-adaptor-2ch-20mhz/dp/2455593 : 89£
+
+=== March 31st ===
+* Doing some new fantoms
+* Receiving the AFORP's guys : https://twitter.com/OFresnoye/status/715519438037073920 and updating their page [[AFORP]]
+
+=== April 1st ===
+* Generating pulses with RPi : http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/ -- up to 22MHz
+* Sofian's back ;)
+
+=== April 3rd ===
+* Cleaning the acquired images
+
+=== April 4th ===
+* 4T scan conversion algo OK and working
+
+=== April 5th ===
+* TODO: creer les liens sur le software/readme -> [[Software (murgen-dev-kit)]] vers les fichiers sources
+
+=== April 7th ===
+
+* trying some docs at https://github.com/kelu124/murgen-dev-kit/blob/master/hardware/doc/murgen-dev-kit.markdown 
+* starting with the modules.. should start a [[Worklog - the module approach]] page based on the [[Challenge: the module approach]] page... coming soon?
+
+=== April 8th ===
+
+Nice reading =)
+
+*Basecamp outlines their goals -- which they say have always been the same -- on their website:
+** Have fun
+** Do exceptional work
+** Build the best product in the business
+** Experiment
+** Pay attention to the details
+**    Treat people right
+**    Tell the truth
+**    Have a positive impact on the world around us
+**    Give back 
+**    Keep learning.
+*"We’re also big believers in business 101. We don’t spend more than we earn, we don’t waste money on things that don’t matter, we don’t give away everything for free and hope we’ll figure it out before we run out of cash. We’re in business to stay in business, and we have 15 profitable years in a row to back it up."
+
+=== April 9th ===
+
+Some reads on PRUs:
+
+* https://hackaday.com/2014/06/22/an-introduction-to-the-beaglebone-pru/
+* https://www.embeddedrelated.com/showarticle/603.php
+* https://www.embeddedrelated.com/showarticle/586.php
+* https://github.com/beagleboard/am335x_pru_package
+
+=== April 10th ===
+
+* Sofian is delayed :/
+* Lines are defined !
+
+=== April 11th ===
+
+Choice of a uC: "le boulot des microcontrollers, ce qui me gêne sur l'espruino c'est le manque de sortie wifi - si on veut sortir des données en wireless." Deux choix se profilent
+* WICED : STM32F205RG 120MHz ARM Cortex M3 MCU : 17 timers et 3 × 12-bit, 0.5 μs ADCs with up to 24 channels and up to 6 MSPS in triple interleaved mode, 8- to 14-bit parallel camera interface (48 Mbyte/s max.)
+* Le WifiMCU : EMW3165 : M4: STM32F411CE @100MHz, DSP+FPU, 1×12-bit, 2.4 MSPS A/D converter -- Ce qui me fait peur est un WifiMCU de base en LUA, a voir comment repasser sur du plus bas niveau. L'avantage par contre c'est qu'il est dispo chez hackspark, et coute 18€ au lieu des 35$ du WICED =)
+
+Remarques : Avec le M3 tu perds les instructions DSP et un FPU optionnel (cf https://en.wikipedia.org/wiki/ARM_Cortex-M). Par contre je ne sais pas si c'est correctement exploité, ni si on en a vraiment besoin.
+
+Il y a aussi le Module Particle "Photon" http://www.lextronic.fr/P37394-module-particle-photon.html (M3 120 MHz et wifi) ou l'Arietta http://www.lextronic.fr/P32050-module-microcontrole-arietta-g25.html
+* Apparament module fermé
+
+=== April 12th ===
+* WifiMCU ordered
+c'est vrai que le WifiMCU est plutôt tentant aussi. Faudrait passer un peu de temps à faire un mini comparatif de ces petites bêtes, voir les benchmarker. On peut se faire une petite compétence autour des STM32F4xxx (et leurs 800 pages de docs) avant de passer au FPGA?
 
 == Raspi Oscilloscope ==
 ===Source===

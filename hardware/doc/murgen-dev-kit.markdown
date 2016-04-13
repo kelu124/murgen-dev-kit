@@ -1,4 +1,6 @@
-'''murgen-dev-kit'''
+ModuleName: CMP-murgen  
+
+
 
 # Module
 
