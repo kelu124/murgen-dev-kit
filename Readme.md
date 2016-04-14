@@ -117,6 +117,8 @@ Some recent articles :
 
 # Remaining TODOs
 
+The project's phase is coming to an end! Some ideas, lessons, stuff at our [NextSteps.md](/NextSteps.md)
+
 * Playin with the PRUs, there's [some inspiration there](https://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2013/08/04/bbb--high-speed-data-acquisition-and-web-based-ui)
 
 # Team
