@@ -44,7 +44,7 @@ We only have now to play with the following items on the next phase:
 2. Playing with an electronic emulator of the transducer - as well as an electronic model. Work on this with a partner/supplier.
 3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (comment on HAD).
 4. Play with the BeagleBone PRUs. Work on this with Vanderbilt.
-5. PLay with some intelligent uC of FPGA. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Who's volunteering?
+5. Playing with some intelligent uC of FPGA. uC has my preference at first for ease of use. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Who's volunteering?
 
 # Some resources to move further
 
