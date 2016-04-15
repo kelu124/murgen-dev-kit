@@ -40,11 +40,11 @@ What can I do with those?
 
 We only have now to play with the following items on the next phase:
 
-1. Do the modules: 3 to go in CMS (HV/TGC/MD, enveloppe detection, SPI ADC) and 2 in stripboard mode (alim, based on the breadboard 3.3V and 5V, as well as the controler, maybe an arduino nano at first) - and start the github repo / [echOmods](https://hackaday.io/project/10899-echomods) hackaday pages as well. work on this with Sofian.
-2. Create an electronic emulator of the transducer - as well as an electronic model. Work on this with a partner/supplier.
+1. Playing with the design and fab the modules: 3 to go in CMS (HV/TGC/MD, enveloppe detection, SPI ADC) and 2 in stripboard mode (alim, based on the breadboard 3.3V and 5V, as well as the controler, maybe an arduino nano at first) - and start the github repo / [echOmods](https://hackaday.io/project/10899-echomods) hackaday pages as well. Work on this with Sofian.
+2. Playing with an electronic emulator of the transducer - as well as an electronic model. Work on this with a partner/supplier.
 3. Play with a ultrasound durable fantom. Work on this with **staticdet5** (comment on HAD).
 4. Play with the BeagleBone PRUs. Work on this with Vanderbilt.
-5. PLay with some intelligent uC of FPGA. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz
+5. PLay with some intelligent uC of FPGA. WifiMCU seems fun (has a 8$ STM32F411CE - 100MHz, 2.4Msps ADC, FPU, DSP instructions and WiFi to stream!) or the [Feather Wiced](https://www.adafruit.com/product/3056) (arduino IDE compatible, based on a 34$ STM32F205 ARM Cortex M3 processor running at 120MHz. Who's volunteering?
 
 # Some resources to move further
 
