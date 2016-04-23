@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Murgen-dev-kit by kelu124</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Murgen-dev-kit</h1>
+      <h2 class="project-tagline">An electronic fork to have a imaging ultrasound dev/hacking kit</h2>
+      <a href="https://github.com/kelu124/murgen-dev-kit" class="btn">View on GitHub</a>
+      <a href="https://github.com/kelu124/murgen-dev-kit/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kelu124/murgen-dev-kit/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="the-murgen-open-source-ultrasound-imaging-dev-kit" class="anchor" href="#the-murgen-open-source-ultrasound-imaging-dev-kit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Murgen open-source ultrasound imaging dev-kit</h1>
+
+<h2>
+<a id="what-is-this-" class="anchor" href="#what-is-this-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is this ?</h2>
+
+<p>Getting a home-made open-source ultrasound machine (dev-kit) up and running in your garage / hackerspace / fablab for less than 500$ (want the bolts and nuts of the murgen-based prototype ? Read a more complete <a href="/hardware/Readme.md">hardware Readme.md</a> and in general the <a href="https://github.com/kelu124/murgen-dev-kit/">murgen repo</a> ). </p>
+
+<p>For a full overview of the adventure, visit our <a href="https://hackaday.io/project/9281-murgen">Hackaday page</a> =)</p>
+
+<h2>
+<a id="getting-the-rough-rough-first-image" class="anchor" href="#getting-the-rough-rough-first-image" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting the rough rough first image</h2>
+
+<p>We've got <strong>our first ultrasound image with the murgen board</strong> =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.</p>
+
+<p><img src="/worklog/Images/Session_7/MurgenComparative.png" alt="A nice image"></p>
+
+<h2>
+<a id="setting-up-a-prototype" class="anchor" href="#setting-up-a-prototype" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up a prototype</h2>
+
+<h3>
+<a id="disclaimers" class="anchor" href="#disclaimers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disclaimers</h3>
+
+<p><strong>Disclaimer #1</strong>: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)</p>
+
+<p><strong>Disclaimer #2</strong>: ultrasound raises questions. In case you build a scanner, use caution and good sense!</p>
+
+<h3>
+<a id="how-to-start" class="anchor" href="#how-to-start" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How-to start</h3>
+
+<p>Time to get some shopping done !</p>
+
+<ul>
+<li>Get a murgen dev-kit: 140€ in electronics + PCB. Or 100€ with the components to put on a breadboard =)</li>
+<li>Get a BitScope: 150€</li>
+<li>Get a transducer : 110€ for brand new adaptaed ones, ~100€ for one found on ebay and hacking it</li>
+<li>Get a Trinket Pro / Arduino : 10€</li>
+<li>Get some small electronics (breadboard, cables et al) : 20€</li>
+<li>Misc (Pizza, Beer, and a donation to Murgen): 15€</li>
+</ul>
+
+<p><strong><em>Total spent</em>: 400€ to 450€</strong></p>
+
+<h3>
+<a id="find-your-way-in-the-folders" class="anchor" href="#find-your-way-in-the-folders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Find your way in the folders</h3>
+
+<pre><code>murgen-dev-kit/             main repo
+|-- hardware                hardware information on electronics and mecanics
+|-- software                code to acquire, process and store ultrasound data
+`-- worklogs                logs froms the lab: our path to a working ultrasound device
+</code></pre>
+
+<ul>
+<li>You will find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.</li>
+<li>Schematics are in the <strong><em>hardware\Altium\Schematics\PDF</em></strong> folder</li>
+<li>Gerbers in in the <strong><em>hardware\Gerbers</em></strong> folder of course</li>
+<li>Code for the acquisition using bitscope (at first ;) ) is in <strong><em>software/</em></strong>.</li>
+</ul>
+
+<h3>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h3>
+
+<h4>
+<a id="connections" class="anchor" href="#connections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Connections</h4>
+
+<ul>
+<li>Connect the BitScope Chan A to Trinket Pin 11, and Chan B to Tests Points2 and 3.</li>
+<li>Connect the trinket pins 12 and 13 to a 5-to-3V convertor (or double invertor), then to the board USPP and USPN pins.</li>
+<li>Bring power to the board (GND, 5V, 3.3V) - the board uses ~150mA at 5V, so you can use a breadboard alim (see IMG_2413 below).</li>
+</ul>
+
+<h4>
+<a id="hardware-setup-presentation" class="anchor" href="#hardware-setup-presentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware setup presentation</h4>
+
+<p><img src="/worklog/Images/Session_7/PhysicalSpace.png" alt="PhysicalSpace"></p>
+
+<h3>
+<a id="software-users-quick-start-guide" class="anchor" href="#software-users-quick-start-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software User’s Quick-Start Guide</h3>
+
+<p>Just Install the following:</p>
+
+<ul>
+<li>BitScope BitLib</li>
+<li>python math tools</li>
+<li>Install something to code arduino - ArduinoIDE ?</li>
+<li>Clone the <a href="https://github.com/kelu124/murgen-dev-kit/">murgen repo</a> </li>
+</ul>
+
+<p>You're good to go !</p>
+
+<h3>
+<a id="learn-more--the-lab-log" class="anchor" href="#learn-more--the-lab-log" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Learn more : the lab log</h3>
+
+<ul>
+<li>
+<a href="worklog/Session_1.md">Session 1</a> : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)</li>
+<li>
+<a href="worklog/Session_2.md">Session 2</a> : Non-controlled pulsing, inverters, better echoes (11 March 2016)</li>
+<li>
+<a href="worklog/Session_3.md">Session 3</a> : Getting controlled pulsing, but width not controlled (15 March 2016)</li>
+<li>
+<a href="worklog/Session_4.md">Session 4</a> : Width of the pulses is getting controlled =) (19 March 2016)</li>
+<li>
+<a href="worklog/Session_4b.md">Session 4b</a> : Simple data visualisation with BitScope (19 March 2016)</li>
+<li>
+<a href="worklog/Session_5.md">Session 5</a> : moving the transducer to get the first image (20 March 2016)</li>
+<li>
+<a href="worklog/Session_6.md">Session 6</a> : <strong><em>Getting a clinically usable image</em></strong> (28 March 2016)</li>
+<li>
+<a href="worklog/Session_7.md">Session 7</a> : Getting cleaner images - code improvements  (3 April 2016)</li>
+<li>
+<a href="hardware/Readme.md">A more complete hardware ReadMe</a> : Information, and more, with a focus on the electronic part of the project</li>
+<li>
+<a href="software/Readme.md">A more complete software ReadMe</a> : Information, and more, with a focus on the code part of the project (arduino, python, and such)</li>
+</ul>
+
+<h2>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h2>
+
+<h3>
+<a id="what-do-i-find-here" class="anchor" href="#what-do-i-find-here" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What do I find here?</h3>
+
+<p>A full official dev release, including:</p>
+
+<ul>
+<li>Terms of reference for the project</li>
+<li>Bibliography</li>
+<li>Detailed designed</li>
+<li>Source file for the electronic board</li>
+<li>Source for the Arduino controlling the board</li>
+<li>Source for acquisition, processing and storage of the images</li>
+<li>A full laboratory log</li>
+</ul>
+
+<h3>
+<a id="typical-application" class="anchor" href="#typical-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Typical Application</h3>
+
+<p>Playing with a broken transducer in a haribo sweet box to see if you can hack ultrasound scanners.</p>
+
+<h3>
+<a id="software--firmware-summary" class="anchor" href="#software--firmware-summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software / Firmware Summary</h3>
+
+<p>Up to v1.0, we're still playing with the board, so there's not interface with the BBB.</p>
+
+<p>However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya that the main echopen project uses, and though it is less precise, we do have less issues (trigging, memory, ...) with it.</p>
+
+<h3>
+<a id="what-is-the-timeline" class="anchor" href="#what-is-the-timeline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is the timeline?</h3>
+
+<p>The murgen investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again. The objective was to get a first functional prototype by February 2015, but this deadline was then fixed to March 24th, 2016, on which date murgen will be presented.</p>
+
+<h3>
+<a id="read-more-about-echopen" class="anchor" href="#read-more-about-echopen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Read more about echopen.</h3>
+
+<p>Some recent articles :</p>
+
+<ul>
+<li>From the Pierre Fabre foundation <a href="https://www.fondationpierrefabre.org/fr/suivre-notre-action/echopen-lancement-du-premier-prototype-dechostethoscope-open-source-low-cost">press release</a> in (french).</li>
+<li>From Makery : <a href="http://www.makery.info/en/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/">Echopen introduces an open source ultrasound probe</a>
+</li>
+</ul>
+
+<h1>
+<a id="remaining-todos" class="anchor" href="#remaining-todos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Remaining TODOs</h1>
+
+<p>The project's phase is coming to an end! Some ideas, lessons, stuff at our <a href="/NextSteps.md">NextSteps.md</a></p>
+
+<ul>
+<li>Playin with the PRUs, there's <a href="https://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2013/08/04/bbb--high-speed-data-acquisition-and-web-based-ui">some inspiration there</a>
+</li>
+</ul>
+
+<h1>
+<a id="team" class="anchor" href="#team" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team</h1>
+
+<h2>
+<a id="acknowledgement" class="anchor" href="#acknowledgement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgement</h2>
+
+<ul>
+<li>Thanks to Murgen, Sofian, Amit, Emmanuel, Florent, Bertrand &amp; PHH, Mike in a way, list goes on !</li>
+<li>Thanks to Jerome, Farad, Vincent obviously</li>
+<li>Thanks to echOpen for the environment, wifi and coffee =)</li>
+</ul>
+
+<h2>
+<a id="stay-connected" class="anchor" href="#stay-connected" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stay connected</h2>
+
+<ul>
+<li>Read the <a href="https://hackaday.io/project/9281-murgen">Hackaday page</a> of the fork !</li>
+<li>Or wander around echOpen's <a href="https://github.com/echopen/">GitHub repos</a>
+</li>
+<li>Explore <a href="http://echopen.org">echOpen’s general wiki</a>
+</li>
+<li>Meet us on the social networks ? Join our <a href="https://www.facebook.com/groups/echopen/">Facebook group</a> or follow us on Twitter: follow <a href="http://twitter.com/echopenorg/">echOpenorg</a>.</li>
+<li>Meet us physically on friday at our apéros =)</li>
+</ul>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>The Murgen project and its prototypes are open hardware, and working with open-hardware components.</p>
+
+<p>Licensed under TAPR Open Hardware License (<a href="http://www.tapr.org/OHL">www.tapr.org/OHL</a>)</p>
+
+<p>Copyright Murgen and Kelu124 (<a href="mailto:murgen@echopen.org">murgen@echopen.org</a> , <a href="mailto:luc@echopen.org">luc@echopen.org</a> / <a href="mailto:kelu124@gmail.com">kelu124@gmail.com</a> ) 2015-2018</p>
+
+<p><a href="/Readme.md">Source</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/kelu124/murgen-dev-kit">Murgen-dev-kit</a> is maintained by <a href="https://github.com/kelu124">kelu124</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
