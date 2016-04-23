@@ -144,6 +144,6 @@ The Murgen project and its prototypes are open hardware, and working with open-h
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2016
+Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2018
 
 [Source](/Readme.md)
