@@ -33,21 +33,6 @@ Time to get some shopping done !
 
 **_Total spent_: 400€ to 450€**
 
-### Find your way in the folders
-
- 	murgen-dev-kit/				main repo
- 	|-- hardware				hardware information on electronics and mecanics
- 	|-- software				code to acquire, process and store ultrasound data
- 	`-- worklogs				logs froms the lab: our path to a working ultrasound device
-
-
-
-* You will find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
-* Schematics are in the ***hardware\Altium\Schematics\PDF*** folder
-* Gerbers in in the ***hardware\Gerbers*** folder of course
-* Code for the acquisition using bitscope (at first ;) ) is in ***software/***.
-
-
 ### Setup
 #### Connections
 
@@ -115,11 +100,28 @@ Some recent articles :
 * From the Pierre Fabre foundation [press release](https://www.fondationpierrefabre.org/fr/suivre-notre-action/echopen-lancement-du-premier-prototype-dechostethoscope-open-source-low-cost) in (french).
 * From Makery : [Echopen introduces an open source ultrasound probe](http://www.makery.info/en/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/)
 
+### Find your way in the folders
+
+ 	murgen-dev-kit/				main repo
+ 	|-- hardware				hardware information on electronics and mecanics
+ 	|-- software				code to acquire, process and store ultrasound data
+ 	`-- worklogs				logs froms the lab: our path to a working ultrasound device
+
+
+
+* You will find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
+* Schematics are in the ***hardware\Altium\Schematics\PDF*** folder
+* Gerbers in in the ***hardware\Gerbers*** folder of course
+* Code for the acquisition using bitscope (at first ;) ) is in ***software/***.
+
+
+
 # Remaining TODOs
 
 The project's phase is coming to an end! Some ideas, lessons, stuff at our [NextSteps.md](/NextSteps.md)
 
 * Playin with the PRUs, there's [some inspiration there](https://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2013/08/04/bbb--high-speed-data-acquisition-and-web-based-ui)
+* There are 5 big projects listed on the [NextSteps.md](/NextSteps.md) document.
 
 # Team
 
