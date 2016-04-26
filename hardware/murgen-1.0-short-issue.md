@@ -21,18 +21,18 @@ TL;DR:
 >
 >[2/26/2016 12:26:35 AM] Sofian: This is one possible location where a solder joint might happen between GND and 5V
 
-![Possible short](Images/PossibleShort.png)
+![Possible short](/worklog/Images/PossibleShort.png)
 
 >
 >[2/26/2016 12:43:19 AM] Sofian: GND points
  
-![GND Points 1](Images/GND1.png)
-![GND Points 2](Images/GND2.png)
+![GND Points 1](/worklog/Images/GND1.png)
+![GND Points 2](/worklog/Images/GND2.png)
  
 >[2/26/2016 12:45:39 AM] Sofian: VDD_5V
  
-![5V Points 1](Images/5V1.png)
-![5V Points 2](Images/5V2.png)
+![5V Points 1](/worklog/Images/5V1.png)
+![5V Points 2](/worklog/Images/5V2.png)
  
 >[2/26/2016 1:14:33 AM] Sofian: This excel file contains the settings for the switch settings, it allows you to set various frequencies for sampling from 1MHz to 12MHz, which is not supported, so you can go upto around 9MHz with the selection I have given you.
 >
@@ -46,10 +46,6 @@ and don't forget to flip the DC/DC module to the bottom side
 >[2/26/2016 1:26:07 AM] Sofian: I hope you have not powered it, I also recommend that once you remove the DC/DC module you check the short again to make sure it went away or not, maybe the source is not the DC/DC module
 >
 >[2/26/2016 1:28:19 AM] Sofian: TP9 is GND pin by the way
->
->[2/26/2016 1:29:50 AM] Sofian: I am sorry for this stupid mistake Luc.
->
->[2/26/2016 1:33:24 AM] Sofian: Please be careful, these are dangerous voltages!!!!!!!!!!!!! BE CAREFUL.
 >
 >[2/26/2016 1:49:27 AM] Sofian: I also checked all other foorprints and pinouts to make sure I have no other mistakes, I could not find any
 
