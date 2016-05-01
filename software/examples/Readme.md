@@ -30,7 +30,9 @@ For ease of reference, we're going to use the following data format.
 |---|---|---|
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/fantoms/IMG_2435.JPG)|![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/fantoms/IMG_2439.JPG)|![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/fantoms/IMG_2447.JPG)|
 
-## Comparing with an imageImage|Fantoms and the testing bowl|Distance to the fantom|Specs of the fantom|
+## Comparing with an imageImage
+
+|Fantoms and the testing bowl|Distance to the fantom|Specs of the fantom|
 |---|---|
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/Session_7/Image6.png)|![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/fantoms/IMG_2447.JPG)|
 
