@@ -30,7 +30,7 @@ For ease of reference, we're going to use the following data format.
 |---|---|---|
 |![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/Images/fantoms/IMG_2435.png)|![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/Images/fantoms/IMG_2439.png)|![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/worklog/Images/fantoms/IMG_2447.png)|
 
-## Comparing with an imageImage
+## Comparing with an image
 
 |Image|Specs of the fantom|
 |---|---|
