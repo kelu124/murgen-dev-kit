@@ -10,7 +10,7 @@
 - [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
 - [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
-
+- [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
 ## Today
 
 ### Goal

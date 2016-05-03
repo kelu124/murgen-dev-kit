@@ -56,14 +56,16 @@ Just Install the following:
 You're good to go !
 
 ### Learn more : the lab log
-- [Session 1](worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
-- [Session 2](worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
-- [Session 3](worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
-- [Session 4](worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
-- [Session 4b](worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
-- [Session 6](worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
-- [Session 7](worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+
+- [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
+- [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
+- [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
+- [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
+- [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
 - [A more complete hardware ReadMe](hardware/Readme.md) : Information, and more, with a focus on the electronic part of the project
 - [A more complete software ReadMe](software/Readme.md) : Information, and more, with a focus on the code part of the project (arduino, python, and such)
 
@@ -92,11 +94,13 @@ Up to v1.0, we're still playing with the board, so there's not interface with th
 However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya that the main echopen project uses, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
 
 ### What is the timeline?
+
 The murgen investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again. The objective was to get a first functional prototype by February 2015, but this deadline was then fixed to March 24th, 2016, on which date murgen will be presented.
 
 ### Read more about echopen.
 
 Some recent articles :
+
 * From the Pierre Fabre foundation [press release](https://www.fondationpierrefabre.org/fr/suivre-notre-action/echopen-lancement-du-premier-prototype-dechostethoscope-open-source-low-cost) in (french).
 * From Makery : [Echopen introduces an open source ultrasound probe](http://www.makery.info/en/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/)
 

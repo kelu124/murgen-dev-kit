@@ -1,6 +1,6 @@
-# Session 7 - 3rd April 2016 - Getting cleaner images
+# Session 8 - 3rd May 2016 - Comparing acquisition speeds
 
-## Previous sessions
+## Previous sessions
 
 - [Session 1](/worklog/Session_1.md) : Powering the board, power use, first (bad) trigging and echoes (06 March 2016)
 - [Session 2](/worklog/Session_2.md) : Non-controlled pulsing, inverters, better echoes (11 March 2016)
@@ -12,21 +12,11 @@
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 - [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
 
-## Key features
+## Comparing
 
-### Removing BitScope noise
+|Sampling at 5Msps|Sampling at 2.5 Msps|Sampling at 1Msps|
+|----|----|----|
+|![5Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC1-SC-4T.normalized_zoom.png)|![2.5Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC2-SC-4T.normalized_zoom.png)|![1Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T.normalized_zoom.png)|
+| 1 mm is 6.67px | 1mm is 3.33 px| 1mm is 1.33px|
 
-![DSC_0226.JPG](/worklog/Images/Session_7/denoising.png)
-
-### A cleaner scan conversion
-
-
-## Examples
-
-
-## Resources
-
-For image editing, it seems like Pinta is the way to go.
-
-For batch resizing, I'm using ImageMagick.
-
+## Comments

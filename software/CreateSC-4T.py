@@ -16,7 +16,7 @@ else:
 
 Tableau = []
 BaseData = []
-DECIMATION = 1 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
+DECIMATION = 5 	# Should we do a basic summation on the pixels, hence reducing the noice and the size of the picture?
 
 Tableau = []
 k=0
@@ -24,10 +24,12 @@ k=0
 with open(startingpoint, 'r') as echOpenLog:
 	for line in echOpenLog:
 	    if(line.startswith("#")):
-		# That's a comment
+		print "Thats a comment"
 	    else:
 		line = line.split(';')	
 		Tableau.append(line)
+
+del Tableau[-1]
 
 SortedTable = Tableau
 PointsPerLine = len(SortedTable[0])
@@ -37,8 +39,8 @@ NbOfLines = len(SortedTable)
 print PointsPerLine 	# 2100
 print NbOfLines 	# 59
 
-
-SortedTable = np.array(SortedTable).astype(int)
+print Tableau
+SortedTable = np.array(Tableau).astype(int)
 SortedTable = SortedTable[np.argsort(SortedTable[:,0])]
 print SortedTable
 
