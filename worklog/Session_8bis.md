@@ -19,6 +19,7 @@
 |![5Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC1-SC-4T.normalized_zoom.png)|![2.5Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC2-SC-4T.normalized_zoom.png)|![1Msps](/worklog/Images/Session_8/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T.normalized_zoom.png)|
 | 1 mm is 6.67px | 1mm is 3.33 px| 1mm is 1.33px|
 
+<<<<<<< HEAD
 ## Step 2
 
 |Type of Sampling|Sampling at 5Msps|Sampling at 2.5 Msps|Sampling at 1Msps|
@@ -26,4 +27,12 @@
 |Average|![5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC1-SC-4T.normalized_zoom.png)|![2.5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC2-SC-4T-averaged.normalized_zoom.png)|![1Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T-averaged.normalized_zoom.png)|
 |Max|![5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC1-SC-4T.normalized_zoom.png)|![2.5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC2-SC-4T-max.normalized_zoom.png)|![1Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T-max.normalized_zoom.png)|
 |Random|![5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC1-SC-4T.normalized_zoom.png)|![2.5Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC2-SC-4T-rand.normalized_zoom.png)|![1Msps](/worklog/Images/Session_8/source_files/normalized/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T-rand.normalized_zoom.png)|
+=======
+## Comments
+
+Using the _2c10128b362d2e1652c1b97111ba0ae2.data_ image (in the [examples](/software/examples/) repo).
+
+May look different on different screens.
+
+>>>>>>> 902f3fda73994974f11605506f3af9cd75f57192
 
