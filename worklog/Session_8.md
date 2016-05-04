@@ -20,3 +20,9 @@
 | 1 mm is 6.67px | 1mm is 3.33 px| 1mm is 1.33px|
 
 ## Comments
+
+Using the _2c10128b362d2e1652c1b97111ba0ae2.data_ image (in the [examples](/software/examples/) repo).
+
+May look different on different screens.
+
+
