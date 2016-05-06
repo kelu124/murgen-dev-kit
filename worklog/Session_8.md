@@ -31,7 +31,7 @@
 
 Comparing on the images before scan conversion
 
-![5Msps](/worklog/Images/Session_8/source_files/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-comparing-raw)
+![5Msps](/worklog/Images/Session_8/source_files/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-comparing-raw.png)
 
 Files are at :
 * [Averaged](/worklog/Images/Session_8/source_files/2c10128b362d2e1652c1b97111ba0ae2.data-DEC5-SC-4T-averaged.png)
