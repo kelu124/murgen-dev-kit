@@ -11,7 +11,6 @@
 - [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 - [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
-
 ## ^^
 _ Happy to get the board and play with it._
 
@@ -23,11 +22,11 @@ _ Happy to get the board and play with it._
 
 # Some pics with the BeagleBone black
 
-![DSC_0152](/Images/Session_1/DSC_0152.JPG)
+![DSC_0152](/worklog/Images/Session_1/DSC_0152.JPG)
 
-![DSC_0153](/Images/Session_1/DSC_0153.JPG)
+![DSC_0153](/worklog/Images/Session_1/DSC_0152.JPG)
 
-![DSC_0154](/Images/Session_1/DSC_0154.JPG)
+![DSC_0154](/worklog/Images/Session_1/DSC_0152.JPG)
 
 # Technical points
 

@@ -11,6 +11,7 @@
 - [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 - [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
+
 ## Today 
 
 ### ^^
@@ -29,7 +30,7 @@ In the previous Session, we realized that the 5V and 3.3V were lower than expect
 
 ### Pulser: the HV7360
 
-Same setup as [Session 1](/worklog/Session_1.md).
+Same setup as [Session 1](Session_1.md).
 
 Only difference is the introduction of the CD74HC4049E inverter, with a 5V, 6ns delay, to get the pulse. US_P_P is completed with US_P_N which is the inverse of USPP.
 
