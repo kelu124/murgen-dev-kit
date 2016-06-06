@@ -4,23 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about me!
+### Ressources
 
-### My Projects
-
-* echOpen, and its subprojects murgen, echomods, phantoms, playing with uc ...
-* international development projects
-* Python, DNN, NLP for fun and profit
-
-### More Information
-
-The place to reach me if you want to get some stuff done:
-
-* eBusiness consulting
-* Saying wrong things
-* Getting some translation done
-* Biz Dev
-* Creativity..
+* https://hackaday.io/project/9281-murgen for a blog like explanation for hackers
+* http://echopen.org to learn about open source echography
 
 
 ### Contact me
