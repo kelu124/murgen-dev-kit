@@ -1,4 +1,0 @@
-Added Component: Designator=TP4(NICOMATIC_C12000B)
-Added Pin To Net: NetName=VDD_5V Pin=TP4-1
-Added Pin To Net: NetName=VDD_5V Pin=TP4-1
-Added Member To Class: ClassName=1 Member=Component TP4 Test Point

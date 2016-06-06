@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=NetD3_3 Pin=IC2-1
-Removed Pin From Net: NetName=ULTRASOUND_TRANSDUCER Pin=IC2-3
-Added Pin To Net: NetName=ULTRASOUND_TRANSDUCER Pin=IC2-1
-Added Pin To Net: NetName=NetD3_3 Pin=IC2-3
