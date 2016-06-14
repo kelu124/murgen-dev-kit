@@ -11,6 +11,7 @@
 
 * AcquireImage.py acquires the images, stores them in pairs of log files
 * CreateImage.py creates the .data file from the log files
+* CreateCSV.py creates the .csv file from the log files
 * CreateSC.py creates the .png files (Scan Conversion) using a nearest neighbour algorithm, from the .data files
 * CreateSC-4T.py creates the .png files (Scan Conversion) using the 4 nearest neighbours to determine the pixel value, from the .data files
 * TrinketProCode is the code for the Arduino Trinket Pro.
@@ -19,6 +20,7 @@
 ### Some files
 * The examples.tar.bz2 contains quite a lot of raw images, to be processed by CreateImage.py . There should be around 200Mo of raw images packed in this 4Mo archive.
 * The [examples](/software/examples/) repository, and its [Readme](/software/examples/Readme.md),  contains some raw images, along with a table, and the [Specs](/software/examples/Specs.md)) for the data format.
+* There's an additional folder for CSV images at [examples](/software/examples_csv/)
 
 # Installing BitScope
 
