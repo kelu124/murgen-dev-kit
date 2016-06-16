@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=VDD_5V Pin=P5-1
-Removed Pin From Net: NetName=AGND Pin=P5-2
-Added Pin To Net: NetName=AGND Pin=P5-1
-Added Pin To Net: NetName=VDD_5V Pin=P5-2
