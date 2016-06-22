@@ -71,6 +71,11 @@ You're good to go !
 
 ## FAQ
 
+### I want to get to run one
+
+Where should I go? You can peruse a discussion/tutorial with a new user of the board [here](http://kelu124.github.io/murgen-dev-kit/).
+
+
 ### What do I find here?
 
 A full official dev release, including:
