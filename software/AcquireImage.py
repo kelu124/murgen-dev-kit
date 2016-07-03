@@ -13,7 +13,7 @@ MY_CHANNEL = 1 # channel to capture and display (0 for Chan A, 1 for Chan B)
 MY_PROBE_FILE = "" # default probe file if unspecified
 MY_MODE = BL_MODE_DUAL # preferred trace mode
 MY_RATE = 5000000 # default sample rate we'll use for capture.
-MY_SIZE = 2100 # number of samples we'll capture (3 periods to test -- 300us+120us * 20MHz)
+MY_SIZE = 1400 # number of samples we'll capture (200us * 5MHz)
 TRUE = 1
 
 MODES = ("FAST","DUAL","MIXED","LOGIC","STREAM")
@@ -71,7 +71,7 @@ def main(argv=None):
 	BL_Delay(BL_ZERO)
 	BL_Rate(MY_RATE)
 	BL_Size(MY_SIZE) # optional default BL_MAX_SIZE
-        BL_Trigger(3.5,BL_TRIG_RISE) # optional when untriggered */
+        BL_Trigger(2,BL_TRIG_RISE) # optional when untriggered */
 	BL_Select(BL_SELECT_SOURCE, BL_SOURCE_POD)
 	BL_Range(BL_Count(BL_COUNT_RANGE))
 	BL_Offset(BL_ZERO)
@@ -93,18 +93,14 @@ def main(argv=None):
             BL_Time(),MODES[BL_Mode()])
 
 	Signal = []
-	TimeStamp = []
 
-	for i in range(2*60):
- 
+	for i in range(10000):
 		BL_Trace(BL_TRACE_FOREVER)
-		BL_Select(BL_SELECT_CHANNEL, 0)
-		TimeStamp.append(BL_Acquire())
 		BL_Select(BL_SELECT_CHANNEL, 1)
 		Signal.append(BL_Acquire())
-	
+
 	print "Saving file"
-	st = "/home/luc/"+stt +"-Signal-bitscope-DATA.log"
+	st = "/home/kelu/"+stt +"-Signal-bitscope-DATA.log"
 	targetFile = open(st, 'w')
 	
 	for x in range(len(Signal)):
@@ -113,14 +109,6 @@ def main(argv=None):
 		targetFile.write("\n")
 	targetFile.close()
 
-	st = "/home/luc/"+stt +"-TimeStamp-bitscope-DATA.log"
-	targetFile = open(st, 'w')
-	
-	for x in range(len(TimeStamp)):
-		for y in range(len(TimeStamp[x])):
-			targetFile.write(str(TimeStamp[x][y])+"\t")
-		targetFile.write("\n")
-	targetFile.close()
 
         print "Finished: close the library to release resources."
         BL_Close()
@@ -129,4 +117,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     import sys
-    sys.exit(main())
+    sys.exit(main())																																																																																																																																			
