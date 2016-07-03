@@ -53,6 +53,18 @@ We see echoes on the oscillo, before the enveloppe detection... that's where the
 * Maybe 12V continuous is too rapid for the motor: I can't see to know where the signal is at what moment. Should be using the second channel of the bitscope to get a saw signal, hence knowing when the lines are shot.
 
 
+## Arty - drawing with ultrasounds
+
+Done with the smart-materials 3.5MHz piezos  ad imaging a grape passing in front of a piezo
+
+Light one
+
+![Light](/worklog/Images/Session_9/9c/20160703-171434-light-DATA.log.png)
+
+Heavy one
+
+![Heavy](/worklog/Images/Session_9/9c/20160703-172709-heavy-DATA.log.png)
+
 
 
 

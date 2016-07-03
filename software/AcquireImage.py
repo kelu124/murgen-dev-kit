@@ -94,7 +94,7 @@ def main(argv=None):
 
 	Signal = []
 
-	for i in range(10000):
+	for i in range(20):
 		BL_Trace(BL_TRACE_FOREVER)
 		BL_Select(BL_SELECT_CHANNEL, 1)
 		Signal.append(BL_Acquire())
