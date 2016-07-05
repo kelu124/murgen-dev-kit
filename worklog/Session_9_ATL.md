@@ -17,6 +17,24 @@
 
 ## Is the ATL 10PV working?
 
+### Test of the piezos with echOpen's analog processing chain
+
+Overall echo at 20cm
+
+![Details of the echo](/worklog/Images/Session_9/DSC_0680.JPG)
+
+Zooming in
+
+![Details of the echo](/worklog/Images/Session_9/DSC_0681.JPG)
+
+Zooming in
+
+![Details of the echo](/worklog/Images/Session_9/DSC_0678.JPG)
+
+Details of the echo
+
+![Details of the echo](/worklog/Images/Session_9/DSC_0679.JPG)
+
 ### Preparing the probe
 
 Some linseed oil was used as a impedance matching material. Works great.. but be sure to overfill the reservoir, since too low oil will result in an oil/air emulsion.. really not usefull to work with.
