@@ -1,0 +1,40 @@
+%To be run in MATLAB via GageScope
+
+if ~exist('a')
+    a = arduino('COM5')
+end
+
+a.servoAttach(9)
+a.servoWrite(9, 0);
+pause(1)
+[timeaxis1,timeaxis2,voltage1,voltage2]=GageAcquire_2chan_zack;
+pause(5)
+%while true
+    for i = 0:1:60
+            disp(['angle #: ' num2str(i)]);
+            a.servoWrite(9, i);
+%             [timeaxis1,timeaxis2,voltage1,voltage2]=GageAcquire_2chan_zack;
+            
+            % acquire 20 signals and average
+            for k=1:20
+                 [timeaxis1,timeaxis2,voltage1,voltage2]=GageAcquire_2chan_zack;
+                 avg_voltage(:,k)=voltage1;
+            end;
+            % store into array
+            echo_sig(:,i+1) = mean(avg_voltage,2);
+            
+            
+            pause(0.005);
+
+    end
+    echo_sig_cropped = echo_sig(1:20000,:);
+    timeaxis = timeaxis1;
+    fs = 1/(timeaxis(2)-timeaxis(1))
+    theta_axis = (0:60);
+    save('bb_acq1.mat','echo_sig_cropped','fs','timeaxis','theta_axis')
+%     for i = 60:-1:0
+%             a.servoWrite(9, i);
+%             [timeaxis1,timeaxis2,voltage1,voltage2]=GageAcquire_2chan_zack;
+%             pause(0.005);
+%     end
+%end
