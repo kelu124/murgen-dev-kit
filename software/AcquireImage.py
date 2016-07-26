@@ -13,7 +13,7 @@ MY_CHANNEL = 1 # channel to capture and display (0 for Chan A, 1 for Chan B)
 MY_PROBE_FILE = "" # default probe file if unspecified
 MY_MODE = BL_MODE_DUAL # preferred trace mode
 MY_RATE = 5000000 # default sample rate we'll use for capture.
-MY_SIZE = 1400 # number of samples we'll capture (200us * 5MHz)
+MY_SIZE = 1000 # number of samples we'll capture (200us * 5MHz)
 TRUE = 1
 
 MODES = ("FAST","DUAL","MIXED","LOGIC","STREAM")
@@ -93,14 +93,15 @@ def main(argv=None):
             BL_Time(),MODES[BL_Mode()])
 
 	Signal = []
-
-	for i in range(20):
+	TimeStamp = []
+	for i in range(1000):
 		BL_Trace(BL_TRACE_FOREVER)
 		BL_Select(BL_SELECT_CHANNEL, 1)
 		Signal.append(BL_Acquire())
 
 	print "Saving file"
 	st = "/home/kelu/"+stt +"-Signal-bitscope-DATA.log"
+
 	targetFile = open(st, 'w')
 	
 	for x in range(len(Signal)):
