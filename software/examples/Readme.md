@@ -38,6 +38,10 @@ For ease of reference, we're going to use the following data format.
 
 # Table of data 
 
+The following data was captured using a first iteration of ultrasound analogic processing, murgen, and raw data was captured by a bitscope micro, at 5Msps.
+
+The following dataset corresponds to raw data and one may need to rework those to adjust the final image.
+
 |Image|Time Stamp|Nb Lines|Nb Of Points Per Line|Spls. Freq.|Angle|Comments|
 |:--:|----|:--:|:--:|:--:|:--:|----| 
 |[![thumb](https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/software/examples/b3788a9949e544a53393489de9bfc061.data.png)]( https://raw.githubusercontent.com/kelu124/murgen-dev-kit/master/software/examples/b3788a9949e544a53393489de9bfc061.data.bz2)|20160401 - 202119|120|991|5MHz|60| File coming from the examples.tar.bz2 -- ./old/20160401 - 202119|
