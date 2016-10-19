@@ -146,7 +146,7 @@ The project's phase is coming to an end! Some ideas, lessons, stuff at our [Next
 * Read the [Hackaday page](https://hackaday.io/project/9281-murgen) of the fork !
 * Or wander around echOpen's [GitHub repos](https://github.com/echopen/)
 * Explore [echOpen’s general wiki](http://echopen.org)
-* Meet us on the social networks ? Join our [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
+* Meet us  on the social networks, in echopen's community ? Join the community [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
 * Meet us physically on friday at our apéros =)
 
 

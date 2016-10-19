@@ -1,4 +1,4 @@
-# Software Readme
+# Software Readme (Bitscope Version)
 
 ## Contents of the folder 
 
