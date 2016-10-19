@@ -1,7 +1,7 @@
 # The Murgen open-source ultrasound imaging dev-kit 
 
 ## What is this ?
-
+ 
 Getting a home-made open-source ultrasound machine (dev-kit) up and running in your garage / hackerspace / fablab for less than 500$ (want the bolts and nuts of the murgen-based prototype ? Read a more complete [hardware Readme.md](/hardware/Readme.md) and in general the [murgen repo](https://github.com/kelu124/murgen-dev-kit/) ). 
 
 For a full overview of the adventure, visit our [Hackaday page](https://hackaday.io/project/9281-murgen) =)
