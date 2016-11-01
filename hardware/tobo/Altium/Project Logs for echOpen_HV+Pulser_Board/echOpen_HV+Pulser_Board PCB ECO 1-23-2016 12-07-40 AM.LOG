@@ -1,8 +1,0 @@
-Change Component Comment : Designator=J4 Old Comment=SMA New Comment=Output
-Change Component Comment : Designator=J2 Old Comment=SMA New Comment=Pulse_High
-Change Component Comment : Designator=J3 Old Comment=SMA New Comment=Pulse_Low
-Change Component Comment : Designator=J1 Old Comment=SMA New Comment=Transducer
-Added Component: Designator=J5(PHOENIX_1911017)
-Added Pin To Net: NetName=VDD_5V Pin=J5-1
-Added Pin To Net: NetName=AGND Pin=J5-2
-Added Member To Class: ClassName=1 Member=Component J5 Power Connector

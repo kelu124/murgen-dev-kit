@@ -1,0 +1,13 @@
+#!/bin/bash
+FILES=./*
+
+for f in *DATA.log
+do
+	python CreateCSV_PNG-raw.py $f
+done
+
+
+#for f in *.log
+#do
+#	bzip2 $f
+#done
