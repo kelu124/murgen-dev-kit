@@ -2,7 +2,7 @@
 
 ## Status today
 
-Since the end of November, where I knew nothing about electronics, I managed to learn about the following points:
+ Since the end of November, where I knew nothing about electronics, I managed to learn about the following points:
 
 * Electronics : back to the basics
 * Datasheets: learning to read and understand those

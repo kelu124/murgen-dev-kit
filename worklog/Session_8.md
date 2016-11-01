@@ -1,4 +1,4 @@
-# Session 8 - 3rd May 2016 - Comparing acquisition speeds
+# Session 9 - 3rd May 2016 - Comparing acquisition speeds
 
 ## Previous sessions
 
@@ -11,6 +11,7 @@
 - [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 - [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
+- [Session 9](/worklog/Session_8.md) : Playing with ATL10PV (3 July 2016)
 
 ## Comparing
 

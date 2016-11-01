@@ -1,0 +1,8 @@
+#!/bin/bash
+FILES=./*
+
+for f in *DATA.log
+do
+	python CreateCSV_ATL.py $f
+done
+

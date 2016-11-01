@@ -3,15 +3,14 @@ _The hardware design process is fraught with pitfalls, from library component sk
 
 ## What is this project?
 
-This project is born from a fork from the [echOpen](http://www.echopen.org) project (which aims at providing a low cost, open source ultrasound tool for doctors), with a specific target of **providing a technological kit to allow scientists, academics, hackers, makers or OSH fans to hack their way to ultrasound imaging**.
+This project is born from a fork from the [echOpen](http://wiki.echopen.org) project (which aims at providing a low cost, open source ultrasound tool for doctors), with a specific target of **providing a technological kit to allow scientists, academics, hackers, makers or OSH fans to hack their way to ultrasound imaging**.
 
 Today, **we have achieved the electronic design of the kit and are having it made by a PCB Assembly** – someone to actually assemble the probe, and we're waiting for a first prod so that **we can physically test it with our in house transducer**.
 
 That’s cool! And if you want to learn more (apart from this Readme), you can surf the internet and  :
 
 - Read the the [Hackday Blog](https://hackaday.io/project/9281-murgen) of the fork !
-- Explore [echOpen’s general wiki](http://www.echopen.org)
-- Suscribe to the mailing list at all@murgen.echopen.org
+- Explore [echOpen’s general wiki](http://wiki.echopen.org)
 - Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
 
 ### Results ?
@@ -50,7 +49,9 @@ You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
 Schematics are in the ***Altium\Schematics\PDF*** folder
 	 
 # Project introduction
+
 ## Brief
+
 **Disclaimer**: this brief ***does not*** rock. It is crappy, but, well, we live to learn.
 
 In October 2015, we were working on a open-source ultrasound imaging device, and had started to get some result. However, we were facing a bottleneck that is data acquisition and transfer.
@@ -61,24 +62,18 @@ Once it comes back from the transducer, one needs to cap it, amplify it, filter 
 
 As the data we have should have at least 16 imgs / sec, with 64 lines, the rate shall be around 120Mb/s, and to avoid the data transfer bottleneck (see Estimating datarates), we were thinking of leverage the capacities of raspberry (or beaglebone) and such to have shields/capes that can be used and connect through SPI for example to the raspberry where raw data can be processed, and image can be going out, hence a lower rate.
 
-More could be read from [echOpen's challenge](http://echopen.org/index.php?title=Challenge:_the_echOpen_shield) on the wiki.
-
-## What is echOpen ?
-echopen  is an association who wants to update the stethoscope resting around the neck of doctors, using an open-source, low-cost take at echography - and to provide the academic and hackers community with a ultrasound testing platform, doctors with an echo-stethoscope.
-
-echOpen has to tackle community, research and medical challenges to get all the community around the same table and create the stethoscope of the future: instead of listening to a heart beating, you actually see its beats!
-
-Today, echOpen rests at the heart of Paris, in the historical Hotel-Dieu, with its 10-person core team as well as a community strong of designers, doctors, engineers, … and backed by several institutional actors in professional training, the hospitals (APHP), education (ENS, TelecomParis, …), electronics, and industry (we won for exemple a mentoring with Thales) .We are financially backed by philantropy and prizes we won. 
-
-Here, we developed a [first prototype](http://echopen.org/index.php?title=Category:Emile) as a proof-of-concept, and we are eager to move forward with an integrated device usable for the first clinical tests.
+More could be read from [echOpen's challenge](http://wiki.echopen.org/index.php?title=Challenge:_the_echOpen_shield) on the wiki.
 
 ## A bit more context
+
 ### The board
+
 The board in itself is not a medical device. The board is a dev kit for the analog part that one could find in any ultrasound probe. It respects the functions and blocks one can find in basically any probe (pulser, TGC, ADC, ..). A main difference is that this board is designed for a single element, and provides so far only a minimal support for the mechanics behind image formation.
 
 Having a single element allows for more space, less density, and to go straight to a regular, though relatively high-speed ADC.
 
 ### The Process
+
 None of us had already done an electronic product, so the process in not that of an experienced team, and we're learning on all the fields: writing down an idea, analysing it, structuring it, develop the plans, build it, test it, build the software.. Rince and repeat.
 
 The most challenging part, and somewhere the easiest, will be to allow anyone with little or no experience to replicate our efforts, and to build another copy of the board. Why is that so? With fresh eyes, that's easier to understand what the blocking points could be, what needs to be detailed, and how.
@@ -86,7 +81,9 @@ The most challenging part, and somewhere the easiest, will be to allow anyone wi
 ### Debug Sessions
 
 #### Finding the short
-The [notes are here](murgen-1.0-short-issue.md) (the murgen-1.0-short-issue.md file). We found the bug, two main issues are to be corrected on board v1.1:
+
+The [notes are here](/hardware/murgen-1.0-short-issue.md) (the murgen-1.0-short-issue.md file). We found the bug, two main issues are to be corrected on board v1.1:
+
 * A short on the ADL5511
 * The RECOM has to be mounted upside down, as the pin layout were inverted during the design stage
 
@@ -99,30 +96,57 @@ The notes are here, stemming from the work sessions with the board:
 - [Session 3](/worklog/Session_3.md) : Getting controlled pulsing, but width not controlled (15 March 2016)
 - [Session 4](/worklog/Session_4.md) : Width of the pulses is getting controlled =) (19 March 2016)
 - [Session 4b](/worklog/Session_4b.md) : Simple data visualisation with BitScope (19 March 2016)
-- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image ! (20 March 2016)
+- [Session 5](/worklog/Session_5.md) : moving the transducer to get the first image (20 March 2016)
+- [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
+- [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
+- [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
+- [Session 9](/worklog/Session_9.md) : Playing with ATL10PV (3 July 2016)
+- [A more complete hardware ReadMe](hardware/Readme.md) : Information, and more, with a focus on the electronic part of the project
+- [A more complete software ReadMe](software/Readme.md) : Information, and more, with a focus on the code part of the project (arduino, python, and such)
 
 ## Preliminary questions
+
 ### Why are we making this?
+
 Because it’s fun, it the first step towards medical open hardware based on ultrasounds, so it’s an element for echOpen !
 And because existing hardware doesn’t come in for low-cost, rough uses.
+
 ### Who is this for?
+
 This element, comprised of the analog part of ultrasound imaging processing, is aiming hackers, makers, … all who can have fun prototyping a low-cost ultrasound device.
+
 ### How will this be used?
+
 This shall be used in conjunction with the mechanical unit (motor, encoder, transducer), and plugged into a small processing unit (aka Raspberry, or BeagleBOne Black for exemple)
+
 ### What features does it need to have (now)?
+
 Be able to emit a ultrasound pulse at high voltage, and receive a signal, clean it, detect the envelop and ADC it.
+
 ### What features does it need to have (later)?
+
 Shifting envelope detection to software once we’re sure the processing works at “low” rates.
+
 ### What are the legacy requirements?
+
 Nothing yet, except a couple of constraints on the use of the tool.
+
 ### Who’s going to build this?
+
 Makers, doers, academics, … can use this. But we’d be happy to go with a PCB assembler at first!
+
 ### How many do we want to make?
+
 At first, a couple, to prototype it. Once prototyped, this board could be in the hundreds.
+
 ### What is the timeline?
+
 BBB investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again.
+
 **The objective is to get a first functional prototype by February 2015.**
+
 ### What are the Goblin and Tobo stuff ?
+
 Those are two alternatives to murgen, in the sense that components may not be the same for goblin, and that tobo is a mini-murgen, limited to the pulser. Goblin is a simpler version, a two-layer one, but we'll need funds to test this one out =)
 
 
@@ -144,14 +168,19 @@ Lots around... choose what you want =)
 
 #### Links
 
-PCB Makers
+PCB Maker:
+
 - seeedstudio.com
 - PCBshopper.com
+
 PCBA abroad :
+
 - myropcb
 - nortechsys
 - SeeedStudio only north america
+
 PCBA in france:
+
 - Quad Ind
 - PCB-Pool
 - EdgeFlex
@@ -159,21 +188,29 @@ PCBA in france:
 ### Costs
 
 With the french fab we're working with, costs sum to 160e, and they are split as follows, prices being without taxes:
+
 - PCB : 7.34e (but there are overcosts to produce the masks, ...)
 - Components : 143.5e and T1-6T-KK81+ (sold by 10): 9.34 each, but can come down to 140e with some volume.
+
 In this case, assembly is close to 120e.
 
 ## Technically
+
 ### Principles of echography
+
 Basically, echography means plotting echoes. It means we have to create a sound pulse (2), use a good sensor (2), find a way to transform a 1D signal to a 2D image (3), listen to the echoes coming back, cleaning them and  processing them to create an image the way a bat would do (4), and to transmit them to a display (5). 5 steps.
+
 The present project aims at taking care of (1), (4) and (5) - meaning amm electronics related to the analogic part of the imaging.
 
 ### System Block Diagram
 
-![A full block diagram - Murgen will focus on B-mode imaging](http://echopen.org/images/d/db/15.jpg)
+![A full block diagram - Murgen will focus on B-mode imaging](http://wiki.echopen.org/images/d/db/15.jpg)
 
 ### Narrative of the flow
-Since we're using a single sensor (not an array of sensor, as those are used in "regular" machines), we don't have the Beamforming parts. The sensor is similar to a speaker, in the sense that it can be used to generate an acoustic signal from electricity, and vice versa. The flow is therefore as follows:
+
+Since we're using a single sensor (not an array of sensor, as those are used in "regular" machines), we don't have the Beamforming parts. The 
+sensor is similar to a speaker, in the sense that it can be used to generate an acoustic signal from electricity, and vice versa. The flow is therefore as follows:
+
 - A pulse generator generates a high negative voltage pulse, which is as low as possible and to excite the transducer (or crystal), which will resonate at his central frequency. In our case, this is 3.5MHz, but that depends on the transducer being used.
 - A signal will come back through the echoes, the reverberation of the acoustic waves on "obstacles", exciting the transducer, having it generate an electric signal.
 - This will be prepared by a switch. Indeed, the signal needs to be separated from the excitation. Excitation being at -150V, the signal coming back will be in mV - and it needs to be isolated.
@@ -187,15 +224,15 @@ Since we're using a single sensor (not an array of sensor, as those are used in 
 
 - We're aiming at **128 lines/image** - that may be enough at first 
 - at **16 imgs/s**, that's 2048 lines/s
---That's 488us per line (for everything: 
+    - That's 488us per line (for everything: 
 - Let's image no further than 15.77cm deep.. Why? Because :
---(15.77 cm x 2) / (154000 cm/s) = 204.805 us 
---that's 1024 pts at 5MHz
---That's **204.805 us** per line
---That's **283.5 us** of idle time - kept for processing, and whatnots
+    -(15.77 cm x 2) / (154000 cm/s) = 204.805 us 
+    -that's 1024 pts at 5MHz
+    -That's **204.805 us** per line
+    -That's **283.5 us** of idle time - kept for processing, and whatnots
 - Final image is therefore **128*1024 px**
---1024 pts for 15.77cm is 6.49px / mm
---That's also 2.1Msps on average or 24Mbit/s.. borderline for data transfer on certain systems.
+    -1024 pts for 15.77cm is 6.49px / mm
+    -That's also 2.1Msps on average or 24Mbit/s.. borderline for data transfer on certain systems.
 
 ## Discussions
 
@@ -224,14 +261,14 @@ The bottleneck may lie in the data transfers...
 
 - 151202: A DSP may be sufficient for our needs: is that the case? 
 - 151203: Proposed setup
- - Using a a Main controller - STM32F407 + USB High speed PHY ?? 
- - Analog frontend :  1/4 of AD8264 as LNA and VGA + AD9236 ADC. TGC  can be controlled by internal STM32 DAC - that's max 100-point TGC  calibration curve.  The ADC then could be connected to DCMI interface of  STM32.
- - Transmitter: could be HV Pulser and the TR switch - microchip HV7360 + MD0100,  STHV 748 
+    - Using a a Main controller - STM32F407 + USB High speed PHY ?? 
+    - Analog frontend :  1/4 of AD8264 as LNA and VGA + AD9236 ADC. TGC  can be controlled by internal STM32 DAC - that's max 100-point TGC  calibration curve.  The ADC then could be connected to DCMI interface of  STM32.
+    - Transmitter: could be HV Pulser and the TR switch - microchip HV7360 + MD0100,  STHV 748 
 - 151209: In  looking at the issue, I think that DSP can be implemented. Of  course,  that comes with the sourcing and a bit of programming, but it  should  work and provide some flexibility. 
 - 151112: 
- - it'd be interesting to keep a 100M s/s sampling rate.  
- - wouldn't recommend MD1210 and TC2320 from supertex for the pulse  part. Those have a recovery time that is quite long, and can get easily  damaged - not to mention that they may be obsolete.  
- - Wouldn't recommend two VGAs ... difficult to control, with a high risk of saturation. 
+     - it'd be interesting to keep a 100M s/s sampling rate.  
+    - wouldn't recommend MD1210 and TC2320 from supertex for the pulse  part. Those have a recovery time that is quite long, and can get easily  damaged - not to mention that they may be obsolete.  
+    - Wouldn't recommend two VGAs ... difficult to control, with a high risk of saturation. 
 
 
 ### 151201 : Electronics for all in one chips: AFE (Analog front end)
@@ -240,18 +277,20 @@ The bottleneck may lie in the data transfers...
 
 It appears that compoonent MAX2082 from  Maxim's could be a great choice because it integrates everything in one chip (Analog Front End, Pulser, TCG (ou AVG pour eux), T/R Switch, ADC, Filtrage) - maybe better exists ?
 Note : Pre-existing chips are 8-channels.
+
 ##### Resources
+
 - MAX2082 - Maxim  (Pulser +/- 105 V), TCG (ou VGA) , ADC 50 MSPS and filtering (63$ a piece starting at 1000 units)
 https://www.maximintegrated.com/en/products/analog/data-converters/analog-front-end-ics/MAX2082.html
 - Several Maxim's Analog Front end  : https://para.maximintegrated.com/en/results.mvp?fam=us_afe
 - Pulser - 90 V (16$ a piece starting at 1000 units) : http://www.st.com/web/en/news/n3553d
 - A  Texas Instrument Dev Kit : http://www.ti.com/tool/tx-sdk-v1
 - Several other Ultrasound Analog Front end (all are 8 channels):  
- - http://www.analog.com/media/en/news-marketing-collateral/product-highlight/AD927x-AD967x-Octal-Ultrasound-AFE-Product-Family.pdf
-http://www.analog.com/en/products/landing-pages/001/integrated-afe-contains-8-ultrasound-rcv-channels.html
- - http://www.analog.com/en/products/analog-to-digital-converters/ad-converters/ad9675.html
- - http://www.digikey.com/web%20export/supplier%20content/TI_296/mkt/health/afe5809.pdf?redirected=1
- - http://www.ti.com/product/afe5801
+    - http://www.analog.com/media/en/news-marketing-collateral/product-highlight/AD927x-AD967x-Octal-Ultrasound-AFE-Product-Family.pdf
+    - http://www.analog.com/en/products/landing-pages/001/integrated-afe-contains-8-ultrasound-rcv-channels.html
+    - http://www.analog.com/en/products/analog-to-digital-converters/ad-converters/ad9675.html
+    - http://www.digikey.com/web%20export/supplier%20content/TI_296/mkt/health/afe5809.pdf?redirected=1
+    - http://www.ti.com/product/afe5801
 - Ultrasound Receiver module (32 channel) (maybe not so cheap) : http://www.cephasonics.com/product/ultrasound-receiver-modules-csm913233
 
 #### Need of a FPGA ?
@@ -286,11 +325,14 @@ http://www.analog.com/en/products/processors-dsp/analog-microcontrollers/8052-co
 - 151124: let's play with the BBB PRU's and develop a analog+ADC cape.
 
 ### HV Supply
+
 HV-supply is going to introduce noise in the circuit.. therefore, a home-made booster was not selected, especially when going at 100V+. We had to options to consider:
+
 - Using a **MAX1711** in [Jatin Sharma thesis](https://www.duo.uio.no/handle/10852/47813), he goes from 12V to 180V. Gerbers and schematics are included in his master).  The board was separated from the rest of the design, to avoid any pickup/noise.
 - We have tried the **R05-100B** - a tad more simple, and based on 5V, so easier for us (5V -> 120V).  Schematics are simple, introducing only a couple of capacities.
 
 ### Electronics
+
 So far, the key issue is a compromise in terms of data output. It's interesting to see how to interface such data rates to a processing and display unit.
 
 ### Setup
@@ -300,7 +342,9 @@ So far, the key issue is a compromise in terms of data output. It's interesting 
 This one represents the fixed Gain for the TGC. An extra 18 dB is always handy!
 
 #### Jumper 2
+
 todo
+
 #### ADC Clock:
 
 The 4 options switch allows for a sampling frequency range of choices:
@@ -328,6 +372,7 @@ The 4 options switch allows for a sampling frequency range of choices:
 ## Parts, ICs selection (and critical specs)
  
 ### HV7360:  High Speed, ±100V 2.5A, Two or Three Level Ultrasound Pulser
+
 * High density integration AC coupled pulser
 * 0 to ±100V output voltage
 * ±2.5A source and sink minimum pulse current
@@ -339,7 +384,9 @@ The 4 options switch allows for a sampling frequency range of choices:
 HV7360 is a high voltage, high-speed, pulse generator with built-in, fast return to zero damping FETs. This high voltage and high-speed integrated circuit is designed for portable medical ultrasound image devices, but can also can be used for NDT and test equipment applications.
 
 The HV7360 consists of a controller logic interface circuit, level translators, AC coupled MOSFET gate drivers and high voltage and high current P-channel and N-channel MOSFETs as the output stage. The peak output currents of each channel are guaranteed to be over ±2.5A with up to ±100V of pulse swing. The AC coupling topology for the gate drivers not only saves two floating voltage supplies, it also makes the PCB layout easier.
+
 ### Protection: MD0100 Datasheet - HV Protection T/R Switch
+
 * Up to ±100V input voltage protection
 * Low on resistance - 15O typical
 * Fast switching speed
@@ -353,6 +400,7 @@ Once the voltage drop across the two terminals exceeds a nominal value of ±2.0V
 A small amount of current, typical of 200µA, is allowed to flow through.
  
 ### TGC : AD8331 (Single VGA with Ultralow Noise Preamplifier and Programmable RIN)
+
 * Ultralow noise preamplifier
 * 3 dB bandwidth: 120 MHz
 * Low power: 125 mW/channel
@@ -370,6 +418,7 @@ Included is an ultralow noise preamplifier (LNA), an X-AMP® VGA with 48 dB of g
 The 48 dB gain range of the VGA makes these devices suitable for a variety of applications. Excellent bandwidth uniformity is maintained across the entire range. The gain control interface provides precise linear-in-dB scaling of 50 dB/V for control voltages between 40 mV and 1 V. Factory trim ensures excellent part-to-part and channel-to-channel gain matching. Differential signal paths result in superb second- and third-order distortion performance and low crosstalk.
 
 ### TGC  Control : SPI DAC : MAX5383
+
 Controls the TGC
 * 8-Bit Resolution in a Miniature 6-Pin SOT23 Package
 * Less than 1µA Shutdown Mode
@@ -382,6 +431,7 @@ The MAX5383 low-cost, 8-bit digital-to-analog converters (DACs) in miniature 6-p
 The MAX5383 require an extremely low supply current of only 150µA (typ) and provide a buffered voltage output. These devices power up at zero code and remain there until a new code is written to the DAC registers. This provides additional safety for applications that drive valves or other transducers that need to be off on power-up. The MAX5383 include a 1µA, low-power shutdown mode that features software-selectable output loads of 1kO, 100kO, or 1MO to ground.
 
 ### Analog envelop detection: ADL5511 - DC to 6 GHz ENVELOPE AND TruPwr™ RMS Detector
+
 * Envelope tracking RF detector with output proportional to input voltage
 * No balun or external tuning required
 * Input power dynamic range of 47 dB
@@ -395,6 +445,7 @@ The rms output is a linear-in-V/V voltage with a conversion gain of 1.9 V/V rms 
 The ADL5511 can operate from dc to 6 GHz on signals with envelope bandwidths up to 130 MHz.
 
 ### ADC : AD9220 - Complete 12-Bit, 10.0 MSPS Monolithic A/D Converter
+
 * Monolithic 12-Bit A/D Converter Product Family
 * Flexible Sampling Rates: 1.5 MSPS, 3.0 MSPS, and 10 MSPS
 * Single +5 V Supply
@@ -408,11 +459,13 @@ The input of the AD9221/AD9223/AD9220 is highly flexible, allowing for easy inte
 A single clock input is used to control all internal conversion The digital output data is presented in straight binary format. An out-of-range (OTR) signal indicates an flow condition which can be used with the most significant bit to determine low or high overflow.
  
 ### Buffers: 74AC541MTC
+
 * Signal isolation is of high value for measurements at this precision (12bit)
 
 The 74AC541 and 74ACT541 are octal buffer/line drivers designed to be employed as memory and address drivers, clock drivers and bus oriented transmitter/ receivers.
  
 # Using the Murgen board
+
 ## Software / Firmware Summary
 
 Up to v1.0, we're still playing with the board, so there's not interface with the BBB.
@@ -424,23 +477,28 @@ However, there's a series of tools to play with the board, one of which being th
 Playing with a broken transducer in a haribo sweet box to see if you can hack ultrasounds.
 
 ## User’s Quick-Start Guide
+
 - Install 
---BitScope BitLib
---python math tools
---something to code arduino
+    - BitScope BitLib
+    - python math tools
+    - something to code arduino
 - Clone this repo
 
 You're good to go !
 
 # Others
+
 ## Discussions 
-* Check out [the wiki notes](http://echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
+
+* Check out [the wiki notes](http://wiki.echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
 
 ## Goodies 
-Check out [Tobo](tobo/) -- an stand-alone pulser/receiver board and [Goblin](goblin/) for an alternative version.
+Check out [oldTobo](/hardware/tobo/) -- an stand-alone pulser/receiver board and [oldGoblin](/hardware/goblin/) for an alternative version.
 
 ## People ! 
+
 ### Acknowledgement
+
 * Thanks to echOpen =)
 * Thanks to Jerome, Farad, Vincent obviously
 * Murgen, Sofian, Amit, Emmanuel, Florent, Bertrand & PHH, Mike in a way, list goes on !
@@ -454,6 +512,7 @@ Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gma
 # Bibliography
 
 ## FPGA-related bibliography
+
 - Structuring a whole ultrasound system on a board: an excellent thesis from P. Levesques (Kyvox),  File:2011 PhilippeLevesque.pdf. 
 - A first corresponding article: File:Real-Time Hand-Held Ultrasound Medical-Imaging Device Based on a New Digital Quadrature Demodulation Processor.pdf
 - the second corresponding article: File:Novel Low-Power Ultrasound Digital Preprocessing Architecture for Wireless Display.pdf
@@ -461,7 +520,9 @@ Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gma
  - File:A Single FPGA-Based Portable Ultrasound Imaging System for Point-of-Care Applications.pdf
  - File:Low-Cost, High-Speed Back-End Processing System for High-Frequency Ultrasound B-Mode Imaging.pdf
 - Extremely interesting too,  iPHONE ULTRASOUND By Jonathan Adam, Adam Keen, Dean Santarinala  and File:project2_presentation.pdf their presentation
+
 ## Key general articles (base of inspiration for our dear Emile)
+
 - A single monoelement, low-cost ophtalmic probe using a piezo motor : File:Carotenuto ophtalmic prob.pdf : an excellent article. 
 - A single monoelement, low-cost USB probe using a CPLD + microcontroller File:Richard low cost probe.pdf, including a great diagram block of the USB probe 
 - Saijo USB work : Development of an ultra-portable echo device connected to USB port : Resource: File:2004 Development of an ultra-portable echo device connected to USB port.pdf
