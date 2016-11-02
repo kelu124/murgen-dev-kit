@@ -1,7 +1,7 @@
 # The Murgen open-source ultrasound imaging dev-kit 
 
 ## What is this ?
-
+ 
 Getting a home-made open-source ultrasound machine (dev-kit) up and running in your garage / hackerspace / fablab for less than 500$ (want the bolts and nuts of the murgen-based prototype ? Read a more complete [hardware Readme.md](/hardware/Readme.md) and in general the [murgen repo](https://github.com/kelu124/murgen-dev-kit/) ). 
 
 For a full overview of the adventure, visit our [Hackaday page](https://hackaday.io/project/9281-murgen) =)
@@ -66,10 +66,16 @@ You're good to go !
 - [Session 6](/worklog/Session_6.md) : ***Getting a clinically usable image*** (28 March 2016)
 - [Session 7](/worklog/Session_7.md) : Getting cleaner images - code improvements  (3 April 2016)
 - [Session 8](/worklog/Session_8.md) : Comparing acquisition speeds (3 May 2016)
+- [Session 9](/worklog/Session_9.md) : Playing with ATL10PV (3 July 2016)
 - [A more complete hardware ReadMe](hardware/Readme.md) : Information, and more, with a focus on the electronic part of the project
 - [A more complete software ReadMe](software/Readme.md) : Information, and more, with a focus on the code part of the project (arduino, python, and such)
 
 ## FAQ
+
+### I want to get to run one
+
+Where should I go? You can peruse a discussion/tutorial with a new user of the board [here](http://kelu124.github.io/murgen-dev-kit/).
+
 
 ### What do I find here?
 
@@ -140,7 +146,7 @@ The project's phase is coming to an end! Some ideas, lessons, stuff at our [Next
 * Read the [Hackaday page](https://hackaday.io/project/9281-murgen) of the fork !
 * Or wander around echOpen's [GitHub repos](https://github.com/echopen/)
 * Explore [echOpen’s general wiki](http://echopen.org)
-* Meet us on the social networks ? Join our [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
+* Meet us  on the social networks, in echopen's community ? Join the community [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
 * Meet us physically on friday at our apéros =)
 
 
