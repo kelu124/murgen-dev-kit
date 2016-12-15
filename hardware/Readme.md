@@ -36,13 +36,13 @@ A first picture of our baby !
 
 # Folders
 
- hardware/			main repo
- |-- Altium			the altium files for Murgen -- source files, opening with Altium Designer
- |-- BOM			that's ... well.. for the BOM
- |-- Gerbers			to build the cape
- |-- 3D				for the 3D files of the board	
- |-- tobo			simplified pulser
- `-- goblin			an alternative, in Eagle
+    hardware/			main repo
+    |-- Altium			the altium files for Murgen -- source files, opening with Altium Designer
+    |-- BOM				that's ... well.. for the BOM
+    |-- Gerbers			to build the cape
+    |-- 3D				for the 3D files of the board	
+    |-- tobo			simplified pulser
+    `-- goblin			an alternative, in Eagle
 
 
 You will also find the CHANGES.TXT, CONTRIB.TXT and LICENSE.TXT at the root.
