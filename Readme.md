@@ -6,6 +6,8 @@ Getting a home-made open-source ultrasound machine (dev-kit) up and running in y
 
 For a full overview of the adventure, visit our [Hackaday page](https://hackaday.io/project/9281-murgen) =)
 
+**For the full documentation of the overaching project, please visit our [full doc](https://kelu124.gitbooks.io/echomods/content/)**
+
 ## Getting the rough rough first image
 
 We've got **our first ultrasound image with the murgen board** =) Not a baby, mind you, but at least an echo coming from a part of a fantom (condom filled with agar gel and tapioca balls) in front of the transducer. And we haven't tapped into the full capabilities of the board yet, so it can be improved! Enclosed, the picture of the same fantom, using a commercial, 100k$ ultrasound machine.
