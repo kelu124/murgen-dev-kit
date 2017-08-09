@@ -21,6 +21,7 @@ We've got **our first ultrasound image with the murgen board** =) Not a baby, mi
 **Disclaimer #1**: though an engineer, this project is the first of its sort, we never did something related. Bear with us, and the discovery process – we’re happy to learn on the way =)
 
 **Disclaimer #2**: ultrasound raises questions. In case you build a scanner, use caution and good sense!
+**Disclaimer #3**: this project is not part of echopen.
 
 ### How-to start
 
@@ -99,18 +100,12 @@ Playing with a broken transducer in a haribo sweet box to see if you can hack ul
 
 Up to v1.0, we're still playing with the board, so there's not interface with the BBB.
 
-However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya that the main echopen project uses, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
+However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
 
 ### What is the timeline?
 
-The murgen investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again. The objective was to get a first functional prototype by February 2015, but this deadline was then fixed to March 24th, 2016, on which date murgen will be presented.
+The murgen investigation had started in September 2015, and by the end of November, it had been activated again. 
 
-### Read more about echopen.
-
-Some recent articles :
-
-* From the Pierre Fabre foundation [press release](https://www.fondationpierrefabre.org/fr/suivre-notre-action/echopen-lancement-du-premier-prototype-dechostethoscope-open-source-low-cost) in (french).
-* From Makery : [Echopen introduces an open source ultrasound probe](http://www.makery.info/en/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/)
 
 ### Find your way in the folders
 
@@ -143,21 +138,12 @@ The project's phase is coming to an end! Some ideas, lessons, stuff at our [Next
 * Thanks to Jerome, Farad, Vincent obviously
 * Thanks to echOpen for the environment, wifi and coffee =)
 
-## Stay connected
-
-* Read the [Hackaday page](https://hackaday.io/project/9281-murgen) of the fork !
-* Or wander around echOpen's [GitHub repos](https://github.com/echopen/)
-* Explore [echOpen’s general wiki](http://echopen.org)
-* Meet us  on the social networks, in echopen's community ? Join the community [Facebook group](https://www.facebook.com/groups/echopen/) or follow us on Twitter: follow [echOpenorg](http://twitter.com/echopenorg/).
-* Meet us physically on friday at our apéros =)
-
-
 # License
 
 The Murgen project and its prototypes are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2018
+Copyright Kelu124 (kelu124@gmail.com ) 2015-2018
 
 [Source](/Readme.md)

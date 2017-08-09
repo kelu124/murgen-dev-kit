@@ -3,15 +3,12 @@ _The hardware design process is fraught with pitfalls, from library component sk
 
 ## What is this project?
 
-This project is born from a fork from the [echOpen](http://wiki.echopen.org) project (which aims at providing a low cost, open source ultrasound tool for doctors), with a specific target of **providing a technological kit to allow scientists, academics, hackers, makers or OSH fans to hack their way to ultrasound imaging**.
 
 Today, **we have achieved the electronic design of the kit and are having it made by a PCB Assembly** – someone to actually assemble the probe, and we're waiting for a first prod so that **we can physically test it with our in house transducer**.
 
 That’s cool! And if you want to learn more (apart from this Readme), you can surf the internet and  :
 
 - Read the the [Hackday Blog](https://hackaday.io/project/9281-murgen) of the fork !
-- Explore [echOpen’s general wiki](http://wiki.echopen.org)
-- Or wander around the rest of echOpen's [GitHub repos](http://github.com/echopen)
 
 ### Results ?
 #### Setup 
@@ -62,7 +59,6 @@ Once it comes back from the transducer, one needs to cap it, amplify it, filter 
 
 As the data we have should have at least 16 imgs / sec, with 64 lines, the rate shall be around 120Mb/s, and to avoid the data transfer bottleneck (see Estimating datarates), we were thinking of leverage the capacities of raspberry (or beaglebone) and such to have shields/capes that can be used and connect through SPI for example to the raspberry where raw data can be processed, and image can be going out, hence a lower rate.
 
-More could be read from [echOpen's challenge](http://wiki.echopen.org/index.php?title=Challenge:_the_echOpen_shield) on the wiki.
 
 ## A bit more context
 
@@ -141,8 +137,6 @@ At first, a couple, to prototype it. Once prototyped, this board could be in the
 
 ### What is the timeline?
 
-BBB investigation had started in September 2015, but following a meetup at echopen’s HQ in Paris end of November, it had been activated again.
-
 **The objective is to get a first functional prototype by February 2015.**
 
 ### What are the Goblin and Tobo stuff ?
@@ -202,9 +196,6 @@ Basically, echography means plotting echoes. It means we have to create a sound 
 
 The present project aims at taking care of (1), (4) and (5) - meaning amm electronics related to the analogic part of the imaging.
 
-### System Block Diagram
-
-![A full block diagram - Murgen will focus on B-mode imaging](http://wiki.echopen.org/images/d/db/15.jpg)
 
 ### Narrative of the flow
 
@@ -470,7 +461,7 @@ The 74AC541 and 74ACT541 are octal buffer/line drivers designed to be employed a
 
 Up to v1.0, we're still playing with the board, so there's not interface with the BBB.
 
-However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya that the main echopen  project uses, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
+However, there's a series of tools to play with the board, one of which being the bitscope, a bit more handy than the redpitaya, and though it is less precise, we do have less issues (trigging, memory, ...) with it.
 
 ## Typical Application
 
@@ -488,9 +479,7 @@ You're good to go !
 
 # Others
 
-## Discussions 
 
-* Check out [the wiki notes](http://wiki.echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option) -- for on-wiki notes of discussions - a tad dirtier.
 
 ## Goodies 
 Check out [oldTobo](/hardware/tobo/) -- an stand-alone pulser/receiver board and [oldGoblin](/hardware/goblin/) for an alternative version.
@@ -507,7 +496,7 @@ Check out [oldTobo](/hardware/tobo/) -- an stand-alone pulser/receiver board and
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
-Copyright Murgen and Kelu124 (murgen@echopen.org , luc@echopen.org / kelu124@gmail.com ) 2015-2016
+Copyright Kelu124 (kelu124@gmail.com ) 2015-2016
 
 # Bibliography
 

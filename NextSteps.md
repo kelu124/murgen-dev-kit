@@ -10,7 +10,6 @@
 * Transducers: an ongoing process.. but I do know a bit more about those.
 * Documentation: getting to know more about the process of documenting open-source hardware... and getting the first automation tools on.
 * A worklog: starting with the [first session with the board](/worklog/Session_1.md). Not too much a bad idea of having written it, it still has a lot of information.
-* A [Rough Draft of notes](/worklog/notes.wiki) from the wiki. You can find them also [here](http://echopen.org/index.php?title=Worklog_-_Digging_in_the_shield_option).
 
 ## Community engaged
 
@@ -18,7 +17,6 @@ The results in terms of community were quite good. We managed to onboard on seve
 
 * [HackerNews](https://news.ycombinator.com/item?id=10944617): made it to the first page for a couple of hours, 122 points, 43 comments
 * [Hackaday.io](https://hackaday.io/project/9281-murgen): where the project is posted - 3.6k views, 97 followers, 25 likes so far, plus an [article](http://hackaday.com/2016/04/12/a-developers-kit-for-medical-ultrasound/).
-* [GitHub repos](https://github.com/kelu124/murgen-dev-kit): 28 stars, 10 forks for Kelu124's - and 36 stars for the [old hardware repo](https://github.com/echopen/hardware).
 * An [article on GeekTimes](https://geektimes.ru/post/274478/), a russian hackernews or so it seems, 11.6k views and 50 stars, with 68 comments.
 * A murgen board acquired by Vanderbilt's Charles' lab.
 

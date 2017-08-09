@@ -544,13 +544,6 @@ Let's cut it to 500kHz ?
 ### Feb 13th
 
 -   Lots under way..
--   [Goblin](http://murgen.echopen.org/pcbs-have-reached/) being
-    released
-    -   A 2 layer PCB.. easier
-    -   Less components, less expensive
-    -   However, needs to be tested !
-
-
 
 -   **Required**: we need to sit with electronics experts to check how
     Murgen, Tobo, Goblin, and Mira can merge - for a modular board -
@@ -808,8 +801,6 @@ Some others
         -   [:File:listofmodules.png](:File:listofmodules.png "wikilink")
     -   thinking of the motherboard (contribution of benoit)
         -   [:File:motherboard.png](:File:motherboard.png "wikilink")
-    -   Enveloppe detection :
-        http://echopen.org/index.php?title=Analog_Parts_%28Farad%29#Envelope_detector
 
 ### March 24th
 

@@ -472,7 +472,6 @@ Other
 
 ### Links
 
- * [echOpen](http://echopen.org) for the framework of the project
  * [Murgen  on hackaday](http://hackaday.io/project/9281-murgen) for some news
  * [sci-hub.io](http://sci_hub.io/) for syntax highlighting in output code blocks
 
