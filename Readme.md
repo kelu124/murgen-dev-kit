@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G81MT0G)
+
 # The Murgen open-source ultrasound imaging dev-kit 
 
 ## What is this ?
